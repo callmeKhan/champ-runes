@@ -105,7 +105,7 @@
                                             v-for="(item, index) in arrImgInLineMain"
                                         >
                                             <div
-                                                :class="[lessItemsMainCols,{'disabled-rune': index != indexRune[1]}]"
+                                                :class="[lessItemsMainCols]"
                                                 :key="index"
                                                 v-if="index < lessItemsMain"
                                             >
@@ -120,7 +120,7 @@
                                         >
                                             <div
                                                 class="col-4"
-                                                :class="{'disabled-rune': mapAndIndex(index, indexRune)}"
+                                                
                                                 :key="index"
                                                 v-if="index >= lessItemsMain"
                                             >
@@ -139,7 +139,6 @@
                                         >
                                             <div
                                                 class="col-4"
-                                                :class="{'disabled-rune': mapAndIndexSidekick1(index, indexSidekick)}"
                                                 :key="index"
                                                 v-if="index > lessItems && index < 10"
                                             >
@@ -153,7 +152,7 @@
                                             v-for="(item, index) in arrImgInLineSk1"
                                         >
                                             <div
-                                                :class="[lessItemsCols, {'disabled-rune': mapAndIndexSidekick1(index, indexSidekick)}]"
+                                                :class="[lessItemsCols]"
                                                 :key="index"
                                                 v-if="index > 9 "
                                             >
@@ -172,7 +171,6 @@
                                                 <div :key="index1" class="col-3">
                                                     <i
                                                         class="img-champ"
-                                                        :class="{'enabled-rune': mapAndIndexSidekick2(index1, indexSidekick2)}"
                                                         :style="{'background-image': 'url('+require('@/assets/rune/'+item1 +'.png')+')'}"
                                                     ></i>
                                                 </div>
