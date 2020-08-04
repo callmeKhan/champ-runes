@@ -1,9 +1,6 @@
 <template>
     <div class="container">
-        <div v-if="!show" class="spinner-border" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-        <div v-if="show">
+        <div>
             <input v-model="searchName" type="input" class="search" />
             <label class="btn clearable" @click="searchName = ''">Clear</label>
             <div class="d-flex row pt-5 justify-content-center">
@@ -100,76 +97,42 @@
                             </div>
                             <div class="ml-0 row mw-100 w-100">
                                  <div class="col">
-                                    <div class="row">
-                                        <template
-                                            v-for="(item, index) in arrImgInLineMain"
-                                        >
-                                            <div
-                                                :class="[lessItemsMainCols]"
-                                                :key="index"
-                                                v-if="index < lessItemsMain"
-                                            >
-                                                <i
-                                                    class="img-champ"
-                                                    :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"
-                                                ></i>
-                                            </div>
-                                        </template>
-                                        <template
-                                            v-for="(item, index) in arrImgInLineMain"
-                                        >
-                                            <div
-                                                class="col-4"
-                                                
-                                                :key="index"
-                                                v-if="index >= lessItemsMain"
-                                            >
-                                                <i
-                                                    class="img-champ"
-                                                    :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"
-                                                ></i>
-                                            </div>
-                                        </template>
-                                    </div>
+                                    <template v-for="(row, i) in arrImgInLineMain">
+                                        <div class="row" :key="i">
+                                            <template v-for="(item, index) in row.line">
+                                                <div
+                                                    class="col"
+                                                    :key="index">
+                                                    <i class="img-champ"
+                                                    :class="[chooseRune(index,checkedRune0[i+1])]"
+                                                        :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"></i>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </template>
                                 </div>
                                 <div style="border-left:1px solid grey" class="col ml-2 mr-3">
-                                    <div class="row">
-                                        <template
-                                            v-for="(item, index) in arrImgInLineSk1"
-                                        >
-                                            <div
-                                                class="col-4"
-                                                :key="index"
-                                                v-if="index > lessItems && index < 10"
-                                            >
-                                                <i
-                                                    class="img-champ"
-                                                    :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"
-                                                ></i>
-                                            </div>
-                                        </template>
-                                        <template
-                                            v-for="(item, index) in arrImgInLineSk1"
-                                        >
-                                            <div
-                                                :class="[lessItemsCols]"
-                                                :key="index"
-                                                v-if="index > 9 "
-                                            >
-                                                <i
-                                                    class="img-champ"
-                                                    :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"
-                                                ></i>
-                                            </div>
-                                        </template>
-                                    </div>
+                                    <template v-for="(row, i) in arrImgInLineSk1">
+                                        <div class="row" :key="i">
+                                            <template v-for="(item, index) in row.line" >
+                                                <div class="col"
+                                                    :key="index">
+                                                    <i class="img-champ"
+                                                    :class="[chooseRune(index,checkedRune1[i+1])]"
+                                                        :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"
+                                                    ></i>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </template>
                                 </div>
                                 <div style="border-left:1px solid grey" class="col">
                                     <template v-for="(item, index) in sideKicks.rune">
                                         <div class="row" :key="index">
-                                            <template v-for="(item1, index1) in item">
+                                            <template v-for="(item1, index1) in item.line">
                                                 <div :key="index1" class="col-3">
                                                     <i
+                                                        :class="[chooseRune(index1,checkedRune2[index])]"
                                                         class="img-champ"
                                                         :style="{'background-image': 'url('+require('@/assets/rune/'+item1 +'.png')+')'}"
                                                     ></i>
@@ -195,74 +158,21 @@ import dataRune from "@/rune.json";
 export default ({
     data() {
         return {
-            show: false,
             searchName: "",
             champions: [],
             runes: [],
             sideKicks: {},
             selectedChamp: { img: "annana.jpg" },
-            count: 0,
-            line: 2,
-            countSK1: 0,
-            lineSK1: 1,
-            countSK2: 0,
-            lineSK2: 0,
         };
     },
     mounted() {
         this.champions = dataChampions;
         this.sideKicks = datasideKick;
         this.runes = dataRune;
-        console.log(this.runes);
-        
-        setTimeout(() => {
-            this.show = true;
-        }, 500);
     },
     methods:{
-        mapAndIndex(index, indexRune){
-            const exept = ['Resolve','Inspiration','Sorcery']
-            let indexLine = null // dòng 
-            
-            index = exept.includes(indexRune[0]) ? index + 1 : index        
-            if(index == 4 || index == 7 || index == 10) {indexLine = 0;}        //dòng 1
-            else if(index == 5 || index == 8 || index == 11) {indexLine = 1}    //dòng 2
-            else if(index == 13) {indexLine = 3}
-            else {indexLine = 2}                                                //dòng 3
-
-            const rs = indexLine != indexRune[this.line]                        //so sánh dòng để bôi xám
-            // console.log(`vị trí: ${indexLine}| dòng : ${this.line} | json: ${indexRune[this.line]}`);
-            this.count += 1                                                     //cập nhật số lần chạy hàm.
-            if(this.count == 3 || this.count == 6) this.line += 1    // 3 lần chạy => dòng mới
-            return rs
-        },
-        mapAndIndexSidekick1(index, indexSideKick){
-            let indexLine = null // dòng 
-            const exept = ['Resolve','Inspiration','Sorcery']
-            index = exept.includes(indexSideKick[0]) ? index + 1 : index        
-            
-
-            if(index == 4 || index == 7 || index == 10){indexLine = 0;}        //dòng 1
-            else if(index == 5 || index == 8 || index == 11) {indexLine = 1}    //dòng 2
-            else if(index == 13) {indexLine = 3}
-            else {indexLine = 2}                                                //dòng 3
-
-            const rs = indexLine != indexSideKick[this.lineSK1]                        //so sánh dòng để bôi xám
-            this.countSK1 += 1                                                     //cập nhật số lần chạy hàm.
-            if(this.countSK1 == 3 || this.countSK1 == 6) this.lineSK1 += 1    // 3 lần chạy => dòng mới
-            return rs
-        },
-         mapAndIndexSidekick2(index, indexSidekick2){
-            let indexLine = null // dòng 
-
-            if(index == 0 || index == 3 || index == 6){indexLine = 0;}        //dòng 1
-            else if(index == 1 || index == 4 || index == 7) {indexLine = 1}    //dòng 2
-            else {indexLine = 2}                                                //dòng 3
-
-            const rs = indexLine != indexSidekick2[this.lineSK2]                        //so sánh dòng để bôi xám
-            this.countSK2 += 1                                                     //cập nhật số lần chạy hàm.
-            if(this.countSK2 == 3 || this.countSK2 == 6 || this.countSK2 == 9) this.lineSK2 += 1    // 3 lần chạy => dòng mới
-            return rs
+        chooseRune(index, picked){
+            return index != picked ? 'enabled-rune' : 'checked-rune'
         }
     },
     computed: {
@@ -280,13 +190,37 @@ export default ({
                     : "Domination"
                 : "Domination";
         },
+        checkedRune2() {
+            return this.selectedChamp
+                ? this.selectedChamp.runes
+                    ? this.selectedChamp.runes.indexSide2
+                    : 0
+                : 0;
+        },
+        checkedRune1() {
+            return this.selectedChamp
+                ? this.selectedChamp.runes
+                    ? this.selectedChamp.runes.indexSide1
+                    : 0
+                : 0;
+        },
+        checkedRune0() {
+            return this.selectedChamp
+                ? this.selectedChamp.runes
+                    ? this.selectedChamp.runes.indexMain
+                    : 0
+                : 0;
+        },
         mapSideKick1() {
             return this.sideKick1
                 ? this.runes.find((x) => x.key == this.sideKick1)
                 : [];
         },
         arrImgInLineSk1(){
-            return this.mapSideKick1 ? this.mapSideKick1.arrImgInLine : []
+            let rs = this.mapSideKick1 ? this.mapSideKick1.arrImgInLine : []
+            let tmp = [...rs]
+            tmp.shift() 
+            return tmp
         },
         indexMain() {
             return this.selectedChamp
@@ -302,32 +236,7 @@ export default ({
         },
         arrImgInLineMain(){
             return this.mapIndexMain ? this.mapIndexMain.arrImgInLine : []
-        },
-        lessItems(){
-            const exept = ['Sorcery', 'Resolve', 'Inspiration']
-            return exept.includes(this.sideKick1) ? 2 : 3
-        },
-        lessItemsMain(){
-            const exept = ['Sorcery', 'Resolve', 'Inspiration']
-            return exept.includes(this.indexMain) ? 3 : 4
-        },
-        lessItemsCols(){
-            const exept = ['Sorcery', 'Resolve', 'Inspiration','Precision']
-            return exept.includes(this.sideKick1) ? 'col-4' : 'col-3'
-        },
-        lessItemsMainCols(){
-            const exept = ['Sorcery', 'Resolve', 'Inspiration']
-            return exept.includes(this.indexMain) ? 'col-4' : 'col-3'
-        },
-        indexRune(){
-            return this.selectedChamp ? (this.selectedChamp.runes ? (this.selectedChamp.runes.indexMain ? this.selectedChamp.runes.indexMain : 0) : 0) : 0
-        },
-        indexSidekick(){
-            return this.selectedChamp ? (this.selectedChamp.runes ? (this.selectedChamp.runes.indexSide1 ? this.selectedChamp.runes.indexSide1 : 0) : 0) : 0
-        },
-        indexSidekick2(){
-            return this.selectedChamp ? (this.selectedChamp.runes ? (this.selectedChamp.runes.indexSide2 ? this.selectedChamp.runes.indexSide2 : 0) : 0) : 0
-        },
+        }
     },
 });
 </script>
@@ -363,7 +272,12 @@ export default ({
 }
 .enabled-rune{
     filter: opacity(0.35);
-    mix-blend-mode: hard-light;
+    mix-blend-mode: luminosity;
+}
+.checked-rune{
+    filter: drop-shadow(1px 4px 6px gray);
+    background-color: #8f8f8f69;
+    border-radius: 15px;
 }
 .disabled-rune i{
    filter: opacity(0.35);
