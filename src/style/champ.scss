@@ -13,6 +13,11 @@ i{
     width: 35px !important;
     height: 35px !important;
 }
+
+.img-25 {
+    width: 25px !important;
+    height: 25px !important;
+}
 .champion {
     border: 1px solid rgb(129, 124, 124);
     transition-duration: 0.6s;
@@ -37,6 +42,8 @@ i{
 .enabled-rune{
     filter: opacity(0.35);
     mix-blend-mode: luminosity;
+    background-color: red;
+    border-radius: 1rem;
 }
 .checked-rune{
     filter: drop-shadow(1px 4px 6px gray);
@@ -61,7 +68,4 @@ i{
         font-size: 0.8rem;
         color: white;
     }
-}
-.media-body{
-    padding-bottom: 1rem!important;;
 }

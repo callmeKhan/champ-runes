@@ -39,9 +39,12 @@
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="media d-flex flex-column">
-                            <label class="h3 text-center">
-                                <b>{{selectedChamp.name}}</b>
-                            </label>
+                            <div class="justify-content-between d-flex w-100">
+                                <label class="h3 text-center">
+                                    <b>{{selectedChamp.name}}</b>
+                                </label>
+                                <button class="btn btn-danger align-self-end" type="button" data-dismiss="modal">Close</button>
+                            </div>
                             <div class="media-body mw-100 w-100 text-left">
                                 <label>
                                     <b>Spell</b>
@@ -49,11 +52,13 @@
                                 <div class="ml-0 row w-100">
                                     <div class="col d-flex justify-content-start">
                                         <template v-for="(item, index) in selectedChamp.spell">
-                                            <i :key="index"
+                                            <div class="pr-3" :key="index">
+                                                <i 
                                                 :class="[index == 2 ? 'ml-3' : '']"
-                                                class="img-champ img-35 mr-3"
+                                                class="img-champ img-35"
                                                 :style="{'background-image': 'url('+item+')'}"
                                             ></i>
+                                            </div>
                                         </template>
                                     </div>
                                 </div>
@@ -87,7 +92,7 @@
                                     <b>Items</b>
                                 </label>
 
-                                <div class="ml-0 row mw-100">
+                                <div class="ml-0 row mw-100 pb-1">
                                     <div class="col d-flex justify-content-start">
                                         <template v-for="(item, index) in selectedChamp.staterItems">
                                             <i :key="index"
@@ -114,13 +119,13 @@
                                 <label>
                                     <b>Runes</b>
                                 </label>
-                                <div class="ml-0 row mw-100 w-100">
-                                    <div class="col">
+                                <div class="ml-0 row mw-100 w-100" >
+                                    <div style="text-align: center !important" class="col">
                                         <template v-for="(row, i) in arrImgInLineMain">
                                             <div class="row" :key="i">
                                                 <template v-for="(item, index) in row.line">
                                                     <div
-                                                        class="col"
+                                                        class="col p-0"
                                                         :key="index">
                                                         <i class="img-champ"
                                                         :class="[chooseRune(index,checkedRune0[i+1])]"
@@ -130,11 +135,11 @@
                                             </div>
                                         </template>
                                     </div>
-                                    <div style="border-left:1px solid grey" class="col ml-2 mr-3">
+                                    <div style="border-left:1px solid grey; text-align: center !important" class="col">
                                         <template v-for="(row, i) in arrImgInLineSk1">
                                             <div class="row" :key="i">
                                                 <template v-for="(item, index) in row.line" >
-                                                    <div class="col"
+                                                    <div class="col p-0"
                                                         :key="index">
                                                         <i class="img-champ"
                                                         :class="[chooseRune(index,checkedRune1[i+1])]"
@@ -145,14 +150,14 @@
                                             </div>
                                         </template>
                                     </div>
-                                    <div style="border-left:1px solid grey" class="col">
+                                    <div style="border-left:1px solid grey; text-align: center !important" class="col">
                                         <template v-for="(item, index) in sideKicks.rune">
                                             <div class="row" :key="index">
                                                 <template v-for="(item1, index1) in item.line">
-                                                    <div :key="index1" class="col-3">
+                                                    <div :key="index1" class="col">
                                                         <i
                                                             :class="[chooseRune(index1,checkedRune2[index])]"
-                                                            class="img-champ"
+                                                            class="img-champ img-25"
                                                             :style="{'background-image': 'url('+require('@/assets/rune/'+item1 +'.png')+')'}"
                                                         ></i>
                                                     </div>
