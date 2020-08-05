@@ -1,0 +1,2566 @@
+[
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/AatroxQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/AatroxE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/AatroxW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/AhriOrbofDeception.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/AhriFoxFire.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/AhriSeduce.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/AkaliQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/AkaliE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/AkaliW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/Pulverize.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/Headbutt.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/AlistarE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3858.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/Tantrum.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/BandageToss.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/AuraofDespair.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/Frostbite.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/FlashFrost.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/Crystallize.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/AnnieQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/AnnieW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/AnnieE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ApheliosQ_ClientTooltipWrapper.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ApheliosW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ApheliosE_ClientTooltipWrapper.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/Volley.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/AsheQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/AsheSpiritOfTheHawk.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/AurelionSolW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/AurelionSolQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/AurelionSolE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/AzirQWrapper.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/AzirW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/AzirEWrapper.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/BardQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/BardW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/BardE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3858.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/RocketGrab.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/Overdrive.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/PowerFist.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3854.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/BrandW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/BrandQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/BrandE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/BraumQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/BraumE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/BraumW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3854.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/CaitlynPiltoverPeacemaker.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/CaitlynYordleTrap.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/CaitlynEntrapment.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/CamilleQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/CamilleE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/CamilleW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/CassiopeiaE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/CassiopeiaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/CassiopeiaW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/Rupture.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/FeralScream.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/VorpalSpikes.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/PhosphorusBomb.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/GGun.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/CarpetBomb.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1083.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/DariusCleave.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/DariusAxeGrabCone.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/DariusNoxianTacticsONH.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/DianaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/DianaOrbs.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/DianaTeleport.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/InfectedCleaverMissileCast.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/Masochism.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/BurningAgony.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/DravenSpinning.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/DravenFury.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/DravenDoubleShot.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/EkkoQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/EkkoE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/EkkoW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/EliseHumanQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/EliseHumanW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/EliseHumanE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/EvelynnQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/EvelynnE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/EvelynnW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/EzrealQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/EzrealE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/EzrealW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/FiddleSticksW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/FiddleSticksQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/FiddleSticksE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/FioraQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/FioraE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/FioraW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/FizzE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/FizzW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/FizzQ.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/GalioQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/GalioW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/GalioE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/GangplankQWrapper.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/GangplankE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/GangplankW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/GarenE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/GarenQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/GarenW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/GnarQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/GnarW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/GnarE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/GragasQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/GragasE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/GragasW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/GravesQLineSpell.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/GravesMove.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/GravesSmokeGrenade.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/HecarimRapidSlash.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/HecarimRamp.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/HecarimW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/HeimerdingerQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/HeimerdingerW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/HeimerdingerE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/IllaoiE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/IllaoiQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/IllaoiW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/IreliaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/IreliaE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/IreliaW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/IvernE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/IvernQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/IvernW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/EyeOfTheStorm.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SowTheWind.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/HowlingGale.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/JarvanIVDragonStrike.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/JarvanIVDemacianStandard.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/JarvanIVGoldenAegis.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/JaxEmpowerTwo.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/JaxLeapStrike.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/JaxCounterStrike.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/JayceToTheSkies.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/JayceStaticField.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/JayceThunderingBlow.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/JhinQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/JhinW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/JhinE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/JinxQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/JinxW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/JinxE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KaisaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KaisaE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KaisaW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KalistaExpungeWrapper.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KalistaMysticShot.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KalistaW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KarmaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KarmaSolKimShield.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KarmaSpiritBind.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KarthusLayWasteA1.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KarthusDefile.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KarthusWallOfPain.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/NullLance.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ForcePulse.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/NetherBlade.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KatarinaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KatarinaEWrapper.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KatarinaW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1036.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KayleQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KayleE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KayleW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KaynQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KaynW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KaynE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KennenShurikenHurlMissile1.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KennenBringTheLight.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KennenLightningRush.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KhazixQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KhazixW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KhazixE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KindredQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KindredW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KindredEWrapper.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KledQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KledW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KledE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/KogMawVoidOoze.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/KogMawQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/KogMawBioArcaneBarrage.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/LeblancW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/LeblancQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/LeblancE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/BlindMonkQOne.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/BlindMonkWOne.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/BlindMonkEOne.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/LeonaSolarBarrier.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/LeonaZenithBlade.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/LeonaShieldOfDaybreak.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3858.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/LilliaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/LilliaW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/LilliaE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/LissandraQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/LissandraW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/LissandraE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/LucianQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/LucianE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/LucianW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/LuluE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/LuluW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/LuluQ.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3858.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/LuxLightStrikeKugel.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/LuxLightBinding.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/LuxPrismaticWave.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SeismicShard.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/Landslide.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/Obduracy.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/MalzaharE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/MalzaharQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/MalzaharW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/MaokaiQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/MaokaiW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/MaokaiE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/AlphaStrike.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/WujuStyle.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/Meditate.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/MissFortuneRicochetShot.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/MissFortuneViciousStrikes.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/MissFortuneScattershot.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/MordekaiserQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/MordekaiserE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/MordekaiserW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/MorganaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/MorganaE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/MorganaW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/NamiW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/NamiE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/NamiQ.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/NasusQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/NasusW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/NasusE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/NautilusAnchorDrag.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/NautilusPiercingGaze.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/NautilusSplashZone.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3858.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/NeekoQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/NeekoE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/NeekoW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/JavelinToss.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/PrimalSurge.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/Bushwhack.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/NocturneDuskbringer.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/NocturneUnspeakableHorror.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/NocturneShroudofDarkness.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/NunuQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/NunuE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/NunuW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/OlafAxeThrowCast.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/OlafRecklessStrike.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/OlafFrenziedStrikes.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/OrianaIzunaCommand.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/OrianaDissonanceCommand.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/OrianaRedactCommand.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/OrnnQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/OrnnW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/OrnnE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/PantheonQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/PantheonE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/PantheonW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/PoppyQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/PoppyE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/PoppyW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/PykeQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/PykeW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/PykeE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3854.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/QiyanaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/QiyanaE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/QiyanaW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/QuinnW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/QuinnQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/QuinnE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/RakanW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/RakanE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/RakanQ.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3858.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/PowerBall.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/PuncturingTaunt.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/DefensiveBallCurl.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/RekSaiQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/RekSaiE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/RekSaiW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/RenektonCleave.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/RenektonSliceAndDice.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/RenektonPreExecute.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/RengarQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/RengarW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/RengarE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/RivenTriCleave.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/RivenFeint.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/RivenMartyr.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/RumbleFlameThrower.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/RumbleGrenade.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/RumbleShield.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/RyzeQWrapper.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/RyzeE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/RyzeW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1027.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SejuaniW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SejuaniQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SejuaniE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SennaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SennaW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SennaE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3862.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SettW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SettE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SettQ.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3854.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/TwoShivPoison.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/Deceive.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/JackInTheBox.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ShenQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ShenE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ShenW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ShyvanaFireball.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ShyvanaImmolationAura.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ShyvanaDoubleAttack.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/PoisonTrail.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/Fling.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/MegaAdhesive.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1082.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SionQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SionW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SionE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SivirQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SivirW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SivirE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SkarnerVirulentSlash.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SkarnerExoskeleton.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SkarnerFracture.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SonaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SonaW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SonaE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SorakaW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SorakaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SorakaE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SwainQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SwainW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SwainE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SylasQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SylasW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SylasE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/SyndraQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/SyndraE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/SyndraW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/TahmKenchQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/TahmKenchW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/TahmKenchE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3858.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/TaliyahQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/TaliyahE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/TaliyahWVC.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/TalonQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/TalonW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/TalonE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1036.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/TaricE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/TaricQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/TaricW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3858.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ToxicShot.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/BlindingDart.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/MoveQuick.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ThreshQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ThreshE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ThreshW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3854.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/TristanaE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/TristanaQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/TristanaW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/TrundleTrollSmash.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/trundledesecrate.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/TrundleCircle.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/TryndamereQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/TryndamereE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/TryndamereW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/WildCards.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/PickACard.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/CardmasterStack.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/TwitchExpunge.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/TwitchHideInShadows.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/TwitchVenomCask.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/UdyrTigerStance.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/UdyrBearStance.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/UdyrTurtleStance.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/UrgotW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/UrgotE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/UrgotQ.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/VarusQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/VarusW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/VarusE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/VayneSilveredBolts.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/VayneTumble.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/VayneCondemn.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/VeigarBalefulStrike.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/VeigarDarkMatter.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/VeigarEventHorizon.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/VelkozQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/VelkozW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/VelkozE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ViQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ViE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ViW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ViktorDeathRay.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ViktorPowerTransfer.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ViktorGravitonField.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/VladimirQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/VladimirE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/VladimirSanguinePool.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/VolibearW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/VolibearQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/VolibearE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/WarwickQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/WarwickW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/WarwickE.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/1006.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/MonkeyKingDoubleAttack.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/MonkeyKingNimbus.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/MonkeyKingDecoy.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1054.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/XayahE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/XayahW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/XayahQ.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/XerathArcanopulseChargeUp.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/XerathArcaneBarrage2.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/XerathMageSpear.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/XinZhaoW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/XinZhaoE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/XinZhaoQ.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1041.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/YasuoQ1Wrapper.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/YasuoE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/YasuoW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1055.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/YorickQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/YorickE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/YorickW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/YuumiQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/YuumiE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/YuumiW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ZacE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ZacW.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ZacQ.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1039.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ZedQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ZedE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ZedW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1036.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2031.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ZiggsQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ZiggsE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ZiggsW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/1056.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ZileanQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/TimeWarp.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ZileanW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3858.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ZoeQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ZoeE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ZoeW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/2033.png?image=q_auto,w_42&v=1595653530"
+      ]
+    },
+    {
+      "skill": [
+        {
+          "Q": "//opgg-static.akamaized.net/images/lol/spell/ZyraQ.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "E": "//opgg-static.akamaized.net/images/lol/spell/ZyraE.png?image=q_auto,w_42&v=1595653530"
+        },
+        {
+          "W": "//opgg-static.akamaized.net/images/lol/spell/ZyraW.png?image=q_auto,w_42&v=1595653530"
+        }
+      ],
+      "staterItems": [
+        "//opgg-static.akamaized.net/images/lol/item/3850.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530",
+        "//opgg-static.akamaized.net/images/lol/item/2003.png?image=q_auto,w_42&v=1595653530"
+      ]
+    }
+  ]

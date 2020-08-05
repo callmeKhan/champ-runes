@@ -1,11 +1,11 @@
 <template>
-    <div class="container">
-        <div>
+    <div class="container-fluid">
+        <div class="col-12">
             <input v-model="searchName" type="input" class="search" />
             <label class="btn clearable" @click="searchName = ''">Clear</label>
             <div class="d-flex row pt-5 justify-content-center">
                 <div
-                    class="col-1 p-1"
+                    class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4 p-1"
                     v-for="(item, index) in championsData"
                     :key="index"
                     
@@ -42,104 +42,124 @@
                             <label class="h3 text-center">
                                 <b>{{selectedChamp.name}}</b>
                             </label>
-                            <div class="media-body">
+                            <div class="media-body mw-100 w-100 text-left">
                                 <label>
                                     <b>Spell</b>
                                 </label>
-                            </div>
-                            <div class="ml-0 row w-25">
-                                <template v-for="(item, index) in selectedChamp.spell">
-                                    <div :key="index" class="col-6">
-                                        <i
-                                            class="img-champ"
-                                            :style="{'background-image': 'url('+item+')'}"
-                                        ></i>
+                                <div class="ml-0 row w-100">
+                                    <div class="col d-flex justify-content-start">
+                                        <template v-for="(item, index) in selectedChamp.spell">
+                                            <i :key="index"
+                                                :class="[index == 2 ? 'ml-3' : '']"
+                                                class="img-champ img-35 mr-3"
+                                                :style="{'background-image': 'url('+item+')'}"
+                                            ></i>
+                                        </template>
                                     </div>
-                                </template>
+                                </div>
                             </div>
 
-                            <div class="media-body">
+                            <div class="media-body mw-100 w-100 text-left">
                                 <label>
                                     <b>Skill</b>
                                 </label>
-                            </div>
-                            <div class="ml-0 row mw-100">
-                                <template v-for="(item, index) in selectedChamp.skill">
-                                    <div v-if="index < 3" :key="index" class="col">
-                                        <i
-                                            class="img-champ"
-                                            :style="{'background-image': 'url('+item+')'}"
-                                        ></i>
+                                <div class="ml-0 row mw-100 w-100">
+                                    <div class="col d-flex">
+                                        <template v-for="(item, index) in selectedChamp.skill">
+                                            <div :key="index" class="pr-3">
+                                                <template v-for="(it,ind) in item" >
+                                                    <b class="skill" :key="ind">
+                                                        <i 
+                                                        class="img-champ img-35"
+                                                        :style="{'background-image': 'url('+it+')'}" >
+                                                        </i>
+                                                        <label>{{ind}}</label>
+                                                    </b>
+                                                </template>
+                                            </div>
+                                        </template>
                                     </div>
-                                </template>
+                                </div>
                             </div>
 
-                            <div class="media-body">
+                            <div class="media-body mw-100 w-100 text-left">
                                 <label>
                                     <b>Items</b>
                                 </label>
-                            </div>
-                            <div class="ml-0 row mw-100">
-                                <template v-for="(item, index) in selectedChamp.build">
-                                    <div :key="index" class="col">
-                                        <i
-                                            class="img-champ"
-                                            :style="{'background-image': 'url('+item+')'}"
-                                        ></i>
+
+                                <div class="ml-0 row mw-100">
+                                    <div class="col d-flex justify-content-start">
+                                        <template v-for="(item, index) in selectedChamp.staterItems">
+                                            <i :key="index"
+                                                class="img-champ img-35 mr-3"
+                                                :style="{'background-image': 'url('+item+')'}"
+                                            ></i>
+                                        </template>
                                     </div>
-                                </template>
+                                </div>
+                                <br>
+                                <div class="ml-0 row mw-100">
+                                    <div class="col d-flex justify-content-start">
+                                        <template v-for="(item, index) in selectedChamp.build">
+                                            <i :key="index"
+                                                class="img-champ img-35 mr-3"
+                                                :style="{'background-image': 'url('+item+')'}"
+                                            ></i>
+                                        </template>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="media-body">
+                            <div class="media-body mw-100 w-100 text-left">
                                 <label>
                                     <b>Runes</b>
                                 </label>
-                            </div>
-                            <div class="ml-0 row mw-100 w-100">
-                                 <div class="col">
-                                    <template v-for="(row, i) in arrImgInLineMain">
-                                        <div class="row" :key="i">
-                                            <template v-for="(item, index) in row.line">
-                                                <div
-                                                    class="col"
-                                                    :key="index">
-                                                    <i class="img-champ"
-                                                    :class="[chooseRune(index,checkedRune0[i+1])]"
-                                                        :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"></i>
-                                                </div>
-                                            </template>
-                                        </div>
-                                    </template>
-                                </div>
-                                <div style="border-left:1px solid grey" class="col ml-2 mr-3">
-                                    <template v-for="(row, i) in arrImgInLineSk1">
-                                        <div class="row" :key="i">
-                                            <template v-for="(item, index) in row.line" >
-                                                <div class="col"
-                                                    :key="index">
-                                                    <i class="img-champ"
-                                                    :class="[chooseRune(index,checkedRune1[i+1])]"
-                                                        :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"
-                                                    ></i>
-                                                </div>
-                                            </template>
-                                        </div>
-                                    </template>
-                                </div>
-                                <div style="border-left:1px solid grey" class="col">
-                                    <template v-for="(item, index) in sideKicks.rune">
-                                        <div class="row" :key="index">
-                                            <template v-for="(item1, index1) in item.line">
-                                                <div :key="index1" class="col-3">
-                                                    <i
-                                                        :class="[chooseRune(index1,checkedRune2[index])]"
-                                                        class="img-champ"
-                                                        :style="{'background-image': 'url('+require('@/assets/rune/'+item1 +'.png')+')'}"
-                                                    ></i>
-                                                </div>
-                                            </template>
-                                        </div>
-                                    </template>
+                                <div class="ml-0 row mw-100 w-100">
+                                    <div class="col">
+                                        <template v-for="(row, i) in arrImgInLineMain">
+                                            <div class="row" :key="i">
+                                                <template v-for="(item, index) in row.line">
+                                                    <div
+                                                        class="col"
+                                                        :key="index">
+                                                        <i class="img-champ"
+                                                        :class="[chooseRune(index,checkedRune0[i+1])]"
+                                                            :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"></i>
+                                                    </div>
+                                                </template>
+                                            </div>
+                                        </template>
+                                    </div>
+                                    <div style="border-left:1px solid grey" class="col ml-2 mr-3">
+                                        <template v-for="(row, i) in arrImgInLineSk1">
+                                            <div class="row" :key="i">
+                                                <template v-for="(item, index) in row.line" >
+                                                    <div class="col"
+                                                        :key="index">
+                                                        <i class="img-champ"
+                                                        :class="[chooseRune(index,checkedRune1[i+1])]"
+                                                            :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"
+                                                        ></i>
+                                                    </div>
+                                                </template>
+                                            </div>
+                                        </template>
+                                    </div>
+                                    <div style="border-left:1px solid grey" class="col">
+                                        <template v-for="(item, index) in sideKicks.rune">
+                                            <div class="row" :key="index">
+                                                <template v-for="(item1, index1) in item.line">
+                                                    <div :key="index1" class="col-3">
+                                                        <i
+                                                            :class="[chooseRune(index1,checkedRune2[index])]"
+                                                            class="img-champ"
+                                                            :style="{'background-image': 'url('+require('@/assets/rune/'+item1 +'.png')+')'}"
+                                                        ></i>
+                                                    </div>
+                                                </template>
+                                            </div>
+                                        </template>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -152,9 +172,9 @@
 
 
 <script>
-import dataChampions from "@/data.json";
-import datasideKick from "@/sideKick.json";
-import dataRune from "@/rune.json";
+import dataChampions from "@/data/data-ver1.json";
+import datasideKick from "@/data/sideKick.json";
+import dataRune from "@/data/rune.json";
 export default ({
     data() {
         return {
@@ -180,7 +200,7 @@ export default ({
             return this.searchName == ""
                 ? this.champions
                 : this.champions.filter((x) =>
-                      x.name.toLowerCase().includes(this.searchName)
+                      x.name.toLowerCase().includes(this.searchName.toLowerCase())
                   );
         },
         sideKick1() {
@@ -240,47 +260,6 @@ export default ({
     },
 });
 </script>
-<style scope>
-.img-champ {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 10px;
-}
-.champion {
-    border: 1px solid rgb(129, 124, 124);
-    transition-duration: 0.6s;
-}
-
-.champion:hover {
-    transition-duration: 0.4s;
-    border: 1px solid green;
-    background-color: rgb(157, 219, 214);
-    color: whitesmoke;
-}
-.dot-name {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.clearable {
-    pointer-events: auto;
-    text-decoration: none;
-    cursor: pointer;
-}
-.enabled-rune{
-    filter: opacity(0.35);
-    mix-blend-mode: luminosity;
-}
-.checked-rune{
-    filter: drop-shadow(1px 4px 6px gray);
-    background-color: #8f8f8f69;
-    border-radius: 15px;
-}
-.disabled-rune i{
-   filter: opacity(0.35);
-    mix-blend-mode: luminosity;
-}
+<style scope lang="scss">
+@import '@/style/champ.scss';
 </style>
