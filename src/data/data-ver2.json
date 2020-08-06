@@ -1,0 +1,7339 @@
+[
+  {
+    "skill": [
+      {
+        "Q": "AatroxQ.png"
+      },
+      {
+        "E": "AatroxE.png"
+      },
+      {
+        "W": "AatroxW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Aatrox",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        1,
+        2
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3071.png",
+      "3812.png",
+      "3053.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "AhriOrbofDeception.png"
+      },
+      {
+        "W": "AhriFoxFire.png"
+      },
+      {
+        "E": "AhriSeduce.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Ahri",
+    "runes": {
+      "indexMain": [
+        "Inspiration",
+        0,
+        1,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        0,
+        "null",
+        3
+      ],
+      "indexSide2": [
+        2,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3030.png",
+      "3905.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "AkaliQ.png"
+      },
+      {
+        "E": "AkaliE.png"
+      },
+      {
+        "W": "AkaliW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Akali",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        2,
+        2,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3146.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "Pulverize.png"
+      },
+      {
+        "W": "Headbutt.png"
+      },
+      {
+        "E": "AlistarE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Alistar",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        0,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        2,
+        1,
+        0
+      ]
+    },
+    "build": [
+      "3050.png",
+      "3109.png",
+      "3193.png"
+    ],
+    "staterItems": [
+      "3858.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "Tantrum.png"
+      },
+      {
+        "Q": "BandageToss.png"
+      },
+      {
+        "W": "AuraofDespair.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Amumu",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        0,
+        2,
+        3
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1402.png",
+      "3157.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "Frostbite.png"
+      },
+      {
+        "Q": "FlashFrost.png"
+      },
+      {
+        "W": "Crystallize.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Anivia",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        0,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Precision",
+        2,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3070.png",
+      "3027.png",
+      "3003.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "AnnieQ.png"
+      },
+      {
+        "W": "AnnieW.png"
+      },
+      {
+        "E": "AnnieE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Annie",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        0,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Sorcery",
+        "null",
+        1,
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "ApheliosQ_ClientTooltipWrapper.png"
+      },
+      {
+        "W": "ApheliosW.png"
+      },
+      {
+        "E": "ApheliosE_ClientTooltipWrapper.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Aphelios",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        0,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3031.png",
+      "3085.png",
+      "3046.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "Volley.png"
+      },
+      {
+        "Q": "AsheQ.png"
+      },
+      {
+        "E": "AsheSpiritOfTheHawk.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Ashe",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        1,
+        2,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3085.png",
+      "3031.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "AurelionSolW.png"
+      },
+      {
+        "Q": "AurelionSolQ.png"
+      },
+      {
+        "E": "AurelionSolE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Aurelion_Sol",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        1,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3027.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "AzirQWrapper.png"
+      },
+      {
+        "W": "AzirW.png"
+      },
+      {
+        "E": "AzirEWrapper.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Azir",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        1,
+        2,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3115.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "BardQ.png"
+      },
+      {
+        "W": "BardW.png"
+      },
+      {
+        "E": "BardE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Bard",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        2,
+        1,
+        2,
+        1
+      ],
+      "indexSide1": [
+        "Domination",
+        "null",
+        0,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3174.png",
+      "2065.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3858.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "RocketGrab.png"
+      },
+      {
+        "W": "Overdrive.png"
+      },
+      {
+        "E": "PowerFist.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Blitzcrank",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        0,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        2,
+        1,
+        0
+      ]
+    },
+    "build": [
+      "3050.png",
+      "3109.png",
+      "3190.png"
+    ],
+    "staterItems": [
+      "3854.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "BrandW.png"
+      },
+      {
+        "Q": "BrandQ.png"
+      },
+      {
+        "E": "BrandE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Brand",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        2,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3151.png",
+      "3157.png",
+      "3116.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "BraumQ.png"
+      },
+      {
+        "E": "BraumE.png"
+      },
+      {
+        "W": "BraumW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Braum",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        2,
+        1,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        2,
+        1,
+        0
+      ]
+    },
+    "build": [
+      "3050.png",
+      "3109.png",
+      "3193.png"
+    ],
+    "staterItems": [
+      "3854.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "CaitlynPiltoverPeacemaker.png"
+      },
+      {
+        "W": "CaitlynYordleTrap.png"
+      },
+      {
+        "E": "CaitlynEntrapment.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Caitlyn",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        2,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3095.png",
+      "3031.png",
+      "3094.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "CamilleQ.png"
+      },
+      {
+        "E": "CamilleE.png"
+      },
+      {
+        "W": "CamilleW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Camille",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        0,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3077.png",
+      "3078.png",
+      "3074.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "CassiopeiaE.png"
+      },
+      {
+        "Q": "CassiopeiaQ.png"
+      },
+      {
+        "W": "CassiopeiaW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Cassiopeia",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        2,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3003.png",
+      "3116.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "Rupture.png"
+      },
+      {
+        "W": "FeralScream.png"
+      },
+      {
+        "E": "VorpalSpikes.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "ChoGath",
+    "runes": {
+      "indexMain": [
+        "Inspiration",
+        0,
+        1,
+        2,
+        1
+      ],
+      "indexSide1": [
+        "Domination",
+        0,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3030.png",
+      "3905.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "PhosphorusBomb.png"
+      },
+      {
+        "E": "GGun.png"
+      },
+      {
+        "W": "CarpetBomb.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Corki",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        2,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3004.png",
+      "3078.png",
+      "3094.png"
+    ],
+    "staterItems": [
+      "1083.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "DariusCleave.png"
+      },
+      {
+        "E": "DariusAxeGrabCone.png"
+      },
+      {
+        "W": "DariusNoxianTacticsONH.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHaste.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Darius",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        1,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3078.png",
+      "3748.png",
+      "3053.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "DianaQ.png"
+      },
+      {
+        "W": "DianaOrbs.png"
+      },
+      {
+        "E": "DianaTeleport.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Diana",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        2,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3152.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "InfectedCleaverMissileCast.png"
+      },
+      {
+        "E": "Masochism.png"
+      },
+      {
+        "W": "BurningAgony.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerHaste.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Dr._Mundo",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        0,
+        0,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        2,
+        1,
+        0
+      ]
+    },
+    "build": [
+      "3068.png",
+      "3065.png",
+      "3075.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "DravenSpinning.png"
+      },
+      {
+        "W": "DravenFury.png"
+      },
+      {
+        "E": "DravenDoubleShot.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Draven",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        3,
+        0,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Precision",
+        2,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3004.png",
+      "3181.png",
+      "3814.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "EkkoQ.png"
+      },
+      {
+        "E": "EkkoE.png"
+      },
+      {
+        "W": "EkkoW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Ekko",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        2,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1402.png",
+      "3152.png",
+      "3100.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "EliseHumanQ.png"
+      },
+      {
+        "W": "EliseHumanW.png"
+      },
+      {
+        "E": "EliseHumanE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Elise",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        0,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1402.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "EvelynnQ.png"
+      },
+      {
+        "E": "EvelynnE.png"
+      },
+      {
+        "W": "EvelynnW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Evelynn",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        2,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1402.png",
+      "3100.png",
+      "3089.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "EzrealQ.png"
+      },
+      {
+        "E": "EzrealE.png"
+      },
+      {
+        "W": "EzrealW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Ezreal",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3004.png",
+      "3025.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "FiddleSticksW.png"
+      },
+      {
+        "Q": "FiddleSticksQ.png"
+      },
+      {
+        "E": "FiddleSticksE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerHaste.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Fiddlesticks",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        1,
+        0,
+        0,
+        1
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1402.png",
+      "3157.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "FioraQ.png"
+      },
+      {
+        "E": "FioraE.png"
+      },
+      {
+        "W": "FioraW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Fiora",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Resolve",
+        0,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3074.png",
+      "3078.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "FizzE.png"
+      },
+      {
+        "W": "FizzW.png"
+      },
+      {
+        "Q": "FizzQ.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Fizz",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Precision",
+        2,
+        1,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3152.png",
+      "3157.png",
+      "3100.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "GalioQ.png"
+      },
+      {
+        "W": "GalioW.png"
+      },
+      {
+        "E": "GalioE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Galio",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3152.png",
+      "3157.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "GangplankQWrapper.png"
+      },
+      {
+        "E": "GangplankE.png"
+      },
+      {
+        "W": "GangplankW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Gangplank",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        0,
+        0,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3078.png",
+      "3508.png",
+      "3031.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "GarenE.png"
+      },
+      {
+        "Q": "GarenQ.png"
+      },
+      {
+        "W": "GarenW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Garen",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Resolve",
+        0,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3078.png",
+      "3087.png",
+      "3742.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "GnarQ.png"
+      },
+      {
+        "W": "GnarW.png"
+      },
+      {
+        "E": "GnarE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Gnar",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        2,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Resolve",
+        0,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3071.png",
+      "3022.png",
+      "3193.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "GragasQ.png"
+      },
+      {
+        "E": "GragasE.png"
+      },
+      {
+        "W": "GragasW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Gragas",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        1,
+        2,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Sorcery",
+        "null",
+        1,
+        1
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1402.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "GravesQLineSpell.png"
+      },
+      {
+        "E": "GravesMove.png"
+      },
+      {
+        "W": "GravesSmokeGrenade.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Graves",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        2,
+        2,
+        2,
+        1
+      ],
+      "indexSide1": [
+        "Precision",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1412.png",
+      "3179.png",
+      "3071.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "HecarimRapidSlash.png"
+      },
+      {
+        "E": "HecarimRamp.png"
+      },
+      {
+        "W": "HecarimW.png"
+      }
+    ],
+    "spell": [
+      "SummonerHaste.png",
+      "SummonerSmite.png",
+      "SummonerFlash.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Hecarim",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        2,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1401.png",
+      "3078.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "HeimerdingerQ.png"
+      },
+      {
+        "W": "HeimerdingerW.png"
+      },
+      {
+        "E": "HeimerdingerE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Heimerdinger",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        2,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3157.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "IllaoiE.png"
+      },
+      {
+        "Q": "IllaoiQ.png"
+      },
+      {
+        "W": "IllaoiW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Illaoi",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        1,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3071.png",
+      "3053.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "IreliaQ.png"
+      },
+      {
+        "E": "IreliaE.png"
+      },
+      {
+        "W": "IreliaW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Irelia",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3091.png",
+      "3071.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "IvernE.png"
+      },
+      {
+        "Q": "IvernQ.png"
+      },
+      {
+        "W": "IvernW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerHeal.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Ivern",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        0,
+        2,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        0,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        2,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3174.png",
+      "3504.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "EyeOfTheStorm.png"
+      },
+      {
+        "W": "SowTheWind.png"
+      },
+      {
+        "Q": "HowlingGale.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Janna",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3174.png",
+      "3504.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "JarvanIVDragonStrike.png"
+      },
+      {
+        "E": "JarvanIVDemacianStandard.png"
+      },
+      {
+        "W": "JarvanIVGoldenAegis.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Jarvan_IV",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1413.png",
+      "3071.png",
+      "3193.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "JaxEmpowerTwo.png"
+      },
+      {
+        "Q": "JaxLeapStrike.png"
+      },
+      {
+        "E": "JaxCounterStrike.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Jax",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3078.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "JayceToTheSkies.png"
+      },
+      {
+        "W": "JayceStaticField.png"
+      },
+      {
+        "E": "JayceThunderingBlow.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Jayce",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        2,
+        1,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3142.png",
+      "3147.png",
+      "3814.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "JhinQ.png"
+      },
+      {
+        "W": "JhinW.png"
+      },
+      {
+        "E": "JhinE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Jhin",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        2,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3095.png",
+      "3094.png",
+      "3031.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "JinxQ.png"
+      },
+      {
+        "W": "JinxW.png"
+      },
+      {
+        "E": "JinxE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Jinx",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        1,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3031.png",
+      "3085.png",
+      "3094.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "KaisaQ.png"
+      },
+      {
+        "E": "KaisaE.png"
+      },
+      {
+        "W": "KaisaW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "KaiSa",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        3,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Precision",
+        2,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3004.png",
+      "3124.png",
+      "3115.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "KalistaExpungeWrapper.png"
+      },
+      {
+        "Q": "KalistaMysticShot.png"
+      },
+      {
+        "W": "KalistaW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Kalista",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        3,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Precision",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3085.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "KarmaQ.png"
+      },
+      {
+        "E": "KarmaSolKimShield.png"
+      },
+      {
+        "W": "KarmaSpiritBind.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Karma",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3174.png",
+      "3504.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "KarthusLayWasteA1.png"
+      },
+      {
+        "E": "KarthusDefile.png"
+      },
+      {
+        "W": "KarthusWallOfPain.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerExhaust.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Karthus",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        2,
+        0,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Precision",
+        2,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1402.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "NullLance.png"
+      },
+      {
+        "E": "ForcePulse.png"
+      },
+      {
+        "W": "NetherBlade.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Kassadin",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        2,
+        2,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3027.png",
+      "3003.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "KatarinaQ.png"
+      },
+      {
+        "E": "KatarinaEWrapper.png"
+      },
+      {
+        "W": "KatarinaW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerTeleport.png",
+      "SummonerDot.png"
+    ],
+    "name": "Katarina",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        2,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3146.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1036.png",
+      "2003.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "KayleQ.png"
+      },
+      {
+        "E": "KayleE.png"
+      },
+      {
+        "W": "KayleW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Kayle",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        2,
+        0,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3146.png",
+      "3115.png",
+      "3124.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "KaynQ.png"
+      },
+      {
+        "W": "KaynW.png"
+      },
+      {
+        "E": "KaynE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Kayn",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        1,
+        2
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1400.png",
+      "3071.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "KennenShurikenHurlMissile1.png"
+      },
+      {
+        "W": "KennenBringTheLight.png"
+      },
+      {
+        "E": "KennenLightningRush.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Kennen",
+    "runes": {
+      "indexMain": [
+        "Inspiration",
+        1,
+        1,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3152.png",
+      "3157.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "KhazixQ.png"
+      },
+      {
+        "W": "KhazixW.png"
+      },
+      {
+        "E": "KhazixE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "KhaZix",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        2,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1400.png",
+      "3147.png",
+      "3142.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "KindredQ.png"
+      },
+      {
+        "W": "KindredW.png"
+      },
+      {
+        "E": "KindredEWrapper.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Kindred",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1412.png",
+      "3071.png",
+      "3085.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "KledQ.png"
+      },
+      {
+        "W": "KledW.png"
+      },
+      {
+        "E": "KledE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Kled",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Resolve",
+        0,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3077.png",
+      "3071.png",
+      "3748.png",
+      "3026.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "KogMawVoidOoze.png"
+      },
+      {
+        "Q": "KogMawQ.png"
+      },
+      {
+        "W": "KogMawBioArcaneBarrage.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "KogMaw",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Precision",
+        2,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3003.png",
+      "3116.png",
+      "3151.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "LeblancW.png"
+      },
+      {
+        "Q": "LeblancQ.png"
+      },
+      {
+        "E": "LeblancE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "LeBlanc",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "BlindMonkQOne.png"
+      },
+      {
+        "W": "BlindMonkWOne.png"
+      },
+      {
+        "E": "BlindMonkEOne.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Lee_Sin",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1412.png",
+      "3071.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "LeonaSolarBarrier.png"
+      },
+      {
+        "E": "LeonaZenithBlade.png"
+      },
+      {
+        "Q": "LeonaShieldOfDaybreak.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Leona",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        2,
+        1,
+        0
+      ]
+    },
+    "build": [
+      "3050.png",
+      "3109.png",
+      "3193.png"
+    ],
+    "staterItems": [
+      "3858.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "LilliaQ.png"
+      },
+      {
+        "W": "LilliaW.png"
+      },
+      {
+        "E": "LilliaE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerHaste.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Lillia",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        2,
+        2,
+        1,
+        1
+      ],
+      "indexSide1": [
+        "Domination",
+        0,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1402.png",
+      "3151.png",
+      "3116.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "LissandraQ.png"
+      },
+      {
+        "W": "LissandraW.png"
+      },
+      {
+        "E": "LissandraE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Lissandra",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        0,
+        2,
+        3
+      ],
+      "indexSide1": [
+        "Sorcery",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3157.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "LucianQ.png"
+      },
+      {
+        "E": "LucianE.png"
+      },
+      {
+        "W": "LucianW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Lucian",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        2,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3508.png",
+      "3031.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "LuluE.png"
+      },
+      {
+        "W": "LuluW.png"
+      },
+      {
+        "Q": "LuluQ.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Lulu",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        0,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3504.png",
+      "3174.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3858.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "LuxLightStrikeKugel.png"
+      },
+      {
+        "Q": "LuxLightBinding.png"
+      },
+      {
+        "W": "LuxPrismaticWave.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerBarrier.png"
+    ],
+    "name": "Lux",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3174.png",
+      "3504.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "SeismicShard.png"
+      },
+      {
+        "E": "Landslide.png"
+      },
+      {
+        "W": "Obduracy.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Malphite",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3076.png",
+      "3068.png",
+      "3025.png",
+      "3075.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "MalzaharE.png"
+      },
+      {
+        "Q": "MalzaharQ.png"
+      },
+      {
+        "W": "MalzaharW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Malzahar",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        0,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3116.png",
+      "3151.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "MaokaiQ.png"
+      },
+      {
+        "W": "MaokaiW.png"
+      },
+      {
+        "E": "MaokaiE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Maokai",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        0,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        1,
+        1
+      ]
+    },
+    "build": [
+      "3076.png",
+      "3068.png",
+      "3065.png",
+      "3075.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "AlphaStrike.png"
+      },
+      {
+        "E": "WujuStyle.png"
+      },
+      {
+        "W": "Meditate.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Master_Yi",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        2,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1419.png",
+      "3124.png",
+      "3091.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "MissFortuneRicochetShot.png"
+      },
+      {
+        "W": "MissFortuneViciousStrikes.png"
+      },
+      {
+        "E": "MissFortuneScattershot.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Miss_Fortune",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        0,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3508.png",
+      "3031.png",
+      "3094.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "MordekaiserQ.png"
+      },
+      {
+        "E": "MordekaiserE.png"
+      },
+      {
+        "W": "MordekaiserW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Mordekaiser",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        1,
+        2
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3152.png",
+      "3115.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "MorganaQ.png"
+      },
+      {
+        "E": "MorganaE.png"
+      },
+      {
+        "W": "MorganaW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Morgana",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        2,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3157.png",
+      "3107.png",
+      "3190.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "NamiW.png"
+      },
+      {
+        "E": "NamiE.png"
+      },
+      {
+        "Q": "NamiQ.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Nami",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        0,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3174.png",
+      "3504.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "NasusQ.png"
+      },
+      {
+        "W": "NasusW.png"
+      },
+      {
+        "E": "NasusE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerHaste.png",
+      "SummonerHeal.png"
+    ],
+    "name": "Nasus",
+    "runes": {
+      "indexMain": [
+        "Inspiration",
+        1,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        2,
+        1,
+        1
+      ]
+    },
+    "build": [
+      "3078.png",
+      "3800.png",
+      "3065.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "NautilusAnchorDrag.png"
+      },
+      {
+        "W": "NautilusPiercingGaze.png"
+      },
+      {
+        "E": "NautilusSplashZone.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Nautilus",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        2,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        2,
+        1,
+        0
+      ]
+    },
+    "build": [
+      "3193.png",
+      "3050.png",
+      "3109.png"
+    ],
+    "staterItems": [
+      "3858.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "NeekoQ.png"
+      },
+      {
+        "E": "NeekoE.png"
+      },
+      {
+        "W": "NeekoW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Neeko",
+    "runes": {
+      "indexMain": [
+        "Inspiration",
+        0,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3030.png",
+      "3905.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "JavelinToss.png"
+      },
+      {
+        "E": "PrimalSurge.png"
+      },
+      {
+        "W": "Bushwhack.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Nidalee",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        2,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1414.png",
+      "3100.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "NocturneDuskbringer.png"
+      },
+      {
+        "E": "NocturneUnspeakableHorror.png"
+      },
+      {
+        "W": "NocturneShroudofDarkness.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Nocturne",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        1,
+        2,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        3
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3077.png",
+      "3071.png",
+      "3814.png",
+      "3026.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "NunuQ.png"
+      },
+      {
+        "E": "NunuE.png"
+      },
+      {
+        "W": "NunuW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Nunu",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        2,
+        2,
+        1,
+        1
+      ],
+      "indexSide1": [
+        "Precision",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1413.png",
+      "3152.png",
+      "3742.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "OlafAxeThrowCast.png"
+      },
+      {
+        "E": "OlafRecklessStrike.png"
+      },
+      {
+        "W": "OlafFrenziedStrikes.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerHaste.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Olaf",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1400.png",
+      "3071.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "OrianaIzunaCommand.png"
+      },
+      {
+        "W": "OrianaDissonanceCommand.png"
+      },
+      {
+        "E": "OrianaRedactCommand.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Orianna",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        2,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "OrnnQ.png"
+      },
+      {
+        "W": "OrnnW.png"
+      },
+      {
+        "E": "OrnnE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Ornn",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        0,
+        0,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        2,
+        1,
+        1
+      ]
+    },
+    "build": [
+      "3068.png",
+      "3001.png",
+      "3193.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "PantheonQ.png"
+      },
+      {
+        "E": "PantheonE.png"
+      },
+      {
+        "W": "PantheonW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Pantheon",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3142.png",
+      "3071.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "PoppyQ.png"
+      },
+      {
+        "E": "PoppyE.png"
+      },
+      {
+        "W": "PoppyW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Poppy",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        0,
+        2,
+        2,
+        1
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3068.png",
+      "3194.png",
+      "3193.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "PykeQ.png"
+      },
+      {
+        "W": "PykeW.png"
+      },
+      {
+        "E": "PykeE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Pyke",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        1,
+        2,
+        1
+      ],
+      "indexSide1": [
+        "Domination",
+        2,
+        "null",
+        3
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3179.png",
+      "3142.png",
+      "3814.png"
+    ],
+    "staterItems": [
+      "3854.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "QiyanaQ.png"
+      },
+      {
+        "E": "QiyanaE.png"
+      },
+      {
+        "W": "QiyanaW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Qiyana",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3179.png",
+      "3147.png",
+      "3814.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "QuinnW.png"
+      },
+      {
+        "Q": "QuinnQ.png"
+      },
+      {
+        "E": "QuinnE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Quinn",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        0,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3181.png",
+      "3095.png",
+      "3031.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "RakanW.png"
+      },
+      {
+        "E": "RakanE.png"
+      },
+      {
+        "Q": "RakanQ.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Rakan",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        2,
+        0,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        1,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3050.png",
+      "2065.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3858.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "PowerBall.png"
+      },
+      {
+        "E": "PuncturingTaunt.png"
+      },
+      {
+        "W": "DefensiveBallCurl.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerHaste.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Rammus",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Precision",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        1,
+        1
+      ]
+    },
+    "build": [
+      "1401.png",
+      "3075.png",
+      "3742.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "RekSaiQ.png"
+      },
+      {
+        "E": "RekSaiE.png"
+      },
+      {
+        "W": "RekSaiW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png"
+    ],
+    "name": "RekSai",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1400.png",
+      "3071.png",
+      "3026.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "RenektonCleave.png"
+      },
+      {
+        "E": "RenektonSliceAndDice.png"
+      },
+      {
+        "W": "RenektonPreExecute.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Renekton",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Resolve",
+        0,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3071.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "RengarQ.png"
+      },
+      {
+        "W": "RengarW.png"
+      },
+      {
+        "E": "RengarE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Rengar",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Resolve",
+        "null",
+        2,
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3071.png",
+      "3508.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "RivenTriCleave.png"
+      },
+      {
+        "E": "RivenFeint.png"
+      },
+      {
+        "W": "RivenMartyr.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Riven",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3508.png",
+      "3071.png",
+      "3074.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "RumbleFlameThrower.png"
+      },
+      {
+        "E": "RumbleGrenade.png"
+      },
+      {
+        "W": "RumbleShield.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Rumble",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        2,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3151.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "RyzeQWrapper.png"
+      },
+      {
+        "E": "RyzeE.png"
+      },
+      {
+        "W": "RyzeW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Ryze",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        2,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3070.png",
+      "3027.png",
+      "3003.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "1027.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "SejuaniW.png"
+      },
+      {
+        "Q": "SejuaniQ.png"
+      },
+      {
+        "E": "SejuaniE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Sejuani",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Precision",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        1,
+        0
+      ]
+    },
+    "build": [
+      "1401.png",
+      "3083.png",
+      "3193.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "SennaQ.png"
+      },
+      {
+        "W": "SennaW.png"
+      },
+      {
+        "E": "SennaE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerBarrier.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Senna",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        0,
+        1,
+        2,
+        1
+      ],
+      "indexSide1": [
+        "Precision",
+        2,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3022.png",
+      "3071.png",
+      "3033.png"
+    ],
+    "staterItems": [
+      "3862.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "SettW.png"
+      },
+      {
+        "E": "SettE.png"
+      },
+      {
+        "Q": "SettQ.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Sett",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        2,
+        2,
+        1,
+        1
+      ],
+      "indexSide1": [
+        "Inspiration",
+        0,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3742.png",
+      "3193.png",
+      "3109.png"
+    ],
+    "staterItems": [
+      "3854.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "TwoShivPoison.png"
+      },
+      {
+        "Q": "Deceive.png"
+      },
+      {
+        "W": "JackInTheBox.png"
+      }
+    ],
+    "spell": [
+      "SummonerSmite.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Shaco",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        3,
+        2,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Precision",
+        "null",
+        0,
+        0
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3077.png",
+      "1400.png",
+      "3147.png",
+      "3142.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "ShenQ.png"
+      },
+      {
+        "E": "ShenE.png"
+      },
+      {
+        "W": "ShenW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Shen",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        0,
+        2,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        0,
+        "null",
+        3
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3748.png",
+      "3068.png",
+      "3194.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "ShyvanaFireball.png"
+      },
+      {
+        "W": "ShyvanaImmolationAura.png"
+      },
+      {
+        "Q": "ShyvanaDoubleAttack.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Shyvana",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        2,
+        2,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1402.png",
+      "3115.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "PoisonTrail.png"
+      },
+      {
+        "E": "Fling.png"
+      },
+      {
+        "W": "MegaAdhesive.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerHaste.png",
+      "SummonerDot.png"
+    ],
+    "name": "Singed",
+    "runes": {
+      "indexMain": [
+        "Inspiration",
+        1,
+        0,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        1,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3116.png",
+      "3151.png",
+      "3800.png"
+    ],
+    "staterItems": [
+      "1082.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "SionQ.png"
+      },
+      {
+        "W": "SionW.png"
+      },
+      {
+        "E": "SionE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Sion",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        0,
+        0,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3076.png",
+      "3068.png",
+      "3194.png",
+      "3075.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "SivirQ.png"
+      },
+      {
+        "W": "SivirW.png"
+      },
+      {
+        "E": "SivirE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Sivir",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        1,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3508.png",
+      "3031.png",
+      "3046.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "SkarnerVirulentSlash.png"
+      },
+      {
+        "W": "SkarnerExoskeleton.png"
+      },
+      {
+        "E": "SkarnerFracture.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerHaste.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Skarner",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        1,
+        0,
+        2,
+        1
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1401.png",
+      "3078.png",
+      "3742.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "SonaQ.png"
+      },
+      {
+        "W": "SonaW.png"
+      },
+      {
+        "E": "SonaE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Sona",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        0,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Precision",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3174.png",
+      "3504.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "SorakaW.png"
+      },
+      {
+        "Q": "SorakaQ.png"
+      },
+      {
+        "E": "SorakaE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerBarrier.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Soraka",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        0,
+        1,
+        1,
+        0
+      ],
+      "indexSide1": [
+        "Resolve",
+        "null",
+        2,
+        1
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3174.png",
+      "3504.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "SwainQ.png"
+      },
+      {
+        "W": "SwainW.png"
+      },
+      {
+        "E": "SwainE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Swain",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        0,
+        2,
+        3
+      ],
+      "indexSide1": [
+        "Inspiration",
+        2,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3151.png",
+      "3157.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "SylasQ.png"
+      },
+      {
+        "W": "SylasW.png"
+      },
+      {
+        "E": "SylasE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Sylas",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        2,
+        2,
+        1,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3152.png",
+      "3285.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "SyndraQ.png"
+      },
+      {
+        "E": "SyndraE.png"
+      },
+      {
+        "W": "SyndraW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Syndra",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        2,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "TahmKenchQ.png"
+      },
+      {
+        "W": "TahmKenchW.png"
+      },
+      {
+        "E": "TahmKenchE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerExhaust.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Tahm_Kench",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        2,
+        2,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        1,
+        0
+      ]
+    },
+    "build": [
+      "3109.png",
+      "3190.png",
+      "3193.png"
+    ],
+    "staterItems": [
+      "3858.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "TaliyahQ.png"
+      },
+      {
+        "E": "TaliyahE.png"
+      },
+      {
+        "W": "TaliyahWVC.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Taliyah",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        2,
+        0,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1402.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "TalonQ.png"
+      },
+      {
+        "W": "TalonW.png"
+      },
+      {
+        "E": "TalonE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Talon",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        1,
+        2
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3077.png",
+      "3147.png",
+      "3071.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1036.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "TaricE.png"
+      },
+      {
+        "Q": "TaricQ.png"
+      },
+      {
+        "W": "TaricW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Taric",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        2,
+        1,
+        2,
+        1
+      ],
+      "indexSide1": [
+        "Precision",
+        2,
+        1,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        1,
+        1
+      ]
+    },
+    "build": [
+      "3050.png",
+      "3109.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3858.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "ToxicShot.png"
+      },
+      {
+        "Q": "BlindingDart.png"
+      },
+      {
+        "W": "MoveQuick.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Teemo",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        0,
+        0,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        0,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3151.png",
+      "3115.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "ThreshQ.png"
+      },
+      {
+        "E": "ThreshE.png"
+      },
+      {
+        "W": "ThreshW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Thresh",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        2,
+        1,
+        0
+      ]
+    },
+    "build": [
+      "3193.png",
+      "3109.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3854.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "TristanaE.png"
+      },
+      {
+        "Q": "TristanaQ.png"
+      },
+      {
+        "W": "TristanaW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Tristana",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3095.png",
+      "3031.png",
+      "3094.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "TrundleTrollSmash.png"
+      },
+      {
+        "W": "trundledesecrate.png"
+      },
+      {
+        "E": "TrundleCircle.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerHaste.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Trundle",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        2,
+        2,
+        1,
+        1
+      ],
+      "indexSide1": [
+        "Precision",
+        1,
+        1,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1401.png",
+      "3110.png",
+      "3065.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "TryndamereQ.png"
+      },
+      {
+        "E": "TryndamereE.png"
+      },
+      {
+        "W": "TryndamereW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHaste.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Tryndamere",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        1,
+        1,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Resolve",
+        "null",
+        1,
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3508.png",
+      "3031.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "WildCards.png"
+      },
+      {
+        "W": "PickACard.png"
+      },
+      {
+        "E": "CardmasterStack.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Twisted_Fate",
+    "runes": {
+      "indexMain": [
+        "Inspiration",
+        1,
+        2,
+        1,
+        2
+      ],
+      "indexSide1": [
+        "Resolve",
+        0,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3027.png",
+      "3100.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "TwitchExpunge.png"
+      },
+      {
+        "Q": "TwitchHideInShadows.png"
+      },
+      {
+        "W": "TwitchVenomCask.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Twitch",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3085.png",
+      "3031.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "UdyrTigerStance.png"
+      },
+      {
+        "E": "UdyrBearStance.png"
+      },
+      {
+        "W": "UdyrTurtleStance.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerHaste.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Udyr",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        1,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1416.png",
+      "3091.png",
+      "3053.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "UrgotW.png"
+      },
+      {
+        "E": "UrgotE.png"
+      },
+      {
+        "Q": "UrgotQ.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Urgot",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        1,
+        1,
+        2
+      ],
+      "indexSide1": [
+        "Resolve",
+        2,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3071.png",
+      "3812.png",
+      "3800.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "VarusQ.png"
+      },
+      {
+        "W": "VarusW.png"
+      },
+      {
+        "E": "VarusE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Varus",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        1,
+        0,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3124.png",
+      "3085.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "VayneSilveredBolts.png"
+      },
+      {
+        "Q": "VayneTumble.png"
+      },
+      {
+        "E": "VayneCondemn.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Vayne",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3124.png",
+      "3046.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "VeigarBalefulStrike.png"
+      },
+      {
+        "W": "VeigarDarkMatter.png"
+      },
+      {
+        "E": "VeigarEventHorizon.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Veigar",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        2,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3030.png",
+      "3905.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "VelkozQ.png"
+      },
+      {
+        "W": "VelkozW.png"
+      },
+      {
+        "E": "VelkozE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerBarrier.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "VelKoz",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3157.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "ViQ.png"
+      },
+      {
+        "E": "ViE.png"
+      },
+      {
+        "W": "ViW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Vi",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        3,
+        2,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Precision",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1400.png",
+      "3078.png",
+      "3053.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "ViktorDeathRay.png"
+      },
+      {
+        "Q": "ViktorPowerTransfer.png"
+      },
+      {
+        "W": "ViktorGravitonField.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerHaste.png"
+    ],
+    "name": "Viktor",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        0,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3198.png",
+      "3100.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "VladimirQ.png"
+      },
+      {
+        "E": "VladimirE.png"
+      },
+      {
+        "W": "VladimirSanguinePool.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Vladimir",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        2,
+        2,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        2,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3152.png",
+      "3089.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "VolibearW.png"
+      },
+      {
+        "Q": "VolibearQ.png"
+      },
+      {
+        "E": "VolibearE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerHaste.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Volibear",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1401.png",
+      "3800.png",
+      "3742.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "WarwickQ.png"
+      },
+      {
+        "W": "WarwickW.png"
+      },
+      {
+        "E": "WarwickE.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerHaste.png",
+      "SummonerSmite.png"
+    ],
+    "name": "Warwick",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        0,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Domination",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3077.png",
+      "1401.png",
+      "3748.png",
+      "3065.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "1006.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "MonkeyKingDoubleAttack.png"
+      },
+      {
+        "E": "MonkeyKingNimbus.png"
+      },
+      {
+        "W": "MonkeyKingDecoy.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Wukong",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        2
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3153.png",
+      "3071.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1054.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "XayahE.png"
+      },
+      {
+        "W": "XayahW.png"
+      },
+      {
+        "Q": "XayahQ.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerHeal.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Xayah",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        1,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Sorcery",
+        2,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3508.png",
+      "3031.png",
+      "3094.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "XerathArcanopulseChargeUp.png"
+      },
+      {
+        "W": "XerathArcaneBarrage2.png"
+      },
+      {
+        "E": "XerathMageSpear.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerBarrier.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Xerath",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3157.png",
+      "3165.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "W": "XinZhaoW.png"
+      },
+      {
+        "E": "XinZhaoE.png"
+      },
+      {
+        "Q": "XinZhaoQ.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Xin_Zhao",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        3,
+        2,
+        2,
+        2
+      ],
+      "indexSide1": [
+        "Precision",
+        1,
+        0,
+        "null"
+      ],
+      "indexSide2": [
+        1,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "1412.png",
+      "3078.png",
+      "3053.png"
+    ],
+    "staterItems": [
+      "1041.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "YasuoQ1Wrapper.png"
+      },
+      {
+        "E": "YasuoE.png"
+      },
+      {
+        "W": "YasuoW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Yasuo",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        1,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3046.png",
+      "3031.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "1055.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "YorickQ.png"
+      },
+      {
+        "E": "YorickE.png"
+      },
+      {
+        "W": "YorickW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerDot.png"
+    ],
+    "name": "Yorick",
+    "runes": {
+      "indexMain": [
+        "Precision",
+        3,
+        1,
+        1,
+        2
+      ],
+      "indexSide1": [
+        "Resolve",
+        0,
+        2,
+        "null"
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3078.png",
+      "3053.png",
+      "3812.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "YuumiQ.png"
+      },
+      {
+        "E": "YuumiE.png"
+      },
+      {
+        "W": "YuumiW.png"
+      }
+    ],
+    "spell": [
+      "SummonerExhaust.png",
+      "SummonerDot.png",
+      "SummonerExhaust.png",
+      "SummonerHeal.png"
+    ],
+    "name": "Yuumi",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        0,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Precision",
+        2,
+        "null",
+        1
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3174.png",
+      "3504.png",
+      "3107.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "E": "ZacE.png"
+      },
+      {
+        "W": "ZacW.png"
+      },
+      {
+        "Q": "ZacQ.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerSmite.png",
+      "SummonerSmite.png",
+      "SummonerDot.png"
+    ],
+    "name": "Zac",
+    "runes": {
+      "indexMain": [
+        "Resolve",
+        1,
+        1,
+        0,
+        1
+      ],
+      "indexSide1": [
+        "Inspiration",
+        1,
+        "null",
+        0
+      ],
+      "indexSide2": [
+        2,
+        1,
+        0
+      ]
+    },
+    "build": [
+      "1401.png",
+      "3083.png",
+      "3065.png"
+    ],
+    "staterItems": [
+      "1039.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "ZedQ.png"
+      },
+      {
+        "E": "ZedE.png"
+      },
+      {
+        "W": "ZedW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerTeleport.png"
+    ],
+    "name": "Zed",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        1,
+        2,
+        3
+      ],
+      "indexSide1": [
+        "Sorcery",
+        "null",
+        0,
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3142.png",
+      "3147.png",
+      "3814.png"
+    ],
+    "staterItems": [
+      "1036.png",
+      "2031.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "ZiggsQ.png"
+      },
+      {
+        "E": "ZiggsE.png"
+      },
+      {
+        "W": "ZiggsW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerTeleport.png",
+      "SummonerFlash.png",
+      "SummonerBarrier.png"
+    ],
+    "name": "Ziggs",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        0
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3165.png",
+      "3089.png"
+    ],
+    "staterItems": [
+      "1056.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "ZileanQ.png"
+      },
+      {
+        "E": "TimeWarp.png"
+      },
+      {
+        "W": "ZileanW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Zilean",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        0,
+        1,
+        1,
+        1
+      ],
+      "indexSide1": [
+        "Domination",
+        0,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3030.png",
+      "3905.png",
+      "2065.png"
+    ],
+    "staterItems": [
+      "3858.png",
+      "2003.png",
+      "2003.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "ZoeQ.png"
+      },
+      {
+        "E": "ZoeE.png"
+      },
+      {
+        "W": "ZoeW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerBoost.png"
+    ],
+    "name": "Zoe",
+    "runes": {
+      "indexMain": [
+        "Domination",
+        0,
+        1,
+        2,
+        0
+      ],
+      "indexSide1": [
+        "Inspiration",
+        "null",
+        2,
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        2
+      ]
+    },
+    "build": [
+      "3285.png",
+      "3165.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "2033.png"
+    ]
+  },
+  {
+    "skill": [
+      {
+        "Q": "ZyraQ.png"
+      },
+      {
+        "E": "ZyraE.png"
+      },
+      {
+        "W": "ZyraW.png"
+      }
+    ],
+    "spell": [
+      "SummonerFlash.png",
+      "SummonerDot.png",
+      "SummonerFlash.png",
+      "SummonerExhaust.png"
+    ],
+    "name": "Zyra",
+    "runes": {
+      "indexMain": [
+        "Sorcery",
+        1,
+        1,
+        0,
+        0
+      ],
+      "indexSide1": [
+        "Domination",
+        1,
+        "null",
+        2
+      ],
+      "indexSide2": [
+        0,
+        0,
+        1
+      ]
+    },
+    "build": [
+      "3151.png",
+      "3116.png",
+      "3157.png"
+    ],
+    "staterItems": [
+      "3850.png",
+      "2003.png",
+      "2003.png"
+    ]
+  }
+]

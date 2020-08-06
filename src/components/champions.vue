@@ -56,7 +56,7 @@
                                                 <i 
                                                 :class="[index == 2 ? 'ml-3' : '']"
                                                 class="img-champ img-35"
-                                                :style="{'background-image': 'url('+item+')'}"
+                                                :style="{'background-image': 'url('+require('@/assets/spells/'+item )+')'}"
                                             ></i>
                                             </div>
                                         </template>
@@ -76,7 +76,7 @@
                                                     <b class="skill" :key="ind">
                                                         <i 
                                                         class="img-champ img-35"
-                                                        :style="{'background-image': 'url('+it+')'}" >
+                                                        :style="{'background-image': 'url('+require('@/assets/skills/'+it )+')'}" >
                                                         </i>
                                                         <label>{{ind}}</label>
                                                     </b>
@@ -97,7 +97,7 @@
                                         <template v-for="(item, index) in selectedChamp.staterItems">
                                             <i :key="index"
                                                 class="img-champ img-35 mr-3"
-                                                :style="{'background-image': 'url('+item+')'}"
+                                                :style="{'background-image': 'url('+require('@/assets/items/'+item )+')'}"
                                             ></i>
                                         </template>
                                     </div>
@@ -108,7 +108,7 @@
                                         <template v-for="(item, index) in selectedChamp.build">
                                             <i :key="index"
                                                 class="img-champ img-35 mr-3"
-                                                :style="{'background-image': 'url('+item+')'}"
+                                                :style="{'background-image': 'url('+require('@/assets/items/'+item )+')'}"
                                             ></i>
                                         </template>
                                     </div>
@@ -177,7 +177,7 @@
 
 
 <script>
-import dataChampions from "@/data/data-ver1.json";
+import dataChampions from "@/data/data-ver2.json";
 import datasideKick from "@/data/sideKick.json";
 import dataRune from "@/data/rune.json";
 export default ({
