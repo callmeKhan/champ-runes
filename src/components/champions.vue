@@ -154,7 +154,7 @@
                                         <template v-for="(item, index) in sideKicks.rune">
                                             <div class="row" :key="index">
                                                 <template v-for="(item1, index1) in item.line">
-                                                    <div :key="index1" class="col">
+                                                    <div :key="index1" class="col p-0">
                                                         <i
                                                             :class="[chooseRune(index1,checkedRune2[index])]"
                                                             class="img-champ img-25"
