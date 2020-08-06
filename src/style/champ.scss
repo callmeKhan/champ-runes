@@ -69,3 +69,13 @@ i{
         color: white;
     }
 }
+.item-display{
+    i:nth-child(even){
+        display: none;
+    }
+}
+.spell-display{
+    div:nth-child(3){
+        border-left: 1px solid gray;
+    }
+}

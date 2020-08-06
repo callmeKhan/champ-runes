@@ -50,7 +50,7 @@
                                     <b>Spell</b>
                                 </label>
                                 <div class="ml-0 row w-100">
-                                    <div class="col d-flex justify-content-start">
+                                    <div class="col d-flex justify-content-start spell-display">
                                         <template v-for="(item, index) in selectedChamp.spell">
                                             <div class="pr-3" :key="index">
                                                 <i 
@@ -104,7 +104,7 @@
                                 </div>
                                 <br>
                                 <div class="ml-0 row mw-100">
-                                    <div class="col d-flex justify-content-start">
+                                    <div class="col d-flex justify-content-start item-display">
                                         <template v-for="(item, index) in selectedChamp.build">
                                             <i :key="index"
                                                 class="img-champ img-35 mr-3"
