@@ -1,6 +1,7 @@
 <template>
     <div class="container-fluid">
-        <div class="col-12">
+       <div class="row">
+            <div class="col-12">
             <input v-model="searchName" type="input" class="search" />
             <label class="btn clearable" @click="searchName = ''">Clear</label>
             <div class="d-flex row pt-5 justify-content-center">
@@ -12,7 +13,7 @@
                 >
                     <div class="champion" data-toggle="modal"
                     data-target="#champion-statitcs"
-                    @click="selectedChamp = item;count = 0;line =2;countSK1 = 0; lineSK1 = 1;countSK2 = 0; lineSK2 = 0">
+                    @click="setSelectedChamp(item)">
                         <i
                             class="img-champ"
                             :style="{'background-image': 'url('+require('@/assets/'+item.name +'_OriginalSquare.png')+')'}"
@@ -25,6 +26,7 @@
                 <br />
             </div>
         </div>
+       </div>
 
         <!-- Modal -->
         <div
@@ -33,8 +35,7 @@
             tabindex="-1"
             role="dialog"
             aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-        >
+            aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -177,9 +178,6 @@
 
 
 <script>
-import dataChampions from "@/data/data-ver2.json";
-import datasideKick from "@/data/sideKick.json";
-import dataRune from "@/data/rune.json";
 export default ({
     data() {
         return {
@@ -187,20 +185,26 @@ export default ({
             champions: [],
             runes: [],
             sideKicks: {},
-            selectedChamp: { img: "annana.jpg" },
         };
     },
     mounted() {
-        this.champions = dataChampions;
-        this.sideKicks = datasideKick;
-        this.runes = dataRune;
+        this.champions = this.$store.getters.champions;
+        this.sideKicks = this.$store.getters.sideKicks;
+        this.runes = this.$store.getters.runes;
     },
     methods:{
         chooseRune(index, picked){
             return index != picked ? 'enabled-rune' : 'checked-rune'
+        },
+        setSelectedChamp(item){
+            this.$store.dispatch('selected', item)
+            this.$store.dispatch('recent', item)
         }
     },
     computed: {
+        selectedChamp(){
+            return this.$store.getters.selectedChamp
+        },
         championsData() {
             return this.searchName == ""
                 ? this.champions
