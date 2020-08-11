@@ -1,31 +1,35 @@
 <template>
     <div class="container-fluid">
+        <div class="row justify-content-center">
+            <h1 class="text-center col">{{$t('home.champions_statistics')}}</h1>
+        </div>
        <div class="row">
             <div class="col-12">
-            <input v-model="searchName" type="input" class="search" />
-            <label class="btn clearable" @click="searchName = ''">{{$t('home.clear')}}</label>
-            <div class="d-flex row pt-5 justify-content-center">
-                <div
-                    class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4 p-1"
-                    v-for="(item, index) in championsData"
-                    :key="index"
-                    
-                >
-                    <div class="champion" data-toggle="modal"
-                    data-target="#champion-statitcs"
-                    @click="setSelectedChamp(item)">
-                        <i
-                            class="img-champ"
-                            :style="{'background-image': 'url('+require('@/assets/'+item.name +'_OriginalSquare.png')+')'}"
-                        ></i>
-                        <label class="d-block dot-name">
-                            <b>{{item.name}}</b>
-                        </label>
+                <div class="input-group justify-content-center">
+                    <div class="searchbar">
+                        <input  v-model="searchName" type="input" class="search search_input" @keydown.esc="searchName = ''"  :placeholder='$t("home.search")' />
+                        <b class="input-group-text btn clearable search_icon"  @click="searchName = ''">x</b>
                     </div>
                 </div>
-                <br />
+                    <div class="d-flex row pt-5 justify-content-center">
+                        <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4 p-1"
+                            v-for="(item, index) in championsData"
+                            :key="index">
+                            
+                                <div class="champion" data-toggle="modal"
+                                data-target="#champion-statitcs"
+                                @click="setSelectedChamp(item)">
+                                <i
+                                    class="img-champ"
+                                    :style="{'background-image': 'url('+require('@/assets/'+item.name +'_OriginalSquare.png')+')'}"
+                                ></i>
+                                <label class="d-block dot-name">
+                                    <b>{{item.name}}</b>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
             </div>
-        </div>
        </div>
 
         <!-- Modal -->
@@ -93,8 +97,8 @@
                                     <b>{{$t('detail.items')}}</b>
                                 </label>
 
-                                <div class="ml-0 row mw-100 pb-1">
-                                    <div class="col d-flex justify-content-start">
+                                <div class="ml-0 row mw-100">
+                                    <div class="col">
                                         <template v-for="(item, index) in selectedChamp.staterItems">
                                             <i :key="index"
                                                 class="img-champ img-35 mr-3"
@@ -104,8 +108,8 @@
                                     </div>
                                 </div>
                                 <br>
-                                <div class="ml-0 row mw-100">
-                                    <div class="col d-flex justify-content-start item-display">
+                                <div class="ml-0 row mw-100 mt-n4">
+                                    <div class="col item-display">
                                         <template v-for="(item, index) in selectedChamp.build">
                                             <i :key="index"
                                                 class="img-champ img-35 mr-3"

@@ -1,6 +1,5 @@
 <template>
   <div class="container-fluid">
-    <h1 class="text-center">{{$t('home.champions_statistics')}}</h1>
     <div class="row justify-content-center">
       <div id="recent-pick-div" class="col-1 sticky-list" style="left:0">
         <label class="bg-warning p-1"><b>{{$t('home.recent_picked')}}</b></label>

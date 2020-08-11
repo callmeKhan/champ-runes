@@ -8,7 +8,8 @@
       "label": "Changing language to English...",
       "text": "You sure ?",
       "btn": "Yes !"
-    }
+    },
+    "search": "Tìm kiếm..."
   },
   "detail": {
       "close": "Đóng",
