@@ -13,9 +13,11 @@ export default new Vuex.Store({
     listSideKick: datasideKick,
     listRunes: dataRune,
     selectedChamp: {},
-    recent: [], 
+    recent: [],
+    locale: 'en'
   },
   getters:{
+    language: state => state.locale,
     champions: state => state.listChamps,
     sideKicks: state => state.listSideKick,
     runes: state => state.listRunes,
@@ -34,8 +36,14 @@ export default new Vuex.Store({
     RECENT_CHAMP(state, recent){
       state.recent = recent
     },
+    LANGUAGE(state, locale){
+      state.locale = locale
+    },
   },
   actions: {
+    changeLang({ commit }, locale){
+      commit('LANGUAGE', locale)
+    },
     selected({ commit, state }, item) {
       let indexChamp = state.listChamps.findIndex(x => x.name == item.name)
       commit('SELECTED_CHAMP', {item, indexChamp})

@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex row justify-content-center">
-        <label class="bg-info p-1"><b>Most Picked</b></label>
+        <label class="bg-info p-1"><b>{{$t('home.most_picked')}}</b></label>
         <div
             class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 p-1"
             v-for="(item, index) in championsData"

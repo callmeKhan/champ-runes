@@ -1,0 +1,20 @@
+{
+  "home": {
+    "champions_statistics": "Champions Statistics",
+    "clear": "Clear",
+    "recent_picked": "Recent Picked",
+    "most_picked": "Most Picked",
+    "confirm": {
+      "label": "Đổi ngôn ngữ qua tiếng ziệt...",
+      "text": "Có chắc hem?",
+      "btn": "Chắc chứ !"
+    }
+  },
+  "detail": {
+      "close": "Close",
+      "spell": "Spell",
+      "skill": "Skill",
+      "items": "Items",
+      "runes": "Runes"
+  }
+}

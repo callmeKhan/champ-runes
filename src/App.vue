@@ -1,12 +1,20 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Statitics</router-link>
+      <!-- <router-link to="/">Statitics</router-link> -->
+    <Language/>
     </div>
     <router-view/>
   </div>
 </template>
 
+<script>
+import Language from '@/components/language'
+
+export default {
+  components:{Language},
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

@@ -1,0 +1,20 @@
+{
+  "home": {
+    "champions_statistics": "Thống kê tướng",
+    "clear": "Xóa",
+    "recent_picked": "Vừa chơi",
+    "most_picked": "Chơi nhiều",
+    "confirm": {
+      "label": "Changing language to English...",
+      "text": "You sure ?",
+      "btn": "Yes !"
+    }
+  },
+  "detail": {
+      "close": "Đóng",
+      "spell": "Phép",
+      "skill": "Kĩ năng",
+      "items": "Vật phẩm",
+      "runes": "Ngọc bổ trợ"
+  }
+}

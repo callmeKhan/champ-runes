@@ -1,6 +1,6 @@
 <template>
-  <div  class="container-fluid">
-    <h1>Champions Statistics</h1>
+  <div class="container-fluid">
+    <h1 class="text-center">{{$t('home.champions_statistics')}}</h1>
     <div class="row justify-content-center">
       <div class="col-1 sticky-list" style="left:0">
         <Recent/>

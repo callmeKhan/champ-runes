@@ -3,7 +3,7 @@
        <div class="row">
             <div class="col-12">
             <input v-model="searchName" type="input" class="search" />
-            <label class="btn clearable" @click="searchName = ''">Clear</label>
+            <label class="btn clearable" @click="searchName = ''">{{$t('home.clear')}}</label>
             <div class="d-flex row pt-5 justify-content-center">
                 <div
                     class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4 p-1"
@@ -44,11 +44,11 @@
                                 <label class="h3 text-center">
                                     <b>{{selectedChamp.name}}</b>
                                 </label>
-                                <button class="btn btn-danger align-self-end" type="button" data-dismiss="modal">Close</button>
+                                <button class="btn btn-danger align-self-end" type="button" data-dismiss="modal">{{$t('detail.close')}}</button>
                             </div>
                             <div class="media-body mw-100 w-100 text-left">
                                 <label>
-                                    <b>Spell</b>
+                                    <b>{{$t('detail.spell')}}</b>
                                 </label>
                                 <div class="ml-0 row w-100">
                                     <div class="col d-flex justify-content-start spell-display">
@@ -67,7 +67,7 @@
 
                             <div class="media-body mw-100 w-100 text-left">
                                 <label>
-                                    <b>Skill</b>
+                                    <b>{{$t('detail.skill')}}</b>
                                 </label>
                                 <div class="ml-0 row mw-100 w-100">
                                     <div class="col d-flex">
@@ -90,7 +90,7 @@
 
                             <div class="media-body mw-100 w-100 text-left">
                                 <label>
-                                    <b>Items</b>
+                                    <b>{{$t('detail.items')}}</b>
                                 </label>
 
                                 <div class="ml-0 row mw-100 pb-1">
@@ -118,7 +118,7 @@
 
                             <div class="media-body mw-100 w-100 text-left">
                                 <label>
-                                    <b>Runes</b>
+                                    <b>{{$t('detail.runes')}}</b>
                                 </label>
                                 <div class="ml-0 row mw-100 w-100" >
                                     <div style="text-align: center !important" class="col">
