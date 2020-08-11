@@ -2,13 +2,15 @@
   <div class="container-fluid">
     <h1 class="text-center">{{$t('home.champions_statistics')}}</h1>
     <div class="row justify-content-center">
-      <div class="col-1 sticky-list" style="left:0">
+      <div id="recent-pick-div" class="col-1 sticky-list" style="left:0">
+        <label class="bg-warning p-1"><b>{{$t('home.recent_picked')}}</b></label>
         <Recent/>
       </div>
       <div class="col-10">
         <Champions/>
       </div>
-      <div class="col-1 sticky-list" style="right:0">
+      <div id="most-pick-div" class="col-1 sticky-list" style="right:0">
+        <label class="bg-info p-1"><b>{{$t('home.most_picked')}}</b></label>
         <Hotpick/>
       </div>
     </div>

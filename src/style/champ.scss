@@ -110,4 +110,38 @@ i{
         }
     }
     
-  }
+}
+#recent-pick-div{
+    & > label{
+        width: 8rem;
+        margin-left: -1.7rem;
+    }
+    .content{
+        margin-right: 100px !important;
+        padding: 0 !important;
+        transition: 0.5s;
+        background-color: #ffc10770;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        i,label{
+            transition: 0.5s;
+        }
+    }
+}
+#most-pick-div{
+    & > label{
+        width: 8rem;
+    }
+    .content{
+        margin-left: 100px !important;
+        padding: 0 !important;
+        transition: 0.5s;
+        background-color: #17a2b863;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        i,label{
+            transition: 0.5s;
+            margin-left: -20px;
+        }
+    }
+}

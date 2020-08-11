@@ -1,20 +1,22 @@
 <template>
-    <div class="d-flex row justify-content-center">
-        <label class="bg-info p-1"><b>{{$t('home.most_picked')}}</b></label>
+    <div class="d-flex row justify-content-center content">
         <div
             class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 p-1"
             v-for="(item, index) in championsData"
-            :key="index" >
-                <div data-toggle="modal" 
+            :key="index"
+        >
+            <div
+                data-toggle="modal"
                 data-target="#champion-statitcs"
                 class="most-picked"
-                @click="setSelectedChamp(item)">
-                    <i
-                        class="img-champ"
-                        :style="{'background-image': 'url('+require('@/assets/'+item.name +'_OriginalSquare.png')+')'}"
-                    >
-                    <label>{{item.count}}</label></i>
-                    
+                @click="setSelectedChamp(item)"
+            >
+                <i
+                    class="img-champ"
+                    :style="{'background-image': 'url('+require('@/assets/'+item.name +'_OriginalSquare.png')+')'}"
+                >
+                    <label>{{item.count}}</label>
+                </i>
             </div>
         </div>
         <br />
@@ -23,23 +25,21 @@
 
 
 <script>
-export default ({
+export default {
     data() {
-        return {
-        };
+        return {};
     },
-    methods:{
-        setSelectedChamp(item){
-            this.$store.dispatch('selected', item)
-        }
+    methods: {
+        setSelectedChamp(item) {
+            this.$store.dispatch("selected", item);
+        },
     },
     computed: {
         championsData() {
-            return this.$store.getters.hotPick
-        }
+            return this.$store.getters.hotPick;
+        },
     },
-});
+};
 </script>
 <style scope lang="scss">
-
 </style>
