@@ -1,5 +1,5 @@
 <template>
-    <div style="display: content">
+    <div style="display: content; padding: 2% 5% 0 0">
         <label class="float-right">
         <i
             data-toggle="modal"
@@ -73,7 +73,6 @@ export default {
     cursor: pointer;
     &:hover{
       filter: opacity(0.6)
-
     }
     &:active{
       filter: grayscale(0.5);

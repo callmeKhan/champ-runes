@@ -1,8 +1,8 @@
 <template>
   <div id="app">
+    <Language/>
     <div id="nav">
       <!-- <router-link to="/">Statitics</router-link> -->
-    <Language/>
     </div>
     <router-view/>
   </div>
