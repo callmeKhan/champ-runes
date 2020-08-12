@@ -22,13 +22,13 @@ i{
     height: 25px !important;
 }
 .champion {
-    border: 1px solid rgb(129, 124, 124);
-    transition-duration: 0.6s;
+    border: 1px solid rgba(129, 124, 124, 0.459);
+    border-radius: 0.2rem;
+    transition: 0.5s;
     &:hover {
-        transition-duration: 0.4s;
-        border: 1px solid green;
+        // border: 1px solid rgba(5, 255, 109, 0);
         background-color: rgb(157, 219, 214);
-        color: whitesmoke;
+        color: currentColor;
     }
 }
 
