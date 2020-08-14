@@ -1,20 +1,29 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import dataChampions from "@/data/data-ver2.json";
+import dataChampions from "@/data/data-ver3.json";
 import datasideKick from "@/data/sideKick.json";
 import dataRune from "@/data/rune.json";
+import stats from "@/data/z/stats-v2.json";
+import key_spell from "@/data/z/key-spell.json";
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    listChamps: dataChampions.map(x => {return {...x, count: 0}}),
+    listChamps: dataChampions.map(x => {return {
+      count: 0,
+      name: x.name,
+      runes: x.runes,
+      skill: x.skill,
+      id: x.id,
+    }}),
     listSideKick: datasideKick,
     listRunes: dataRune,
+    listStats: stats,
     selectedChamp: {},
     recent: [],
-    locale: 'en'
+    locale: 'en',
   },
   getters:{
     language: state => state.locale,
@@ -26,7 +35,23 @@ export default new Vuex.Store({
                         .filter(x => x.count > 0)
                         .sort((a, b) => a.count < b.count ? 1 : (a.count > b.count ? -1 : 0))
                         .slice(0,5),
-    selectedChamp: state => state.selectedChamp || listChamps[0],
+    selectedChamp: state => {
+      let champ = state.selectedChamp || listChamps[0]
+      let stats = state.listStats.filter(x => x.id == champ.id)
+      stats = stats.map(x => {
+        return {id: x.id, role: x.role, big_item_builds: x.stats.big_item_builds, 
+          core_builds: x.stats.core_builds, skills: x.stats.skills, 
+          starting_items: x.stats.starting_items,
+          runes: x.stats.runes,
+          rune_stat_shards: x.stats.rune_stat_shards,
+          // map id-spell into name-spell
+          spells: x.stats.spells.map(xx => {
+            return key_spell.find(item => item.id == xx).name
+        })
+        }
+      })
+      return {...champ, stats: stats}
+    },
   },
   mutations: {
     SELECTED_CHAMP(state, data){

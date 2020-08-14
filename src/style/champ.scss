@@ -83,8 +83,8 @@ i{
     }
 }
 .item-display{
-    i:nth-child(even){
-        display: none;
+    i{
+        transition: 1s;
     }
 }
 .spell-display{

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 21,
+    "name": "SummonerBarrier.png"
+  },
+  {
+    "id": 1,
+    "name": "SummonerBoost.png"
+  },
+  {
+    "id": 14,
+    "name": "SummonerDot.png"
+  },
+  {
+    "id": 3,
+    "name": "SummonerExhaust.png"
+  },
+  {
+    "id": 4,
+    "name": "SummonerFlash.png"
+  },
+  {
+    "id": 6,
+    "name": "SummonerHaste.png"
+  },
+  {
+    "id": 7,
+    "name": "SummonerHeal.png"
+  },
+  {
+    "id": 13,
+    "name": "SummonerMana.png"
+  },
+  {
+    "id": 30,
+    "name": "SummonerPoroRecall.png"
+  },
+  {
+    "id": 31,
+    "name": "SummonerPoroThrow.png"
+  },
+  {
+    "id": 11,
+    "name": "SummonerSmite.png"
+  },
+  {
+    "id": 39,
+    "name": "SummonerSnowURFSnowball_Mark.png"
+  },
+  {
+    "id": 32,
+    "name": "SummonerSnowball.png"
+  },
+  {
+    "id": 12,
+    "name": "SummonerTeleport.png"
+  }
+]
