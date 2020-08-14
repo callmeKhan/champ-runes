@@ -19,8 +19,6 @@ import Champions from '@/components/champions.vue'
 import Recent from '@/components/recent.vue'
 import Hotpick from '@/components/hotpick.vue'
 
-import dataChampions from "@/data/data-ver2.json";
-
 export default ({
   components: {Champions,Recent,Hotpick},
 })
