@@ -99,6 +99,11 @@
                                                 </template>
                                             </div>
                                         </div>
+                                        <div class="ml-0 row mw-100 w-100">
+                                            <div class="col d-flex">
+                                                <skillChart class="w-100" :skills="item.skills"/>
+                                            </div>
+                                        </div>
                                     </div>
 
                                     <div class="media-body mw-100 w-100 text-left">
@@ -193,7 +198,9 @@
 
 
 <script>
+import skillChart from '@/components/skill-chart.vue'
 export default ({
+    components: {skillChart},
     data() {
         return {
             searchName: "",
