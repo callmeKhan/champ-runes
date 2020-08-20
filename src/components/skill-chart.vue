@@ -4,7 +4,7 @@
         <div class="r" v-for="(x,i) in 5" :key="i">
             <div v-for="(y,n) in 19" :key="n" class="c d-flex justify-content-center">
                 <b>
-                {{i == skills[n-1] ? '•': (x > 1 ? (n==0 ? skillKey[i]: ''): (n > 0 ? n : '+'))}}
+                {{i == skills[n-1] ? '◼': (x > 1 ? (n==0 ? skillKey[i]: ''): (n > 0 ? n : '+'))}}
                 </b>
             </div>
         </div>
@@ -30,7 +30,7 @@ export default {
 }
 
 .c {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   flex-basis: 2rem !important;
   box-sizing: border-box !important;
   background-color: #bdbdbd33;
