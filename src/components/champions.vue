@@ -84,19 +84,7 @@
                                         </label>
                                         <div class="ml-0 row mw-100 w-100">
                                             <div class="col d-flex">
-                                                <template v-for="(item, index) in selectedChamp.skill">
-                                                    <div :key="index" class="pr-3">
-                                                        <template v-for="(it,ind) in item" >
-                                                            <b class="skill" :key="ind">
-                                                                <i 
-                                                                class="img-champ img-35"
-                                                                :style="{'background-image': 'url('+require('@/assets/skills/'+it )+')'}" >
-                                                                </i>
-                                                                <label>{{ind}}</label>
-                                                            </b>
-                                                        </template>
-                                                    </div>
-                                                </template>
+                                                <skillOrder :skill="selectedChamp.skill" :skillOrder="item.skills"></skillOrder>
                                             </div>
                                         </div>
                                         <div class="ml-0 row mw-100 w-100">
@@ -199,8 +187,9 @@
 
 <script>
 import skillChart from '@/components/skill-chart.vue'
+import skillOrder from '@/components/skill-order.vue'
 export default ({
-    components: {skillChart},
+    components: {skillChart, skillOrder},
     data() {
         return {
             searchName: "",
