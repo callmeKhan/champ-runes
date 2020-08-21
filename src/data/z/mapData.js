@@ -60,6 +60,7 @@ function mapMainRawData() {
     let arr = data['data'].map(x => {
     return {id: x.champion_id, role: x.role,
         stats: {
+            big_item_builds: x.stats.big_item_builds.build,
             starting_items: x.stats.starting_items.build,
             skills: x.stats.skills.build,
             core_builds: x.stats.core_builds.build,
