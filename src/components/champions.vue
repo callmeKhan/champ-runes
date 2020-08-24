@@ -50,11 +50,9 @@
                                 </label>
                                 <button class="btn btn-danger align-self-end" type="button" data-dismiss="modal">{{$t('detail.close')}}</button>
                             </div>
-                            <ul class="nav nav-pills">
-                                <li class="p-1" v-for="(item, index) in selectedChamp.stats" :key="index" >
-                                    <a  :href="'#tab'+item.id+index" data-toggle="tab" :class="[index == 0 || selectedChamp.stats.length == 0 ? 'active':'']">{{item.role}}</a>
-                                </li>
-                            </ul>
+                            <div class="nav nav-pills w-100">
+                                <a class="w-100 col" v-for="(item, index) in selectedChamp.stats" :key="index" :href="'#tab'+item.id+index" data-toggle="tab" :class="[index == 0 || selectedChamp.stats.length == 0 ? 'active':'']">{{item.role}}</a>
+                            </div>
                             <div class="tab-content clearfix w-100">
                                 <div class="tab-pane" :id="'tab'+item.id+index" v-for="(item, index) in selectedChamp.stats" 
                                 :class="[index == 0 || selectedChamp.stats.length == 0 ? 'active':'']"
@@ -226,16 +224,21 @@ export default ({
 </script>
 <style scope lang="scss">
 @import '@/style/champ.scss';
-ul.nav.nav-pills{
-    li{
-        a{
-            color: black;
-            text-decoration: none;
-            padding: 0.3rem;
-            &.active{
-                background-color: #aea1a18a;
-                border-radius: 0.5rem;
-            }
+div.nav.nav-pills{
+    a{
+        width: 100%;
+        transition: 0.7s;
+        color: black;
+        text-decoration: none;
+        margin: 0.3rem;
+        border-radius: 0.5rem;
+        background-color: #aea1a127;
+        &.active{
+            background-color: #9ddbd6;
+        }
+        &:hover{
+            text-decoration: none !important;
+            background-color: #9ddbd6;
         }
     }
 } 
