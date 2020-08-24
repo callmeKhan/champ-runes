@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 
 import dataChampions from "@/data/data-ver3.json";
 import datasideKick from "@/data/sideKick.json";
-import dataRune from "@/data/rune.json";
+import dataRune from "@/data/rune-ver2.json";
 import stats from "@/data/z/stats-v2.json";
 import key_spell from "@/data/z/key-spell.json";
 

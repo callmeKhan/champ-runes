@@ -104,7 +104,7 @@
                                                 <template v-for="(i, index) in item.starting_items">
                                                     <i :key="index"
                                                         class="img-champ img-35 mr-3"
-                                                        :style="{'background-image': 'url('+require('@/assets/tmp/'+i+'.png' )+')'}"
+                                                        :style="{'background-image': 'url('+require('@/assets/items/'+i+'.png' )+')'}"
                                                     ></i>
                                                 </template>
                                             </div>
@@ -115,57 +115,48 @@
                                                 <template v-for="(i, index) in item.big_item_builds">
                                                     <i :key="index"
                                                         class="img-champ img-35 mr-3"
-                                                        :style="{'background-image': 'url('+require('@/assets/tmp/'+i+'.png' )+')'}"
+                                                        :style="{'background-image': 'url('+require('@/assets/items/'+i+'.png' )+')'}"
                                                     ></i>
                                                 </template>
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="media-body mw-100 w-100 text-left">
                                         <label>
                                             <b>{{$t('detail.runes')}}</b>
                                         </label>
                                         <div class="ml-0 row mw-100 w-100" >
                                             <div style="text-align: center !important" class="col">
-                                                <template v-for="(row, i) in arrImgInLineMain">
-                                                    <div class="row" :key="i">
-                                                        <template v-for="(item, index) in row.line">
-                                                            <div
-                                                                class="col p-0"
-                                                                :key="index">
-                                                                <i class="img-champ"
-                                                                :class="[chooseRune(index,checkedRune0[i+1])]"
-                                                                    :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"></i>
-                                                            </div>
-                                                        </template>
+                                                <template v-for="(row, i) in getAllRune(item.runes[0])">
+                                                    <div :key="i" class="row">
+                                                        <div class="col p-0" v-for="(it, k) in row.runes" :key="k">
+                                                            <i class="img-champ"
+                                                                :class="[chooseRune(it.id,item.runes[i+1])]"
+                                                                :style="{'background-image': 'url('+require('@/assets/rune/'+it.id+'.png')+')'}"></i>
+                                                        </div>
                                                     </div>
                                                 </template>
                                             </div>
                                             <div style="border-left:1px solid grey; text-align: center !important" class="col">
-                                                <template v-for="(row, i) in arrImgInLineSk1">
-                                                    <div class="row" :key="i">
-                                                        <template v-for="(item, index) in row.line" >
-                                                            <div class="col p-0"
-                                                                :key="index">
-                                                                <i class="img-champ"
-                                                                :class="[chooseRune(index,checkedRune1[i+1])]"
-                                                                    :style="{'background-image': 'url('+require('@/assets/rune/'+item)+')'}"
-                                                                ></i>
-                                                            </div>
-                                                        </template>
+                                                <template v-for="(row, i) in getAllRune(item.runes[5])">
+                                                    <div :key="i" class="row" v-if="i>0">
+                                                        <div class="col p-0" v-for="(it, k) in row.runes" :key="k">
+                                                            <i class="img-champ"
+                                                                :class="[chooseRuneSK(it.id, item.runes)]"
+                                                                :style="{'background-image': 'url('+require('@/assets/rune/'+it.id+'.png')+')'}"></i>
+                                                        </div>
                                                     </div>
                                                 </template>
                                             </div>
                                             <div style="border-left:1px solid grey; text-align: center !important" class="col">
-                                                <template v-for="(item, index) in sideKicks.rune">
+                                                <template v-for="(rune, index) in sideKicks.rune">
                                                     <div class="row" :key="index">
-                                                        <template v-for="(item1, index1) in item.line">
-                                                            <div :key="index1" class="col p-0">
+                                                        <template v-for="(it, i) in rune.line">
+                                                            <div :key="i" class="col p-0">
                                                                 <i
-                                                                    :class="[chooseRune(index1,checkedRune2[index])]"
+                                                                    :class="[chooseRune(it,item.rune_stat_shards[index])]"
                                                                     class="img-champ img-25"
-                                                                    :style="{'background-image': 'url('+require('@/assets/rune/'+item1 +'.png')+')'}"
+                                                                    :style="{'background-image': 'url('+require('@/assets/rune/'+it +'.png')+')'}"
                                                                 ></i>
                                                             </div>
                                                         </template>
@@ -207,9 +198,16 @@ export default ({
         chooseRune(index, picked){
             return index != picked ? 'enabled-rune' : 'checked-rune'
         },
+        chooseRuneSK(index, picked){
+            return index != picked[6] && index != picked[7] ? 'enabled-rune' : 'checked-rune'
+        },
         setSelectedChamp(item){
             this.$store.dispatch('selected', item)
             this.$store.dispatch('recent', item)
+        },
+        getAllRune(item){
+            let rs = this.runes.find(x => x.id == item)
+            return item ? rs.slots : []
         }
     },
     computed: {
@@ -223,60 +221,6 @@ export default ({
                       x.name.toLowerCase().includes(this.searchName.toLowerCase())
                   );
         },
-        sideKick1() {
-            return this.selectedChamp
-                ? this.selectedChamp.runes
-                    ? this.selectedChamp.runes.indexSide1[0]
-                    : "Domination"
-                : "Domination";
-        },
-        checkedRune2() {
-            return this.selectedChamp
-                ? this.selectedChamp.runes
-                    ? this.selectedChamp.runes.indexSide2
-                    : 0
-                : 0;
-        },
-        checkedRune1() {
-            return this.selectedChamp
-                ? this.selectedChamp.runes
-                    ? this.selectedChamp.runes.indexSide1
-                    : 0
-                : 0;
-        },
-        checkedRune0() {
-            return this.selectedChamp
-                ? this.selectedChamp.runes
-                    ? this.selectedChamp.runes.indexMain
-                    : 0
-                : 0;
-        },
-        mapSideKick1() {
-            return this.sideKick1
-                ? this.runes.find((x) => x.key == this.sideKick1)
-                : [];
-        },
-        arrImgInLineSk1(){
-            let rs = this.mapSideKick1 ? this.mapSideKick1.arrImgInLine : []
-            let tmp = [...rs]
-            tmp.shift() 
-            return tmp
-        },
-        indexMain() {
-            return this.selectedChamp
-                ? this.selectedChamp.runes
-                    ? this.selectedChamp.runes.indexMain[0]
-                    : "Domination"
-                : "Domination";
-        },
-        mapIndexMain() {
-            return this.indexMain
-                ? this.runes.find((x) => x.key == this.indexMain)
-                : [];
-        },
-        arrImgInLineMain(){
-            return this.mapIndexMain ? this.mapIndexMain.arrImgInLine : []
-        }
     },
 });
 </script>

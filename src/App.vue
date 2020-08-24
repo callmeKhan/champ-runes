@@ -10,9 +10,12 @@
 
 <script>
 import Language from '@/components/language'
-
+import x from '@/data/z/mapData.js'
 export default {
   components:{Language},
+  mounted(){
+    // console.log(x.mapRune());
+  }
 }
 </script>
 <style lang="scss">
