@@ -9,11 +9,14 @@
                 data-toggle="modal"
                 data-target="#champion-statitcs"
                 @click="setSelectedChamp(item)"
+                class="most-picked custom-padding"
             >
                 <i
                     class="img-champ"
                     :style="{'background-image': 'url('+require('@/assets/'+item.name +'_OriginalSquare.png')+')'}"
-                ></i>
+                >
+                <label></label>
+                </i>
             </div>
         </div>
         <br />

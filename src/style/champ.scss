@@ -10,6 +10,15 @@ i{
         width: 1.5rem !important;
         height: 1.5rem !important;
     }
+    #recent-pick-div {
+        .content {
+            .custom-padding{
+                i{
+                    margin-left: 0.25rem;
+                }
+            }
+        }
+    }
 }
 
 .img-champ {
@@ -82,13 +91,17 @@ i{
     }
 }
 .most-picked{
-    label{
-        font-size: 60%;
-        padding-left: 2px;
-        color: white;
-        margin-top: 15px;
-        margin-left: 20px;
-        background-color: black;
+    // padding-bottom: 0.1rem;
+    &, &:hover{
+        b, label{
+            font-size: 0.6rem !important;
+            color: white !important;
+            bottom: 0 !important;
+            left: 0 !important;
+            padding: 0 0.2rem 0 0.2rem !important;
+            background-color: black !important;
+            font-weight: bold !important;
+        }
     }
 }
 .item-display{
@@ -103,7 +116,7 @@ i{
 }
 .sticky-list{
     position: fixed;
-    top: 30%;
+    top: 65%;
     align-self: flex-start;
     label{
         border-radius: 5px;
@@ -125,16 +138,16 @@ i{
     padding: 0 !important;
     .content{
         width: 0;
-        padding: 0.5rem 1.4rem 0.5rem 1rem !important;
+        padding: 0.5rem 1.29rem 0.5rem 1rem !important;
         transition: 0.5s;
-        background-color: #ffc10770;
+        background-color: #ffc107c5;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
         i,label{
             transition: 0.5s;
         }
-        div{
-            padding-bottom: 0 !important;
+        .custom-padding{
+            padding-left: 0rem !important
         }
     }
 }
@@ -146,7 +159,7 @@ i{
         align-self: flex-end;
         margin-left: 0;
         transition: 0.5s;
-        background-color: #17a2b863;
+        background-color: #17a3b8a8;
         border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
         i,label{

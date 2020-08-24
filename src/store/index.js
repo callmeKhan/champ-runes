@@ -79,7 +79,7 @@ export default new Vuex.Store({
       tmp.unshift(item)
       let isDuplicate = (new Set(tmp)).length != tmp.length
       let data = isDuplicate ? new Set(tmp) : tmp
-      data = data.size > 10 ? [...data].slice(0, 10) : data
+      data = data.size > 5 ? [...data].slice(0, 5) : data
       commit('RECENT_CHAMP', data)
     },
   },
