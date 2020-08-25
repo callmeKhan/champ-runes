@@ -90,12 +90,12 @@ function mapMainRawData() {
         return {
             id: x.champion_id, role: x.role,
             stats: {
-                big_item_builds: x.stats.big_item_builds.build,
-                starting_items: x.stats.starting_items.build,
-                skills: x.stats.skills.build,
-                core_builds: x.stats.core_builds.build,
-                runes: x.stats.runes.build,
-                rune_stat_shards: x.stats.rune_stat_shards.build,
+                big_item_builds: x.stats.most_common_big_item_builds.build,
+                starting_items: x.stats.most_common_starting_items.build,
+                skills: x.stats.most_common_skills.build,
+                core_builds: x.stats.most_common_core_builds.build,
+                runes: x.stats.most_common_runes.build,
+                rune_stat_shards: x.stats.most_common_rune_stat_shards.build,
                 spells: x.stats.spells.build
             }
         }

@@ -51,11 +51,12 @@
                                 <button class="btn btn-danger align-self-end" type="button" data-dismiss="modal">{{$t('detail.close')}}</button>
                             </div>
                             <div class="nav nav-pills w-100">
-                                <a class="w-100 col" v-for="(item, index) in selectedChamp.stats" :key="index" :href="'#tab'+item.id+index" data-toggle="tab" :class="[index == 0 || selectedChamp.stats.length == 0 ? 'active':'']">{{item.role}}</a>
+                                <a class="w-100 col" v-for="(item, index) in selectedChamp.stats" :key="index" :href="'#tab'+item.id+index" data-toggle="tab" 
+                                >{{item.role}}</a>
                             </div>
                             <div class="tab-content clearfix w-100">
                                 <div class="tab-pane" :id="'tab'+item.id+index" v-for="(item, index) in selectedChamp.stats" 
-                                :class="[index == 0 || selectedChamp.stats.length == 0 ? 'active':'']"
+                                
                                 :key="index">
                                     <div class="media-body mw-100 w-100 text-left">
                                         <label>
@@ -191,6 +192,14 @@ export default ({
         this.champions = this.$store.getters.champions;
         this.sideKicks = this.$store.getters.sideKicks;
         this.runes = this.$store.getters.runes;
+        $('#champion-statitcs').on('show.bs.modal', function (e) {
+            $('.nav-pills > a:first-child').addClass('active')
+            $('.tab-pane:first-child').addClass('active')
+        })
+        $('#champion-statitcs').on('hide.bs.modal', function (e) {
+            $('.nav-pills > a').removeClass('active')
+            $('.tab-pane').removeClass('active')
+        })
     },
     methods:{
         chooseRune(index, picked){
