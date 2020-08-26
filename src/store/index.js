@@ -14,7 +14,7 @@ export default new Vuex.Store({
     listChamps: dataChampions.map(x => {return {
       count: 0,
       name: x.name,
-      runes: x.runes,
+      key: x.key,
       skill: x.skill,
       id: x.id,
     }}),

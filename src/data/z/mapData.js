@@ -107,14 +107,14 @@ function mapMainRawData() {
 /*
 return file rs.json => data_ver.json
 */
-import data from '@/data/raw-data/raw-OPGG.json'
+import data from '@/data/data-ver3.json'
 import keyData from '@/data/z/key-champ.json'
 function mapKeyData() {
     return data.map(x => {
         return {
             skill: x.skill,
             name: x.name,
-            runes: x.runes,
+            key: x.name,
             id: parseInt(keyData.find(y => y.name == x.name).id)
         }
     })

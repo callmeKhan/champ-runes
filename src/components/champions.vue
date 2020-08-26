@@ -20,8 +20,8 @@
                                 data-target="#champion-statitcs"
                                 @click="setSelectedChamp(item)">
                                 <i
-                                    class="img-champ"
-                                    :style="{'background-image': 'url('+require('@/assets/'+item.name +'_OriginalSquare.png')+')'}"
+                                    class="img-champ list-champ"
+                                    :style="{'background-image': 'url('+require('@/assets/champion/'+item.key +'.webp')+')'}"
                                 ></i>
                                 <label class="d-block dot-name">
                                     <b>{{item.name}}</b>
@@ -196,7 +196,7 @@ export default ({
             $('.nav-pills > a:first-child').addClass('active')
             $('.tab-pane:first-child').addClass('active')
         })
-        $('#champion-statitcs').on('hide.bs.modal', function (e) {
+        $('#champion-statitcs').on('hidden.bs.modal', function (e) {
             $('.nav-pills > a').removeClass('active')
             $('.tab-pane').removeClass('active')
         })

@@ -12,26 +12,7 @@
       }
     ],
     "name": "Aatrox",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        1,
-        2
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Aatrox",
     "id": 266
   },
   {
@@ -47,26 +28,7 @@
       }
     ],
     "name": "Ahri",
-    "runes": {
-      "indexMain": [
-        "Inspiration",
-        0,
-        1,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        0,
-        "null",
-        3
-      ],
-      "indexSide2": [
-        2,
-        0,
-        2
-      ]
-    },
+    "key": "Ahri",
     "id": 103
   },
   {
@@ -82,26 +44,7 @@
       }
     ],
     "name": "Akali",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        2,
-        2,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Akali",
     "id": 84
   },
   {
@@ -117,26 +60,7 @@
       }
     ],
     "name": "Alistar",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        0,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        2,
-        1,
-        0
-      ]
-    },
+    "key": "Alistar",
     "id": 12
   },
   {
@@ -152,26 +76,7 @@
       }
     ],
     "name": "Amumu",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        0,
-        2,
-        3
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Amumu",
     "id": 32
   },
   {
@@ -187,26 +92,7 @@
       }
     ],
     "name": "Anivia",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        0,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Precision",
-        2,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Anivia",
     "id": 34
   },
   {
@@ -222,26 +108,7 @@
       }
     ],
     "name": "Annie",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        0,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Sorcery",
-        "null",
-        1,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Annie",
     "id": 1
   },
   {
@@ -257,26 +124,7 @@
       }
     ],
     "name": "Aphelios",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        1,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Aphelios",
     "id": 523
   },
   {
@@ -292,26 +140,7 @@
       }
     ],
     "name": "Ashe",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        1,
-        2,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Ashe",
     "id": 22
   },
   {
@@ -327,26 +156,7 @@
       }
     ],
     "name": "Aurelion Sol",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        1,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Aurelion Sol",
     "id": 136
   },
   {
@@ -362,26 +172,7 @@
       }
     ],
     "name": "Azir",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        1,
-        2,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        2
-      ]
-    },
+    "key": "Azir",
     "id": 268
   },
   {
@@ -397,26 +188,7 @@
       }
     ],
     "name": "Bard",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        2,
-        1,
-        2,
-        1
-      ],
-      "indexSide1": [
-        "Domination",
-        "null",
-        0,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Bard",
     "id": 432
   },
   {
@@ -432,26 +204,7 @@
       }
     ],
     "name": "Blitzcrank",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        0,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        2,
-        1,
-        0
-      ]
-    },
+    "key": "Blitzcrank",
     "id": 53
   },
   {
@@ -467,26 +220,7 @@
       }
     ],
     "name": "Brand",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        2,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Brand",
     "id": 63
   },
   {
@@ -502,26 +236,7 @@
       }
     ],
     "name": "Braum",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        2,
-        1,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        2,
-        1,
-        0
-      ]
-    },
+    "key": "Braum",
     "id": 201
   },
   {
@@ -537,26 +252,7 @@
       }
     ],
     "name": "Caitlyn",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        2,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Caitlyn",
     "id": 51
   },
   {
@@ -572,26 +268,7 @@
       }
     ],
     "name": "Camille",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        0,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Camille",
     "id": 164
   },
   {
@@ -607,26 +284,7 @@
       }
     ],
     "name": "Cassiopeia",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        2,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Cassiopeia",
     "id": 69
   },
   {
@@ -642,26 +300,7 @@
       }
     ],
     "name": "Cho'Gath",
-    "runes": {
-      "indexMain": [
-        "Inspiration",
-        0,
-        1,
-        2,
-        1
-      ],
-      "indexSide1": [
-        "Domination",
-        0,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "ChoGath",
     "id": 31
   },
   {
@@ -677,26 +316,7 @@
       }
     ],
     "name": "Corki",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        2,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        2
-      ]
-    },
+    "key": "Corki",
     "id": 42
   },
   {
@@ -712,26 +332,7 @@
       }
     ],
     "name": "Darius",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        1,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Darius",
     "id": 122
   },
   {
@@ -747,26 +348,7 @@
       }
     ],
     "name": "Diana",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        2,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Diana",
     "id": 131
   },
   {
@@ -782,26 +364,7 @@
       }
     ],
     "name": "Dr. Mundo",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        0,
-        0,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        2,
-        1,
-        0
-      ]
-    },
+    "key": "DrMundo",
     "id": 36
   },
   {
@@ -817,26 +380,7 @@
       }
     ],
     "name": "Draven",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        3,
-        0,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Precision",
-        2,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Draven",
     "id": 119
   },
   {
@@ -852,26 +396,7 @@
       }
     ],
     "name": "Ekko",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        2,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Ekko",
     "id": 245
   },
   {
@@ -887,26 +412,7 @@
       }
     ],
     "name": "Elise",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        0,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Elise",
     "id": 60
   },
   {
@@ -922,26 +428,7 @@
       }
     ],
     "name": "Evelynn",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        2,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Evelynn",
     "id": 28
   },
   {
@@ -957,26 +444,7 @@
       }
     ],
     "name": "Ezreal",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Ezreal",
     "id": 81
   },
   {
@@ -992,26 +460,7 @@
       }
     ],
     "name": "Fiddlesticks",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        1,
-        0,
-        0,
-        3
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        0,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Fiddlesticks",
     "id": 9
   },
   {
@@ -1027,26 +476,7 @@
       }
     ],
     "name": "Fiora",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Resolve",
-        0,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Fiora",
     "id": 114
   },
   {
@@ -1062,26 +492,7 @@
       }
     ],
     "name": "Fizz",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Precision",
-        2,
-        1,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        2
-      ]
-    },
+    "key": "Fizz",
     "id": 105
   },
   {
@@ -1097,26 +508,7 @@
       }
     ],
     "name": "Galio",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Galio",
     "id": 3
   },
   {
@@ -1132,26 +524,7 @@
       }
     ],
     "name": "Gangplank",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        0,
-        0,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Gangplank",
     "id": 41
   },
   {
@@ -1167,26 +540,7 @@
       }
     ],
     "name": "Garen",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Resolve",
-        0,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Garen",
     "id": 86
   },
   {
@@ -1202,26 +556,7 @@
       }
     ],
     "name": "Gnar",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        2,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Resolve",
-        0,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Gnar",
     "id": 150
   },
   {
@@ -1237,26 +572,7 @@
       }
     ],
     "name": "Gragas",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        1,
-        2,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Sorcery",
-        "null",
-        1,
-        1
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Gragas",
     "id": 79
   },
   {
@@ -1272,26 +588,7 @@
       }
     ],
     "name": "Graves",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        2,
-        2,
-        2,
-        1
-      ],
-      "indexSide1": [
-        "Precision",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Graves",
     "id": 104
   },
   {
@@ -1307,26 +604,7 @@
       }
     ],
     "name": "Hecarim",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        2,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Hecarim",
     "id": 120
   },
   {
@@ -1342,26 +620,7 @@
       }
     ],
     "name": "Heimerdinger",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        2,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Heimerdinger",
     "id": 74
   },
   {
@@ -1377,26 +636,7 @@
       }
     ],
     "name": "Illaoi",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        1,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Illaoi",
     "id": 420
   },
   {
@@ -1412,26 +652,7 @@
       }
     ],
     "name": "Irelia",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Irelia",
     "id": 39
   },
   {
@@ -1447,26 +668,7 @@
       }
     ],
     "name": "Ivern",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        0,
-        2,
-        0,
-        1
-      ],
-      "indexSide1": [
-        "Inspiration",
-        0,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        2,
-        0,
-        1
-      ]
-    },
+    "key": "Ivern",
     "id": 427
   },
   {
@@ -1482,26 +684,7 @@
       }
     ],
     "name": "Janna",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Janna",
     "id": 40
   },
   {
@@ -1517,26 +700,7 @@
       }
     ],
     "name": "Jarvan IV",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "JarvanIV",
     "id": 59
   },
   {
@@ -1552,26 +716,7 @@
       }
     ],
     "name": "Jax",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Jax",
     "id": 24
   },
   {
@@ -1587,26 +732,7 @@
       }
     ],
     "name": "Jayce",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        2,
-        1,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Jayce",
     "id": 126
   },
   {
@@ -1622,26 +748,7 @@
       }
     ],
     "name": "Jhin",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        2,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Jhin",
     "id": 202
   },
   {
@@ -1657,26 +764,7 @@
       }
     ],
     "name": "Jinx",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        1,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Jinx",
     "id": 222
   },
   {
@@ -1692,26 +780,7 @@
       }
     ],
     "name": "Kai'Sa",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        3,
-        1,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Precision",
-        2,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Kai'Sa",
     "id": 145
   },
   {
@@ -1727,26 +796,7 @@
       }
     ],
     "name": "Kalista",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        3,
-        1,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Precision",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Kalista",
     "id": 429
   },
   {
@@ -1762,26 +812,7 @@
       }
     ],
     "name": "Karma",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Karma",
     "id": 43
   },
   {
@@ -1797,26 +828,7 @@
       }
     ],
     "name": "Karthus",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        2,
-        0,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Precision",
-        2,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Karthus",
     "id": 30
   },
   {
@@ -1832,26 +844,7 @@
       }
     ],
     "name": "Kassadin",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        2,
-        2,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Kassadin",
     "id": 38
   },
   {
@@ -1867,26 +860,7 @@
       }
     ],
     "name": "Katarina",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        2,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Katarina",
     "id": 55
   },
   {
@@ -1902,26 +876,7 @@
       }
     ],
     "name": "Kayle",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        2,
-        0,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Kayle",
     "id": 10
   },
   {
@@ -1937,26 +892,7 @@
       }
     ],
     "name": "Kayn",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        1,
-        2
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Kayn",
     "id": 141
   },
   {
@@ -1972,26 +908,7 @@
       }
     ],
     "name": "Kennen",
-    "runes": {
-      "indexMain": [
-        "Inspiration",
-        1,
-        1,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Kennen",
     "id": 85
   },
   {
@@ -2007,26 +924,7 @@
       }
     ],
     "name": "Kha'Zix",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        2,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Kha'Zix",
     "id": 121
   },
   {
@@ -2042,26 +940,7 @@
       }
     ],
     "name": "Kindred",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Kindred",
     "id": 203
   },
   {
@@ -2077,26 +956,7 @@
       }
     ],
     "name": "Kled",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Resolve",
-        0,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Kled",
     "id": 240
   },
   {
@@ -2112,26 +972,7 @@
       }
     ],
     "name": "Kog'Maw",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        1,
-        2,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Kog'Maw",
     "id": 96
   },
   {
@@ -2147,26 +988,7 @@
       }
     ],
     "name": "LeBlanc",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        1,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        2
-      ]
-    },
+    "key": "LeBlanc",
     "id": 7
   },
   {
@@ -2182,26 +1004,7 @@
       }
     ],
     "name": "Lee Sin",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Lee Sin",
     "id": 64
   },
   {
@@ -2217,26 +1020,7 @@
       }
     ],
     "name": "Leona",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        1,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        2,
-        1,
-        0
-      ]
-    },
+    "key": "Leona",
     "id": 89
   },
   {
@@ -2252,26 +1036,7 @@
       }
     ],
     "name": "Lillia",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        2,
-        0,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Lillia",
     "id": 876
   },
   {
@@ -2287,26 +1052,7 @@
       }
     ],
     "name": "Lissandra",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        0,
-        2,
-        3
-      ],
-      "indexSide1": [
-        "Sorcery",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Lissandra",
     "id": 127
   },
   {
@@ -2322,26 +1068,7 @@
       }
     ],
     "name": "Lucian",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        2,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Lucian",
     "id": 236
   },
   {
@@ -2357,26 +1084,7 @@
       }
     ],
     "name": "Lulu",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        0,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Lulu",
     "id": 117
   },
   {
@@ -2392,26 +1100,7 @@
       }
     ],
     "name": "Lux",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        2,
-        2,
-        2,
-        1
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Lux",
     "id": 99
   },
   {
@@ -2427,26 +1116,7 @@
       }
     ],
     "name": "Malphite",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Malphite",
     "id": 54
   },
   {
@@ -2462,26 +1132,7 @@
       }
     ],
     "name": "Malzahar",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        0,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Malzahar",
     "id": 90
   },
   {
@@ -2497,26 +1148,7 @@
       }
     ],
     "name": "Maokai",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        0,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        1,
-        1
-      ]
-    },
+    "key": "Maokai",
     "id": 57
   },
   {
@@ -2532,26 +1164,7 @@
       }
     ],
     "name": "Master Yi",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        2,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Master Yi",
     "id": 11
   },
   {
@@ -2567,26 +1180,7 @@
       }
     ],
     "name": "Miss Fortune",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        0,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Miss Fortune",
     "id": 21
   },
   {
@@ -2602,26 +1196,7 @@
       }
     ],
     "name": "Mordekaiser",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        1,
-        2
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Mordekaiser",
     "id": 82
   },
   {
@@ -2637,26 +1212,7 @@
       }
     ],
     "name": "Morgana",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        2,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Morgana",
     "id": 25
   },
   {
@@ -2672,26 +1228,7 @@
       }
     ],
     "name": "Nami",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        0,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Nami",
     "id": 267
   },
   {
@@ -2707,26 +1244,7 @@
       }
     ],
     "name": "Nasus",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        0,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Nasus",
     "id": 75
   },
   {
@@ -2742,26 +1260,7 @@
       }
     ],
     "name": "Nautilus",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        2,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        2,
-        1,
-        0
-      ]
-    },
+    "key": "Nautilus",
     "id": 111
   },
   {
@@ -2777,26 +1276,7 @@
       }
     ],
     "name": "Neeko",
-    "runes": {
-      "indexMain": [
-        "Inspiration",
-        0,
-        1,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Neeko",
     "id": 518
   },
   {
@@ -2812,26 +1292,7 @@
       }
     ],
     "name": "Nidalee",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        2,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Nidalee",
     "id": 76
   },
   {
@@ -2847,26 +1308,7 @@
       }
     ],
     "name": "Nocturne",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        1,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        2,
-        "null",
-        3
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Nocturne",
     "id": 56
   },
   {
@@ -2882,26 +1324,7 @@
       }
     ],
     "name": "Nunu & Willump",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        2,
-        2,
-        1,
-        1
-      ],
-      "indexSide1": [
-        "Precision",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Nunu & Willump",
     "id": 20
   },
   {
@@ -2917,26 +1340,7 @@
       }
     ],
     "name": "Olaf",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Olaf",
     "id": 2
   },
   {
@@ -2952,26 +1356,7 @@
       }
     ],
     "name": "Orianna",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        2,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Orianna",
     "id": 61
   },
   {
@@ -2987,26 +1372,7 @@
       }
     ],
     "name": "Ornn",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        0,
-        0,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        2,
-        1,
-        1
-      ]
-    },
+    "key": "Ornn",
     "id": 516
   },
   {
@@ -3022,26 +1388,7 @@
       }
     ],
     "name": "Pantheon",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        1,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        0,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Pantheon",
     "id": 80
   },
   {
@@ -3057,26 +1404,7 @@
       }
     ],
     "name": "Poppy",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        0,
-        2,
-        2,
-        1
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Poppy",
     "id": 78
   },
   {
@@ -3092,26 +1420,7 @@
       }
     ],
     "name": "Pyke",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        1,
-        2,
-        1
-      ],
-      "indexSide1": [
-        "Domination",
-        2,
-        "null",
-        3
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Pyke",
     "id": 555
   },
   {
@@ -3127,26 +1436,7 @@
       }
     ],
     "name": "Qiyana",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Qiyana",
     "id": 246
   },
   {
@@ -3162,26 +1452,7 @@
       }
     ],
     "name": "Quinn",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        0,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Quinn",
     "id": 133
   },
   {
@@ -3197,26 +1468,7 @@
       }
     ],
     "name": "Rakan",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        2,
-        0,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        1,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Rakan",
     "id": 497
   },
   {
@@ -3232,26 +1484,7 @@
       }
     ],
     "name": "Rammus",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Precision",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        1,
-        1
-      ]
-    },
+    "key": "Rammus",
     "id": 33
   },
   {
@@ -3267,26 +1500,7 @@
       }
     ],
     "name": "Rek'Sai",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Rek'Sai",
     "id": 421
   },
   {
@@ -3302,26 +1516,7 @@
       }
     ],
     "name": "Renekton",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Resolve",
-        0,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Renekton",
     "id": 58
   },
   {
@@ -3337,26 +1532,7 @@
       }
     ],
     "name": "Rengar",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Resolve",
-        "null",
-        2,
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Rengar",
     "id": 107
   },
   {
@@ -3372,26 +1548,7 @@
       }
     ],
     "name": "Riven",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Riven",
     "id": 92
   },
   {
@@ -3407,26 +1564,7 @@
       }
     ],
     "name": "Rumble",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        2,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Rumble",
     "id": 68
   },
   {
@@ -3442,26 +1580,7 @@
       }
     ],
     "name": "Ryze",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        2,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Ryze",
     "id": 13
   },
   {
@@ -3477,26 +1596,7 @@
       }
     ],
     "name": "Sejuani",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        1,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Precision",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        1,
-        0
-      ]
-    },
+    "key": "Sejuani",
     "id": 113
   },
   {
@@ -3512,26 +1612,7 @@
       }
     ],
     "name": "Senna",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        0,
-        1,
-        2,
-        1
-      ],
-      "indexSide1": [
-        "Precision",
-        2,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Senna",
     "id": 235
   },
   {
@@ -3547,26 +1628,7 @@
       }
     ],
     "name": "Sett",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        2,
-        2,
-        1,
-        1
-      ],
-      "indexSide1": [
-        "Inspiration",
-        0,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Sett",
     "id": 875
   },
   {
@@ -3582,26 +1644,7 @@
       }
     ],
     "name": "Shaco",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        3,
-        2,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Precision",
-        "null",
-        0,
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Shaco",
     "id": 35
   },
   {
@@ -3617,26 +1660,7 @@
       }
     ],
     "name": "Shen",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        0,
-        2,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        0,
-        "null",
-        3
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Shen",
     "id": 98
   },
   {
@@ -3652,26 +1676,7 @@
       }
     ],
     "name": "Shyvana",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        2,
-        2,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Shyvana",
     "id": 102
   },
   {
@@ -3687,26 +1692,7 @@
       }
     ],
     "name": "Singed",
-    "runes": {
-      "indexMain": [
-        "Inspiration",
-        1,
-        0,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        1,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Singed",
     "id": 27
   },
   {
@@ -3722,26 +1708,7 @@
       }
     ],
     "name": "Sion",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        0,
-        0,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Sion",
     "id": 14
   },
   {
@@ -3757,26 +1724,7 @@
       }
     ],
     "name": "Sivir",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        1,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Sivir",
     "id": 15
   },
   {
@@ -3792,26 +1740,7 @@
       }
     ],
     "name": "Skarner",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        2,
-        2,
-        1,
-        1
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Skarner",
     "id": 72
   },
   {
@@ -3827,26 +1756,7 @@
       }
     ],
     "name": "Sona",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        0,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Precision",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Sona",
     "id": 37
   },
   {
@@ -3862,26 +1772,7 @@
       }
     ],
     "name": "Soraka",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        0,
-        1,
-        1,
-        0
-      ],
-      "indexSide1": [
-        "Resolve",
-        "null",
-        2,
-        1
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Soraka",
     "id": 16
   },
   {
@@ -3897,26 +1788,7 @@
       }
     ],
     "name": "Swain",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        0,
-        2,
-        3
-      ],
-      "indexSide1": [
-        "Inspiration",
-        2,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Swain",
     "id": 50
   },
   {
@@ -3932,26 +1804,7 @@
       }
     ],
     "name": "Sylas",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        2,
-        2,
-        1,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Sylas",
     "id": 517
   },
   {
@@ -3967,26 +1820,7 @@
       }
     ],
     "name": "Syndra",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        2,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Syndra",
     "id": 134
   },
   {
@@ -4002,26 +1836,7 @@
       }
     ],
     "name": "Tahm Kench",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        2,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        1,
-        0
-      ]
-    },
+    "key": "Tahm Kench",
     "id": 223
   },
   {
@@ -4037,26 +1852,7 @@
       }
     ],
     "name": "Taliyah",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        2,
-        0,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Taliyah",
     "id": 163
   },
   {
@@ -4072,26 +1868,7 @@
       }
     ],
     "name": "Talon",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        1,
-        2
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Talon",
     "id": 91
   },
   {
@@ -4107,26 +1884,7 @@
       }
     ],
     "name": "Taric",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        2,
-        1,
-        2,
-        1
-      ],
-      "indexSide1": [
-        "Precision",
-        2,
-        1,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        1,
-        1
-      ]
-    },
+    "key": "Taric",
     "id": 44
   },
   {
@@ -4142,26 +1900,7 @@
       }
     ],
     "name": "Teemo",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        0,
-        0,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        0,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Teemo",
     "id": 17
   },
   {
@@ -4177,26 +1916,7 @@
       }
     ],
     "name": "Thresh",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        1,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        2,
-        1,
-        0
-      ]
-    },
+    "key": "Thresh",
     "id": 412
   },
   {
@@ -4212,26 +1932,7 @@
       }
     ],
     "name": "Tristana",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        1,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Tristana",
     "id": 18
   },
   {
@@ -4247,26 +1948,7 @@
       }
     ],
     "name": "Trundle",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        2,
-        2,
-        1,
-        1
-      ],
-      "indexSide1": [
-        "Precision",
-        1,
-        1,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Trundle",
     "id": 48
   },
   {
@@ -4282,26 +1964,7 @@
       }
     ],
     "name": "Tryndamere",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        1,
-        1,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Resolve",
-        "null",
-        1,
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Tryndamere",
     "id": 23
   },
   {
@@ -4317,26 +1980,7 @@
       }
     ],
     "name": "Twisted Fate",
-    "runes": {
-      "indexMain": [
-        "Inspiration",
-        1,
-        2,
-        1,
-        2
-      ],
-      "indexSide1": [
-        "Resolve",
-        0,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Twisted Fate",
     "id": 4
   },
   {
@@ -4352,26 +1996,7 @@
       }
     ],
     "name": "Twitch",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Twitch",
     "id": 29
   },
   {
@@ -4387,26 +2012,7 @@
       }
     ],
     "name": "Udyr",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        1,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Udyr",
     "id": 77
   },
   {
@@ -4422,26 +2028,7 @@
       }
     ],
     "name": "Urgot",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        1,
-        1,
-        2
-      ],
-      "indexSide1": [
-        "Resolve",
-        2,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Urgot",
     "id": 6
   },
   {
@@ -4457,26 +2044,7 @@
       }
     ],
     "name": "Varus",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        1,
-        2,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Varus",
     "id": 110
   },
   {
@@ -4492,26 +2060,7 @@
       }
     ],
     "name": "Vayne",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Vayne",
     "id": 67
   },
   {
@@ -4527,26 +2076,7 @@
       }
     ],
     "name": "Veigar",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        2,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Veigar",
     "id": 45
   },
   {
@@ -4562,26 +2092,7 @@
       }
     ],
     "name": "Vel'Koz",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Vel'Koz",
     "id": 161
   },
   {
@@ -4597,26 +2108,7 @@
       }
     ],
     "name": "Vi",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        3,
-        2,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Precision",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Vi",
     "id": 254
   },
   {
@@ -4632,26 +2124,7 @@
       }
     ],
     "name": "Viktor",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        0,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Viktor",
     "id": 112
   },
   {
@@ -4667,26 +2140,7 @@
       }
     ],
     "name": "Vladimir",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        2,
-        2,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        2,
-        0,
-        1
-      ]
-    },
+    "key": "Vladimir",
     "id": 8
   },
   {
@@ -4702,26 +2156,7 @@
       }
     ],
     "name": "Volibear",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Volibear",
     "id": 106
   },
   {
@@ -4737,26 +2172,7 @@
       }
     ],
     "name": "Warwick",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        0,
-        1,
-        1,
-        2
-      ],
-      "indexSide1": [
-        "Sorcery",
-        "null",
-        1,
-        1
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Warwick",
     "id": 19
   },
   {
@@ -4772,26 +2188,7 @@
       }
     ],
     "name": "Wukong",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        2
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Wukong",
     "id": 62
   },
   {
@@ -4807,26 +2204,7 @@
       }
     ],
     "name": "Xayah",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        1,
-        2,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Sorcery",
-        2,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Xayah",
     "id": 498
   },
   {
@@ -4842,26 +2220,7 @@
       }
     ],
     "name": "Xerath",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Xerath",
     "id": 101
   },
   {
@@ -4877,26 +2236,7 @@
       }
     ],
     "name": "Xin Zhao",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        3,
-        2,
-        2,
-        2
-      ],
-      "indexSide1": [
-        "Precision",
-        1,
-        0,
-        "null"
-      ],
-      "indexSide2": [
-        1,
-        0,
-        1
-      ]
-    },
+    "key": "Xin Zhao",
     "id": 5
   },
   {
@@ -4912,26 +2252,7 @@
       }
     ],
     "name": "Yasuo",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        2
-      ]
-    },
+    "key": "Yasuo",
     "id": 157
   },
   {
@@ -4947,26 +2268,7 @@
       }
     ],
     "name": "Yone",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        1,
-        0,
-        2
-      ]
-    },
+    "key": "Yone",
     "id": 777
   },
   {
@@ -4982,26 +2284,7 @@
       }
     ],
     "name": "Yorick",
-    "runes": {
-      "indexMain": [
-        "Precision",
-        3,
-        1,
-        1,
-        2
-      ],
-      "indexSide1": [
-        "Resolve",
-        0,
-        2,
-        "null"
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Yorick",
     "id": 83
   },
   {
@@ -5017,26 +2300,7 @@
       }
     ],
     "name": "Yuumi",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        0,
-        1,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Precision",
-        2,
-        "null",
-        1
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Yuumi",
     "id": 350
   },
   {
@@ -5052,26 +2316,7 @@
       }
     ],
     "name": "Zac",
-    "runes": {
-      "indexMain": [
-        "Resolve",
-        1,
-        1,
-        0,
-        1
-      ],
-      "indexSide1": [
-        "Inspiration",
-        1,
-        "null",
-        0
-      ],
-      "indexSide2": [
-        2,
-        1,
-        0
-      ]
-    },
+    "key": "Zac",
     "id": 154
   },
   {
@@ -5087,26 +2332,7 @@
       }
     ],
     "name": "Zed",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        1,
-        2,
-        3
-      ],
-      "indexSide1": [
-        "Sorcery",
-        "null",
-        0,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Zed",
     "id": 238
   },
   {
@@ -5122,26 +2348,7 @@
       }
     ],
     "name": "Ziggs",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        0
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Ziggs",
     "id": 115
   },
   {
@@ -5157,26 +2364,7 @@
       }
     ],
     "name": "Zilean",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        0,
-        1,
-        1,
-        1
-      ],
-      "indexSide1": [
-        "Domination",
-        0,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Zilean",
     "id": 26
   },
   {
@@ -5192,26 +2380,7 @@
       }
     ],
     "name": "Zoe",
-    "runes": {
-      "indexMain": [
-        "Domination",
-        0,
-        1,
-        2,
-        0
-      ],
-      "indexSide1": [
-        "Inspiration",
-        "null",
-        2,
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        2
-      ]
-    },
+    "key": "Zoe",
     "id": 142
   },
   {
@@ -5227,26 +2396,7 @@
       }
     ],
     "name": "Zyra",
-    "runes": {
-      "indexMain": [
-        "Sorcery",
-        1,
-        1,
-        0,
-        0
-      ],
-      "indexSide1": [
-        "Domination",
-        1,
-        "null",
-        2
-      ],
-      "indexSide2": [
-        0,
-        0,
-        1
-      ]
-    },
+    "key": "Zyra",
     "id": 143
   }
 ]

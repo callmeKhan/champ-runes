@@ -13,7 +13,7 @@
             >
                 <i
                     class="img-champ"
-                    :style="{'background-image': 'url('+require('@/assets/'+item.name +'_OriginalSquare.png')+')'}"
+                    :style="{'background-image': 'url('+require('@/assets/champion/'+item.key +'.webp')+')'}"
                 >
                 <label></label>
                 </i>
