@@ -103,7 +103,7 @@
                                                 <template v-for="(i, index) in item.starting_items">
                                                     <i :key="index"
                                                         class="img-champ img-35 mr-3"
-                                                        :style="{'background-image': 'url('+require('@/assets/items/'+i+'.png' )+')'}"
+                                                        :style="{'background-image': 'url('+require('@/assets/items/'+i+'.webp' )+')'}"
                                                     ></i>
                                                 </template>
                                             </div>
@@ -114,7 +114,7 @@
                                                 <template v-for="(i, index) in item.big_item_builds">
                                                     <i :key="index"
                                                         class="img-champ img-35 mr-3"
-                                                        :style="{'background-image': 'url('+require('@/assets/items/'+i+'.png' )+')'}"
+                                                        :style="{'background-image': 'url('+require('@/assets/items/'+i+'.webp' )+')'}"
                                                     ></i>
                                                 </template>
                                             </div>

@@ -36,7 +36,7 @@ export default {
     },
     methods:{
         nameSkill(key){
-            return this.skill.find(x => Object.keys(x) == key)[key]
+            return (this.skill.find(x => Object.keys(x) == key)[key]).replace('.png', '.webp')
         }
     }
 
