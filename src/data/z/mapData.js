@@ -2,11 +2,11 @@
 // import Spell need to map
 // source from: https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.16.1/data/en_US/summoners.json
 /* Example output: key-spell.json */
-function mapSpell() {
-    let data = spell.data
+// import item from '@/data/raw-data/raw-item-blitz.json'
+function mapItem() {
     let rs = []
-    for (let [item, index] of Object.entries(data)) {
-        rs.push({ id: parseInt(index['key']), name: index['image']['full'] })
+    for (let [item, index] of Object.entries(item)) {
+        if(index.maps.includes('11')) rs.push(item)
     }
     return rs
 }
@@ -125,5 +125,6 @@ export default {
     mergeSpellnameIntoMainData,
     mapKeyData,
     mapMainRawData,
-    mapRune
+    mapRune,
+    mapItem
 }
