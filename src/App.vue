@@ -14,7 +14,7 @@ import x from '@/data/z/mapData.js'
 export default {
   components:{Language},
   mounted(){
-    // console.log(x.mapRune());
+    // console.log(x.mapKeyData());
   }
 }
 </script>

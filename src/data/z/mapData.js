@@ -78,6 +78,21 @@ function mergeSpellnameIntoMainData() {
 }
 
 
+// UPDATE CHAMPION LIST. STEP 1
+// https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.19.1/data/en_US/champions.json
+// get champion list from blit
+// convert from { "Aatrox" : {"key","name","stat","spell","tips"}} => {"name", "tip"}
+// output: key-champ.json
+import champList from '@/data/raw-data/raw-champion-blitz.json'
+function mapChampion() {
+    let rs = Object.values(champList).map(x => {
+        return { id: x.key, name: x.name, tips: x.tips }
+    })
+    console.log(JSON.stringify(rs));
+    return rs
+}
+
+// UPDATE CHAMPION STAT. STEP 2
 // import data need to map
 // source from: https://beta.iesdev.com/api/lolstats/champions?region=world&tier=PLATINUM_PLUS&queue=420
 /*
@@ -103,22 +118,32 @@ function mapMainRawData() {
     console.log(JSON.stringify(arr))
     return arr
 }
+// UPDATE CHAMPION DATA. STEP 3
+// get list champion skill from OP.GG, using parser.py -> raw-OPGG.json
 // merge data {OP.GG , key-champ.json}
 /*
 return file rs.json => data_ver.json
 */
-import data from '@/data/data-ver3.json'
+import data from '@/data/raw-data/raw-OPGG.json'
 import keyData from '@/data/z/key-champ.json'
+
+const name = {
+    "Cho'Gath": 'ChoGath',
+    "Dr. Mundo": 'DrMundo',
+    "Jarvan IV": 'JarvanIV'
+}
+
 function mapKeyData() {
     return data.map(x => {
         return {
             skill: x.skill,
             name: x.name,
-            key: x.name,
+            key: Object.keys(name).includes(x.name) ? name[x.name] : x.name,
             id: parseInt(keyData.find(y => y.name == x.name).id)
         }
     })
 }
+
 
 
 export default {
@@ -126,5 +151,6 @@ export default {
     mapKeyData,
     mapMainRawData,
     mapRune,
-    mapItem
+    mapItem,
+    mapChampion
 }

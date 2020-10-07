@@ -1,8 +1,8 @@
 <template>
 <div>
     <div v-if="skills">
-        <div class="r" v-for="(x,i) in 5" :key="i">
-            <div v-for="(y,n) in 19" :key="n" class="c d-flex justify-content-center">
+        <div :class="'r-'+i" class="r" v-for="(x,i) in 5" :key="i">
+            <div v-for="(y,n) in 19" :key="n" class="c d-flex justify-content-center" :class="i == skills[n-1] ? 'active':''">
                 <b>
                 {{i == skills[n-1] ? '◼': (x > 1 ? (n==0 ? skillKey[i]: ''): (n > 0 ? n : '+'))}}
                 </b>
@@ -13,7 +13,7 @@
 </template>
 <script>
 export default {
-    nam: 'skillChart',
+    name: 'skillChart',
     props: [
         'skills'
     ],
@@ -24,10 +24,18 @@ export default {
     }
 }
 </script>
-<style scoped>
+<style lang="scss" scoped>
 .r {
   display: flex !important;
 }
+
+// .r-1{
+//     color:rgb(214, 85, 85);
+//     div.active{
+//         border-radius: 0.2rem ;
+//         background-color: rgba(34, 72, 88, 0.486);
+//     }
+// }
 
 .c {
   font-size: 0.7rem;

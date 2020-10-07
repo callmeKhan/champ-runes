@@ -1090,13 +1090,13 @@
   {
     "skill": [
       {
-        "W": "LuxPrismaticWave.png"
+        "E": "LuxLightStrikeKugel.png"
       },
       {
         "Q": "LuxLightBinding.png"
       },
       {
-        "E": "LuxLightStrikeKugel.png"
+        "W": "LuxPrismaticWave.png"
       }
     ],
     "name": "Lux",
@@ -1586,6 +1586,22 @@
   {
     "skill": [
       {
+        "Q": "SamiraQ.png"
+      },
+      {
+        "E": "SamiraE.png"
+      },
+      {
+        "W": "SamiraW.png"
+      }
+    ],
+    "name": "Samira",
+    "key": "Samira",
+    "id": 360
+  },
+  {
+    "skill": [
+      {
         "W": "SejuaniW.png"
       },
       {
@@ -1858,10 +1874,10 @@
   {
     "skill": [
       {
-        "Q": "TalonQ.png"
+        "W": "TalonW.png"
       },
       {
-        "W": "TalonW.png"
+        "Q": "TalonQ.png"
       },
       {
         "E": "TalonE.png"

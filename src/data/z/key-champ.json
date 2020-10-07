@@ -338,6 +338,20 @@
     }
   },
   {
+    "id": "119",
+    "name": "Draven",
+    "tips": {
+      "ally": [
+        "If Draven doesn't move, Spinning Axe will fall near his present location. It will fall directly on him, or just to the right or left.",
+        "If Draven does move after attacking, Spinning Axe will lead him in the direction of his movement. Use this to control where the Spinning Axe will go."
+      ],
+      "enemy": [
+        "Launch skillshots toward the landing position of Draven's Spinning Axes.",
+        "Disrupt Draven with the goal of making him drop his axes. If you do, his power drops dramatically."
+      ]
+    }
+  },
+  {
     "id": "36",
     "name": "Dr. Mundo",
     "tips": {
@@ -349,20 +363,6 @@
       "enemy": [
         "Try to coordinate high-damage abilities with your allies right after Dr. Mundo uses his ultimate, but if you're unable to kill him quickly with burst he will heal through the damage.",
         "Try casting Ignite when Dr. Mundo uses Sadism to negate a large portion of its healing."
-      ]
-    }
-  },
-  {
-    "id": "119",
-    "name": "Draven",
-    "tips": {
-      "ally": [
-        "If Draven doesn't move, Spinning Axe will fall near his present location. It will fall directly on him, or just to the right or left.",
-        "If Draven does move after attacking, Spinning Axe will lead him in the direction of his movement. Use this to control where the Spinning Axe will go."
-      ],
-      "enemy": [
-        "Launch skillshots toward the landing position of Draven's Spinning Axes.",
-        "Disrupt Draven with the goal of making him drop his axes. If you do, his power drops dramatically."
       ]
     }
   },
@@ -1131,6 +1131,20 @@
     }
   },
   {
+    "id": "62",
+    "name": "Wukong",
+    "tips": {
+      "ally": [
+        "Decoy and Nimbus Strike work well together to quickly strike your enemy and get out before they can retaliate.",
+        "Try using Decoy near brush to make an enemy overreact to your movement."
+      ],
+      "enemy": [
+        "Wukong will often use Decoy after Nimbus Strike. Try delaying your abilities by a short amount of time to ensure that you're hitting the real Wukong.",
+        "Wukong becomes tougher to kill when surrounded by his enemies. Try to isolate him to gain an advantage."
+      ]
+    }
+  },
+  {
     "id": "82",
     "name": "Mordekaiser",
     "tips": {
@@ -1511,6 +1525,14 @@
         "Use Realm Warp's windup time to figure out how to deal with what may be coming out of the portal.",
         "Crowd controlling Ryze during Realm Warp's windup will cancel the portal."
       ]
+    }
+  },
+  {
+    "id": "360",
+    "name": "Samira",
+    "tips": {
+      "ally": [],
+      "enemy": []
     }
   },
   {
@@ -2061,20 +2083,6 @@
         "Warwick's attacks heal him at low health. Save your disables to finish him off.",
         "Warwick is empowered versus low health enemies. Manage your health to keep him at bay.",
         "Warwick's ultimate cast range scales with his movement speed."
-      ]
-    }
-  },
-  {
-    "id": "62",
-    "name": "Wukong",
-    "tips": {
-      "ally": [
-        "Decoy and Nimbus Strike work well together to quickly strike your enemy and get out before they can retaliate.",
-        "Try using Decoy near brush to make an enemy overreact to your movement."
-      ],
-      "enemy": [
-        "Wukong will often use Decoy after Nimbus Strike. Try delaying your abilities by a short amount of time to ensure that you're hitting the real Wukong.",
-        "Wukong becomes tougher to kill when surrounded by his enemies. Try to isolate him to gain an advantage."
       ]
     }
   },
