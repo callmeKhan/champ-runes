@@ -21,10 +21,10 @@
         "Q": "AhriOrbofDeception.png"
       },
       {
-        "W": "AhriFoxFire.png"
+        "E": "AhriSeduce.png"
       },
       {
-        "E": "AhriSeduce.png"
+        "W": "AhriFoxFire.png"
       }
     ],
     "name": "Ahri",
@@ -53,10 +53,10 @@
         "Q": "Pulverize.png"
       },
       {
-        "W": "Headbutt.png"
+        "E": "AlistarE.png"
       },
       {
-        "E": "AlistarE.png"
+        "W": "Headbutt.png"
       }
     ],
     "name": "Alistar",
@@ -66,10 +66,10 @@
   {
     "skill": [
       {
-        "E": "Tantrum.png"
+        "Q": "BandageToss.png"
       },
       {
-        "Q": "BandageToss.png"
+        "E": "Tantrum.png"
       },
       {
         "W": "AuraofDespair.png"
@@ -82,10 +82,10 @@
   {
     "skill": [
       {
-        "E": "Frostbite.png"
+        "Q": "FlashFrost.png"
       },
       {
-        "Q": "FlashFrost.png"
+        "E": "Frostbite.png"
       },
       {
         "W": "Crystallize.png"
@@ -101,10 +101,10 @@
         "Q": "AnnieQ.png"
       },
       {
-        "W": "AnnieW.png"
+        "E": "AnnieE.png"
       },
       {
-        "E": "AnnieE.png"
+        "W": "AnnieW.png"
       }
     ],
     "name": "Annie",
@@ -117,10 +117,10 @@
         "Q": "ApheliosQ_ClientTooltipWrapper.png"
       },
       {
-        "W": "ApheliosW.png"
+        "E": "ApheliosE_ClientTooltipWrapper.png"
       },
       {
-        "E": "ApheliosE_ClientTooltipWrapper.png"
+        "W": "ApheliosW.png"
       }
     ],
     "name": "Aphelios",
@@ -130,13 +130,13 @@
   {
     "skill": [
       {
-        "W": "Volley.png"
-      },
-      {
         "Q": "AsheQ.png"
       },
       {
         "E": "AsheSpiritOfTheHawk.png"
+      },
+      {
+        "W": "Volley.png"
       }
     ],
     "name": "Ashe",
@@ -146,17 +146,17 @@
   {
     "skill": [
       {
-        "W": "AurelionSolW.png"
-      },
-      {
         "Q": "AurelionSolQ.png"
       },
       {
         "E": "AurelionSolE.png"
+      },
+      {
+        "W": "AurelionSolW.png"
       }
     ],
     "name": "Aurelion Sol",
-    "key": "Aurelion Sol",
+    "key": "AurelionSol",
     "id": 136
   },
   {
@@ -165,10 +165,10 @@
         "Q": "AzirQWrapper.png"
       },
       {
-        "W": "AzirW.png"
+        "E": "AzirEWrapper.png"
       },
       {
-        "E": "AzirEWrapper.png"
+        "W": "AzirW.png"
       }
     ],
     "name": "Azir",
@@ -181,10 +181,10 @@
         "Q": "BardQ.png"
       },
       {
-        "W": "BardW.png"
+        "E": "BardE.png"
       },
       {
-        "E": "BardE.png"
+        "W": "BardW.png"
       }
     ],
     "name": "Bard",
@@ -197,10 +197,10 @@
         "Q": "RocketGrab.png"
       },
       {
-        "W": "Overdrive.png"
+        "E": "PowerFist.png"
       },
       {
-        "E": "PowerFist.png"
+        "W": "Overdrive.png"
       }
     ],
     "name": "Blitzcrank",
@@ -210,13 +210,13 @@
   {
     "skill": [
       {
-        "W": "BrandW.png"
-      },
-      {
         "Q": "BrandQ.png"
       },
       {
         "E": "BrandE.png"
+      },
+      {
+        "W": "BrandW.png"
       }
     ],
     "name": "Brand",
@@ -245,10 +245,10 @@
         "Q": "CaitlynPiltoverPeacemaker.png"
       },
       {
-        "W": "CaitlynYordleTrap.png"
+        "E": "CaitlynEntrapment.png"
       },
       {
-        "E": "CaitlynEntrapment.png"
+        "W": "CaitlynYordleTrap.png"
       }
     ],
     "name": "Caitlyn",
@@ -274,10 +274,10 @@
   {
     "skill": [
       {
-        "E": "CassiopeiaE.png"
+        "Q": "CassiopeiaQ.png"
       },
       {
-        "Q": "CassiopeiaQ.png"
+        "E": "CassiopeiaE.png"
       },
       {
         "W": "CassiopeiaW.png"
@@ -293,14 +293,14 @@
         "Q": "Rupture.png"
       },
       {
-        "W": "FeralScream.png"
+        "E": "VorpalSpikes.png"
       },
       {
-        "E": "VorpalSpikes.png"
+        "W": "FeralScream.png"
       }
     ],
     "name": "Cho'Gath",
-    "key": "ChoGath",
+    "key": "Chogath",
     "id": 31
   },
   {
@@ -341,15 +341,31 @@
         "Q": "DianaQ.png"
       },
       {
-        "W": "DianaOrbs.png"
+        "E": "DianaTeleport.png"
       },
       {
-        "E": "DianaTeleport.png"
+        "W": "DianaOrbs.png"
       }
     ],
     "name": "Diana",
     "key": "Diana",
     "id": 131
+  },
+  {
+    "skill": [
+      {
+        "Q": "DravenSpinning.png"
+      },
+      {
+        "E": "DravenDoubleShot.png"
+      },
+      {
+        "W": "DravenFury.png"
+      }
+    ],
+    "name": "Draven",
+    "key": "Draven",
+    "id": 119
   },
   {
     "skill": [
@@ -366,22 +382,6 @@
     "name": "Dr. Mundo",
     "key": "DrMundo",
     "id": 36
-  },
-  {
-    "skill": [
-      {
-        "Q": "DravenSpinning.png"
-      },
-      {
-        "W": "DravenFury.png"
-      },
-      {
-        "E": "DravenDoubleShot.png"
-      }
-    ],
-    "name": "Draven",
-    "key": "Draven",
-    "id": 119
   },
   {
     "skill": [
@@ -405,10 +405,10 @@
         "Q": "EliseHumanQ.png"
       },
       {
-        "W": "EliseHumanW.png"
+        "E": "EliseHumanE.png"
       },
       {
-        "E": "EliseHumanE.png"
+        "W": "EliseHumanW.png"
       }
     ],
     "name": "Elise",
@@ -450,13 +450,13 @@
   {
     "skill": [
       {
-        "W": "FiddleSticksW.png"
-      },
-      {
         "Q": "FiddleSticksQ.png"
       },
       {
         "E": "FiddleSticksE.png"
+      },
+      {
+        "W": "FiddleSticksW.png"
       }
     ],
     "name": "Fiddlesticks",
@@ -482,13 +482,13 @@
   {
     "skill": [
       {
+        "Q": "FizzQ.png"
+      },
+      {
         "E": "FizzE.png"
       },
       {
         "W": "FizzW.png"
-      },
-      {
-        "Q": "FizzQ.png"
       }
     ],
     "name": "Fizz",
@@ -501,10 +501,10 @@
         "Q": "GalioQ.png"
       },
       {
-        "W": "GalioW.png"
+        "E": "GalioE.png"
       },
       {
-        "E": "GalioE.png"
+        "W": "GalioW.png"
       }
     ],
     "name": "Galio",
@@ -530,10 +530,10 @@
   {
     "skill": [
       {
-        "E": "GarenE.png"
+        "Q": "GarenQ.png"
       },
       {
-        "Q": "GarenQ.png"
+        "E": "GarenE.png"
       },
       {
         "W": "GarenW.png"
@@ -549,10 +549,10 @@
         "Q": "GnarQ.png"
       },
       {
-        "W": "GnarW.png"
+        "E": "GnarE.png"
       },
       {
-        "E": "GnarE.png"
+        "W": "GnarW.png"
       }
     ],
     "name": "Gnar",
@@ -613,10 +613,10 @@
         "Q": "HeimerdingerQ.png"
       },
       {
-        "W": "HeimerdingerW.png"
+        "E": "HeimerdingerE.png"
       },
       {
-        "E": "HeimerdingerE.png"
+        "W": "HeimerdingerW.png"
       }
     ],
     "name": "Heimerdinger",
@@ -626,10 +626,10 @@
   {
     "skill": [
       {
-        "E": "IllaoiE.png"
+        "Q": "IllaoiQ.png"
       },
       {
-        "Q": "IllaoiQ.png"
+        "E": "IllaoiE.png"
       },
       {
         "W": "IllaoiW.png"
@@ -658,10 +658,10 @@
   {
     "skill": [
       {
-        "E": "IvernE.png"
+        "Q": "IvernQ.png"
       },
       {
-        "Q": "IvernQ.png"
+        "E": "IvernE.png"
       },
       {
         "W": "IvernW.png"
@@ -674,13 +674,13 @@
   {
     "skill": [
       {
-        "W": "SowTheWind.png"
+        "Q": "HowlingGale.png"
       },
       {
         "E": "EyeOfTheStorm.png"
       },
       {
-        "Q": "HowlingGale.png"
+        "W": "SowTheWind.png"
       }
     ],
     "name": "Janna",
@@ -706,13 +706,13 @@
   {
     "skill": [
       {
-        "W": "JaxEmpowerTwo.png"
-      },
-      {
         "Q": "JaxLeapStrike.png"
       },
       {
         "E": "JaxCounterStrike.png"
+      },
+      {
+        "W": "JaxEmpowerTwo.png"
       }
     ],
     "name": "Jax",
@@ -725,10 +725,10 @@
         "Q": "JayceToTheSkies.png"
       },
       {
-        "W": "JayceStaticField.png"
+        "E": "JayceThunderingBlow.png"
       },
       {
-        "E": "JayceThunderingBlow.png"
+        "W": "JayceStaticField.png"
       }
     ],
     "name": "Jayce",
@@ -741,10 +741,10 @@
         "Q": "JhinQ.png"
       },
       {
-        "W": "JhinW.png"
+        "E": "JhinE.png"
       },
       {
-        "E": "JhinE.png"
+        "W": "JhinW.png"
       }
     ],
     "name": "Jhin",
@@ -757,10 +757,10 @@
         "Q": "JinxQ.png"
       },
       {
-        "W": "JinxW.png"
+        "E": "JinxE.png"
       },
       {
-        "E": "JinxE.png"
+        "W": "JinxW.png"
       }
     ],
     "name": "Jinx",
@@ -780,16 +780,16 @@
       }
     ],
     "name": "Kai'Sa",
-    "key": "Kai'Sa",
+    "key": "Kaisa",
     "id": 145
   },
   {
     "skill": [
       {
-        "E": "KalistaExpungeWrapper.png"
+        "Q": "KalistaMysticShot.png"
       },
       {
-        "Q": "KalistaMysticShot.png"
+        "E": "KalistaExpungeWrapper.png"
       },
       {
         "W": "KalistaW.png"
@@ -885,10 +885,10 @@
         "Q": "KaynQ.png"
       },
       {
-        "W": "KaynW.png"
+        "E": "KaynE.png"
       },
       {
-        "E": "KaynE.png"
+        "W": "KaynW.png"
       }
     ],
     "name": "Kayn",
@@ -901,10 +901,10 @@
         "Q": "KennenShurikenHurlMissile1.png"
       },
       {
-        "W": "KennenBringTheLight.png"
+        "E": "KennenLightningRush.png"
       },
       {
-        "E": "KennenLightningRush.png"
+        "W": "KennenBringTheLight.png"
       }
     ],
     "name": "Kennen",
@@ -917,14 +917,14 @@
         "Q": "KhazixQ.png"
       },
       {
-        "W": "KhazixW.png"
+        "E": "KhazixE.png"
       },
       {
-        "E": "KhazixE.png"
+        "W": "KhazixW.png"
       }
     ],
     "name": "Kha'Zix",
-    "key": "Kha'Zix",
+    "key": "Khazix",
     "id": 121
   },
   {
@@ -933,10 +933,10 @@
         "Q": "KindredQ.png"
       },
       {
-        "W": "KindredW.png"
+        "E": "KindredEWrapper.png"
       },
       {
-        "E": "KindredEWrapper.png"
+        "W": "KindredW.png"
       }
     ],
     "name": "Kindred",
@@ -949,10 +949,10 @@
         "Q": "KledQ.png"
       },
       {
-        "W": "KledW.png"
+        "E": "KledE.png"
       },
       {
-        "E": "KledE.png"
+        "W": "KledW.png"
       }
     ],
     "name": "Kled",
@@ -962,33 +962,33 @@
   {
     "skill": [
       {
-        "W": "KogMawBioArcaneBarrage.png"
-      },
-      {
         "Q": "KogMawQ.png"
       },
       {
         "E": "KogMawVoidOoze.png"
+      },
+      {
+        "W": "KogMawBioArcaneBarrage.png"
       }
     ],
     "name": "Kog'Maw",
-    "key": "Kog'Maw",
+    "key": "KogMaw",
     "id": 96
   },
   {
     "skill": [
       {
-        "W": "LeblancW.png"
-      },
-      {
         "Q": "LeblancQ.png"
       },
       {
         "E": "LeblancE.png"
+      },
+      {
+        "W": "LeblancW.png"
       }
     ],
     "name": "LeBlanc",
-    "key": "LeBlanc",
+    "key": "Leblanc",
     "id": 7
   },
   {
@@ -997,26 +997,26 @@
         "Q": "BlindMonkQOne.png"
       },
       {
-        "W": "BlindMonkWOne.png"
+        "E": "BlindMonkEOne.png"
       },
       {
-        "E": "BlindMonkEOne.png"
+        "W": "BlindMonkWOne.png"
       }
     ],
     "name": "Lee Sin",
-    "key": "Lee Sin",
+    "key": "LeeSin",
     "id": 64
   },
   {
     "skill": [
       {
-        "W": "LeonaSolarBarrier.png"
+        "Q": "LeonaShieldOfDaybreak.png"
       },
       {
         "E": "LeonaZenithBlade.png"
       },
       {
-        "Q": "LeonaShieldOfDaybreak.png"
+        "W": "LeonaSolarBarrier.png"
       }
     ],
     "name": "Leona",
@@ -1029,10 +1029,10 @@
         "Q": "LilliaQ.png"
       },
       {
-        "W": "LilliaW.png"
+        "E": "LilliaE.png"
       },
       {
-        "E": "LilliaE.png"
+        "W": "LilliaW.png"
       }
     ],
     "name": "Lillia",
@@ -1045,10 +1045,10 @@
         "Q": "LissandraQ.png"
       },
       {
-        "W": "LissandraW.png"
+        "E": "LissandraE.png"
       },
       {
-        "E": "LissandraE.png"
+        "W": "LissandraW.png"
       }
     ],
     "name": "Lissandra",
@@ -1074,13 +1074,13 @@
   {
     "skill": [
       {
+        "Q": "LuluQ.png"
+      },
+      {
         "E": "LuluE.png"
       },
       {
         "W": "LuluW.png"
-      },
-      {
-        "Q": "LuluQ.png"
       }
     ],
     "name": "Lulu",
@@ -1090,10 +1090,10 @@
   {
     "skill": [
       {
-        "E": "LuxLightStrikeKugel.png"
+        "Q": "LuxLightBinding.png"
       },
       {
-        "Q": "LuxLightBinding.png"
+        "E": "LuxLightStrikeKugel.png"
       },
       {
         "W": "LuxPrismaticWave.png"
@@ -1122,10 +1122,10 @@
   {
     "skill": [
       {
-        "E": "MalzaharE.png"
+        "Q": "MalzaharQ.png"
       },
       {
-        "Q": "MalzaharQ.png"
+        "E": "MalzaharE.png"
       },
       {
         "W": "MalzaharW.png"
@@ -1141,10 +1141,10 @@
         "Q": "MaokaiQ.png"
       },
       {
-        "W": "MaokaiW.png"
+        "E": "MaokaiE.png"
       },
       {
-        "E": "MaokaiE.png"
+        "W": "MaokaiW.png"
       }
     ],
     "name": "Maokai",
@@ -1164,7 +1164,7 @@
       }
     ],
     "name": "Master Yi",
-    "key": "Master Yi",
+    "key": "MasterYi",
     "id": 11
   },
   {
@@ -1173,15 +1173,31 @@
         "Q": "MissFortuneRicochetShot.png"
       },
       {
-        "W": "MissFortuneViciousStrikes.png"
+        "E": "MissFortuneScattershot.png"
       },
       {
-        "E": "MissFortuneScattershot.png"
+        "W": "MissFortuneViciousStrikes.png"
       }
     ],
     "name": "Miss Fortune",
-    "key": "Miss Fortune",
+    "key": "MissFortune",
     "id": 21
+  },
+  {
+    "skill": [
+      {
+        "Q": "MonkeyKingDoubleAttack.png"
+      },
+      {
+        "E": "MonkeyKingNimbus.png"
+      },
+      {
+        "W": "MonkeyKingDecoy.png"
+      }
+    ],
+    "name": "Wukong",
+    "key": "MonkeyKing",
+    "id": 62
   },
   {
     "skill": [
@@ -1218,13 +1234,13 @@
   {
     "skill": [
       {
-        "W": "NamiW.png"
+        "Q": "NamiQ.png"
       },
       {
         "E": "NamiE.png"
       },
       {
-        "Q": "NamiQ.png"
+        "W": "NamiW.png"
       }
     ],
     "name": "Nami",
@@ -1237,10 +1253,10 @@
         "Q": "NasusQ.png"
       },
       {
-        "W": "NasusW.png"
+        "E": "NasusE.png"
       },
       {
-        "E": "NasusE.png"
+        "W": "NasusW.png"
       }
     ],
     "name": "Nasus",
@@ -1253,10 +1269,10 @@
         "Q": "NautilusAnchorDrag.png"
       },
       {
-        "W": "NautilusPiercingGaze.png"
+        "E": "NautilusSplashZone.png"
       },
       {
-        "E": "NautilusSplashZone.png"
+        "W": "NautilusPiercingGaze.png"
       }
     ],
     "name": "Nautilus",
@@ -1324,7 +1340,7 @@
       }
     ],
     "name": "Nunu & Willump",
-    "key": "Nunu & Willump",
+    "key": "Nunu",
     "id": 20
   },
   {
@@ -1349,10 +1365,10 @@
         "Q": "OrianaIzunaCommand.png"
       },
       {
-        "W": "OrianaDissonanceCommand.png"
+        "E": "OrianaRedactCommand.png"
       },
       {
-        "E": "OrianaRedactCommand.png"
+        "W": "OrianaDissonanceCommand.png"
       }
     ],
     "name": "Orianna",
@@ -1365,10 +1381,10 @@
         "Q": "OrnnQ.png"
       },
       {
-        "W": "OrnnW.png"
+        "E": "OrnnE.png"
       },
       {
-        "E": "OrnnE.png"
+        "W": "OrnnW.png"
       }
     ],
     "name": "Ornn",
@@ -1413,10 +1429,10 @@
         "Q": "PykeQ.png"
       },
       {
-        "W": "PykeW.png"
+        "E": "PykeE.png"
       },
       {
-        "E": "PykeE.png"
+        "W": "PykeW.png"
       }
     ],
     "name": "Pyke",
@@ -1442,13 +1458,13 @@
   {
     "skill": [
       {
-        "W": "QuinnW.png"
-      },
-      {
         "Q": "QuinnQ.png"
       },
       {
         "E": "QuinnE.png"
+      },
+      {
+        "W": "QuinnW.png"
       }
     ],
     "name": "Quinn",
@@ -1458,13 +1474,13 @@
   {
     "skill": [
       {
-        "W": "RakanW.png"
+        "Q": "RakanQ.png"
       },
       {
         "E": "RakanE.png"
       },
       {
-        "Q": "RakanQ.png"
+        "W": "RakanW.png"
       }
     ],
     "name": "Rakan",
@@ -1500,7 +1516,7 @@
       }
     ],
     "name": "Rek'Sai",
-    "key": "Rek'Sai",
+    "key": "RekSai",
     "id": 421
   },
   {
@@ -1525,10 +1541,10 @@
         "Q": "RengarQ.png"
       },
       {
-        "W": "RengarW.png"
+        "E": "RengarE.png"
       },
       {
-        "E": "RengarE.png"
+        "W": "RengarW.png"
       }
     ],
     "name": "Rengar",
@@ -1602,13 +1618,13 @@
   {
     "skill": [
       {
-        "W": "SejuaniW.png"
-      },
-      {
         "Q": "SejuaniQ.png"
       },
       {
         "E": "SejuaniE.png"
+      },
+      {
+        "W": "SejuaniW.png"
       }
     ],
     "name": "Sejuani",
@@ -1621,10 +1637,10 @@
         "Q": "SennaQ.png"
       },
       {
-        "W": "SennaW.png"
+        "E": "SennaE.png"
       },
       {
-        "E": "SennaE.png"
+        "W": "SennaW.png"
       }
     ],
     "name": "Senna",
@@ -1634,13 +1650,13 @@
   {
     "skill": [
       {
-        "W": "SettW.png"
+        "Q": "SettQ.png"
       },
       {
         "E": "SettE.png"
       },
       {
-        "Q": "SettQ.png"
+        "W": "SettW.png"
       }
     ],
     "name": "Sett",
@@ -1650,10 +1666,10 @@
   {
     "skill": [
       {
-        "E": "TwoShivPoison.png"
+        "Q": "Deceive.png"
       },
       {
-        "Q": "Deceive.png"
+        "E": "TwoShivPoison.png"
       },
       {
         "W": "JackInTheBox.png"
@@ -1682,13 +1698,13 @@
   {
     "skill": [
       {
+        "Q": "ShyvanaDoubleAttack.png"
+      },
+      {
         "E": "ShyvanaFireball.png"
       },
       {
         "W": "ShyvanaImmolationAura.png"
-      },
-      {
-        "Q": "ShyvanaDoubleAttack.png"
       }
     ],
     "name": "Shyvana",
@@ -1717,10 +1733,10 @@
         "Q": "SionQ.png"
       },
       {
-        "W": "SionW.png"
+        "E": "SionE.png"
       },
       {
-        "E": "SionE.png"
+        "W": "SionW.png"
       }
     ],
     "name": "Sion",
@@ -1733,10 +1749,10 @@
         "Q": "SivirQ.png"
       },
       {
-        "W": "SivirW.png"
+        "E": "SivirE.png"
       },
       {
-        "E": "SivirE.png"
+        "W": "SivirW.png"
       }
     ],
     "name": "Sivir",
@@ -1749,10 +1765,10 @@
         "Q": "SkarnerVirulentSlash.png"
       },
       {
-        "W": "SkarnerExoskeleton.png"
+        "E": "SkarnerFracture.png"
       },
       {
-        "E": "SkarnerFracture.png"
+        "W": "SkarnerExoskeleton.png"
       }
     ],
     "name": "Skarner",
@@ -1765,10 +1781,10 @@
         "Q": "SonaQ.png"
       },
       {
-        "W": "SonaW.png"
+        "E": "SonaE.png"
       },
       {
-        "E": "SonaE.png"
+        "W": "SonaW.png"
       }
     ],
     "name": "Sona",
@@ -1778,13 +1794,13 @@
   {
     "skill": [
       {
-        "W": "SorakaW.png"
-      },
-      {
         "Q": "SorakaQ.png"
       },
       {
         "E": "SorakaE.png"
+      },
+      {
+        "W": "SorakaW.png"
       }
     ],
     "name": "Soraka",
@@ -1797,10 +1813,10 @@
         "Q": "SwainQ.png"
       },
       {
-        "W": "SwainW.png"
+        "E": "SwainE.png"
       },
       {
-        "E": "SwainE.png"
+        "W": "SwainW.png"
       }
     ],
     "name": "Swain",
@@ -1813,10 +1829,10 @@
         "Q": "SylasQ.png"
       },
       {
-        "W": "SylasW.png"
+        "E": "SylasE.png"
       },
       {
-        "E": "SylasE.png"
+        "W": "SylasW.png"
       }
     ],
     "name": "Sylas",
@@ -1845,14 +1861,14 @@
         "Q": "TahmKenchQ.png"
       },
       {
-        "W": "TahmKenchW.png"
+        "E": "TahmKenchE.png"
       },
       {
-        "E": "TahmKenchE.png"
+        "W": "TahmKenchW.png"
       }
     ],
     "name": "Tahm Kench",
-    "key": "Tahm Kench",
+    "key": "TahmKench",
     "id": 223
   },
   {
@@ -1874,13 +1890,13 @@
   {
     "skill": [
       {
-        "W": "TalonW.png"
-      },
-      {
         "Q": "TalonQ.png"
       },
       {
         "E": "TalonE.png"
+      },
+      {
+        "W": "TalonW.png"
       }
     ],
     "name": "Talon",
@@ -1890,10 +1906,10 @@
   {
     "skill": [
       {
-        "E": "TaricE.png"
+        "Q": "TaricQ.png"
       },
       {
-        "Q": "TaricQ.png"
+        "E": "TaricE.png"
       },
       {
         "W": "TaricW.png"
@@ -1906,10 +1922,10 @@
   {
     "skill": [
       {
-        "E": "ToxicShot.png"
+        "Q": "BlindingDart.png"
       },
       {
-        "Q": "BlindingDart.png"
+        "E": "ToxicShot.png"
       },
       {
         "W": "MoveQuick.png"
@@ -1938,10 +1954,10 @@
   {
     "skill": [
       {
-        "E": "TristanaE.png"
+        "Q": "TristanaQ.png"
       },
       {
-        "Q": "TristanaQ.png"
+        "E": "TristanaE.png"
       },
       {
         "W": "TristanaW.png"
@@ -1957,10 +1973,10 @@
         "Q": "TrundleTrollSmash.png"
       },
       {
-        "W": "trundledesecrate.png"
+        "E": "TrundleCircle.png"
       },
       {
-        "E": "TrundleCircle.png"
+        "W": "trundledesecrate.png"
       }
     ],
     "name": "Trundle",
@@ -1989,23 +2005,23 @@
         "Q": "WildCards.png"
       },
       {
-        "W": "PickACard.png"
+        "E": "CardmasterStack.png"
       },
       {
-        "E": "CardmasterStack.png"
+        "W": "PickACard.png"
       }
     ],
     "name": "Twisted Fate",
-    "key": "Twisted Fate",
+    "key": "TwistedFate",
     "id": 4
   },
   {
     "skill": [
       {
-        "E": "TwitchExpunge.png"
+        "Q": "TwitchHideInShadows.png"
       },
       {
-        "Q": "TwitchHideInShadows.png"
+        "E": "TwitchExpunge.png"
       },
       {
         "W": "TwitchVenomCask.png"
@@ -2034,13 +2050,13 @@
   {
     "skill": [
       {
-        "W": "UrgotW.png"
+        "Q": "UrgotQ.png"
       },
       {
         "E": "UrgotE.png"
       },
       {
-        "Q": "UrgotQ.png"
+        "W": "UrgotW.png"
       }
     ],
     "name": "Urgot",
@@ -2053,10 +2069,10 @@
         "Q": "VarusQ.png"
       },
       {
-        "W": "VarusW.png"
+        "E": "VarusE.png"
       },
       {
-        "E": "VarusE.png"
+        "W": "VarusW.png"
       }
     ],
     "name": "Varus",
@@ -2066,13 +2082,13 @@
   {
     "skill": [
       {
-        "W": "VayneSilveredBolts.png"
-      },
-      {
         "Q": "VayneTumble.png"
       },
       {
         "E": "VayneCondemn.png"
+      },
+      {
+        "W": "VayneSilveredBolts.png"
       }
     ],
     "name": "Vayne",
@@ -2085,10 +2101,10 @@
         "Q": "VeigarBalefulStrike.png"
       },
       {
-        "W": "VeigarDarkMatter.png"
+        "E": "VeigarEventHorizon.png"
       },
       {
-        "E": "VeigarEventHorizon.png"
+        "W": "VeigarDarkMatter.png"
       }
     ],
     "name": "Veigar",
@@ -2101,14 +2117,14 @@
         "Q": "VelkozQ.png"
       },
       {
-        "W": "VelkozW.png"
+        "E": "VelkozE.png"
       },
       {
-        "E": "VelkozE.png"
+        "W": "VelkozW.png"
       }
     ],
     "name": "Vel'Koz",
-    "key": "Vel'Koz",
+    "key": "Velkoz",
     "id": 161
   },
   {
@@ -2130,10 +2146,10 @@
   {
     "skill": [
       {
-        "E": "ViktorDeathRay.png"
+        "Q": "ViktorPowerTransfer.png"
       },
       {
-        "Q": "ViktorPowerTransfer.png"
+        "E": "ViktorDeathRay.png"
       },
       {
         "W": "ViktorGravitonField.png"
@@ -2162,13 +2178,13 @@
   {
     "skill": [
       {
-        "W": "VolibearW.png"
-      },
-      {
         "Q": "VolibearQ.png"
       },
       {
         "E": "VolibearE.png"
+      },
+      {
+        "W": "VolibearW.png"
       }
     ],
     "name": "Volibear",
@@ -2181,10 +2197,10 @@
         "Q": "WarwickQ.png"
       },
       {
-        "W": "WarwickW.png"
+        "E": "WarwickE.png"
       },
       {
-        "E": "WarwickE.png"
+        "W": "WarwickW.png"
       }
     ],
     "name": "Warwick",
@@ -2194,29 +2210,13 @@
   {
     "skill": [
       {
-        "Q": "MonkeyKingDoubleAttack.png"
+        "Q": "XayahQ.png"
       },
-      {
-        "E": "MonkeyKingNimbus.png"
-      },
-      {
-        "W": "MonkeyKingDecoy.png"
-      }
-    ],
-    "name": "Wukong",
-    "key": "Wukong",
-    "id": 62
-  },
-  {
-    "skill": [
       {
         "E": "XayahE.png"
       },
       {
         "W": "XayahW.png"
-      },
-      {
-        "Q": "XayahQ.png"
       }
     ],
     "name": "Xayah",
@@ -2229,10 +2229,10 @@
         "Q": "XerathArcanopulseChargeUp.png"
       },
       {
-        "W": "XerathArcaneBarrage2.png"
+        "E": "XerathMageSpear.png"
       },
       {
-        "E": "XerathMageSpear.png"
+        "W": "XerathArcaneBarrage2.png"
       }
     ],
     "name": "Xerath",
@@ -2242,17 +2242,17 @@
   {
     "skill": [
       {
-        "W": "XinZhaoW.png"
+        "Q": "XinZhaoQ.png"
       },
       {
         "E": "XinZhaoE.png"
       },
       {
-        "Q": "XinZhaoQ.png"
+        "W": "XinZhaoW.png"
       }
     ],
     "name": "Xin Zhao",
-    "key": "Xin Zhao",
+    "key": "XinZhao",
     "id": 5
   },
   {
@@ -2322,13 +2322,13 @@
   {
     "skill": [
       {
+        "Q": "ZacQ.png"
+      },
+      {
         "E": "ZacE.png"
       },
       {
         "W": "ZacW.png"
-      },
-      {
-        "Q": "ZacQ.png"
       }
     ],
     "name": "Zac",
