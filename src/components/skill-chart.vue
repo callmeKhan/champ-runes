@@ -27,6 +27,30 @@ export default {
 <style lang="scss" scoped>
 .r {
   display: flex !important;
+  .c:first-child{
+      background-color:rgb(157, 219, 214);
+  }
+  &:first-child {
+    .c{
+        background-color:  rgb(157, 219, 214);
+        &:first-child{
+            border-radius: 0.5rem 0 0 0 
+        }
+        &:last-child{
+            border-radius: 0 0.5rem 0 0 
+        }
+    }
+  }
+  &:last-child {
+      .c{
+        &:first-child{
+            border-radius: 0 0 0 0.5rem
+        }
+        &:last-child{
+            border-radius: 0 0 0.5rem 0 
+        }
+    }
+  }
 }
 
 // .r-1{
@@ -41,7 +65,7 @@ export default {
   font-size: 0.7rem;
   flex-basis: 2rem !important;
   box-sizing: border-box !important;
-  background-color: #bdbdbd33;
+  background-color: #3a2f2f3f;
   margin: 1px;
   display: flex;
   justify-content: center!important;

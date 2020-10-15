@@ -62,7 +62,7 @@ export default {
     }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .img-flag {
     display: inline-block;
     width: 40px;
@@ -81,5 +81,8 @@ export default {
 .disabled-icon{
     filter: grayscale(1);
     pointer-events: none !important;
+}
+.modal-content {
+    background-color: #fff !important;
 }
 </style>

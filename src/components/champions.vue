@@ -41,22 +41,22 @@
             aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="cover" :style="selectedChamp.key ? {'background-image': 'url('+require('@/assets/cover/' + selectedChamp.key + '.webp' )+')'} : ''" ></div>
+                <div class="modal-content" >
                     <div class="modal-body">
                         <div class="media d-flex flex-column">
                             <div class="justify-content-between d-flex w-100">
                                 <label class="h3 text-center">
-                                    <b>{{selectedChamp.name}}</b>
+                                    <samp><b><i>{{selectedChamp.name}}</i></b></samp>
                                 </label>
-                                <button class="btn btn-danger align-self-end" type="button" data-dismiss="modal">{{$t('detail.close')}}</button>
+                                <button class="btn btn-danger align-self-baseline btn-sm" type="button" data-dismiss="modal"><samp>{{$t('detail.close')}}</samp></button>
                             </div>
                             <div class="nav nav-pills w-100">
                                 <a class="w-100 col" v-for="(item, index) in selectedChamp.stats" :key="index" :href="'#tab'+item.id+index" data-toggle="tab" 
-                                >{{item.role}}</a>
+                                ><samp><b>{{item.role}}</b></samp></a>
                             </div>
                             <div class="tab-content clearfix w-100">
-                                <div class="tab-pane" :id="'tab'+item.id+index" v-for="(item, index) in selectedChamp.stats" 
-                                
+                                    <div class="tab-pane" :id="'tab'+item.id+index" v-for="(item, index) in selectedChamp.stats" 
                                 :key="index">
                                     <div class="media-body mw-100 w-100 text-left">
                                         <label>
@@ -66,11 +66,11 @@
                                             <div class="col d-flex justify-content-start spell-display">
                                                 <template v-for="(item, index) in item.spells">
                                                     <div class="pr-3" :key="index">
-                                                        <i 
-                                                        :class="[index == 2 ? 'ml-3' : '']"
-                                                        class="img-champ img-35"
-                                                        :style="{'background-image': 'url('+require('@/assets/spells/'+item )+')'}"
-                                                    ></i>
+                                                            <i
+                                                            :class="[index == 2 ? 'ml-3' : '']"
+                                                            class="img-champ img-35"
+                                                            :style="{'background-image': 'url('+require('@/assets/spells/'+item )+')'}"
+                                                            ></i>
                                                     </div>
                                                 </template>
                                             </div>
@@ -241,7 +241,7 @@ div.nav.nav-pills{
         text-decoration: none;
         margin: 0.3rem;
         border-radius: 0.5rem;
-        background-color: #aea1a127;
+        background-color: #818181b4;
         &.active{
             background-color: #9ddbd6;
         }
@@ -251,4 +251,19 @@ div.nav.nav-pills{
         }
     }
 } 
+.cover {
+    margin: 1px;
+    position: absolute;
+    top: 0;
+    width: 99.5%;
+    height: 99.5%;
+    z-index: 1;
+    // filter: blur(1.5px); 
+    background-position: center;
+    background-size: cover;
+}
+.modal-content{
+    z-index: 2;
+    background-color: #ffffffb0;
+}
 </style>
