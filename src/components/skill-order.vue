@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b class="skill" v-for="(x, i) in calOrder" :key="i">
+        <b class="skill" v-for="(x, i) in calOrder" :key="i" >
             <i 
             class="img-champ img-35"
             :style="{'background-image': 'url('+require('@/assets/skills/'+nameSkill(x) )+')'}" >
@@ -42,3 +42,6 @@ export default {
 
 }
 </script>
+<style scope lang="scss">
+
+</style>

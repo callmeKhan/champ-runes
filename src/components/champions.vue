@@ -5,30 +5,30 @@
         </div>
        <div class="row">
             <div class="col-12">
-                <div class="input-group justify-content-center">
+                <div class="input-group mb-5 justify-content-center">
                     <div class="searchbar">
                         <input  v-model="searchName" type="input" class="search search_input" @keydown.esc="searchName = ''"  :placeholder='$t("home.search")' />
                         <b class="input-group-text btn clearable search_icon"  @click="searchName = ''">x</b>
                     </div>
                 </div>
-                    <div class="d-flex row pt-5 justify-content-center">
-                        <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4 p-1"
-                            v-for="(item, index) in championsData"
-                            :key="index">
-                            
-                                <div class="champion" data-toggle="modal"
-                                data-target="#champion-statitcs"
-                                @click="setSelectedChamp(item)">
-                                <i
-                                    class="img-champ list-champ"
-                                    :style="{'background-image': 'url('+require('@/assets/champion/'+item.key +'.webp')+')'}"
-                                ></i>
-                                <label class="d-block dot-name">
-                                    <b>{{item.name}}</b>
-                                </label>
-                            </div>
+                <div class="d-flex row justify-content-center main-content">
+                    <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4 p-1"
+                        v-for="(item, index) in championsData"
+                        :key="index">
+                        
+                            <div class="champion" data-toggle="modal"
+                            data-target="#champion-statitcs"
+                            @click="setSelectedChamp(item)">
+                            <i
+                                class="img-champ list-champ"
+                                :style="{'background-image': 'url('+require('@/assets/champion/'+item.key +'.webp')+')'}"
+                            ></i>
+                            <label class="d-block dot-name">
+                                <b>{{item.name}}</b>
+                            </label>
                         </div>
                     </div>
+                </div>
             </div>
        </div>
 
@@ -77,7 +77,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="media-body mw-100 w-100 text-left">
+                                    <div class="champ-hover media-body mw-100 w-100 text-left" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                                         <label>
                                             <b>{{$t('detail.skill')}}</b>
                                         </label>
@@ -87,7 +87,7 @@
                                             </div>
                                         </div>
                                         <div class="ml-0 row mw-100 w-100">
-                                            <div class="col d-flex">
+                                            <div class="col  collapse"  id="collapseExample">
                                                 <skillChart class="w-100" :skills="item.skills"/>
                                             </div>
                                         </div>
@@ -265,5 +265,24 @@ div.nav.nav-pills{
 .modal-content{
     z-index: 2;
     background-color: #ffffffb0;
+}
+.main-content{
+    max-height: 65vh;
+    overflow: scroll;
+}
+@media only screen and (max-width: 420px) {
+    .main-content{
+        max-height: 55vh;
+        overflow: scroll;
+    }
+}
+.champ-hover{
+    transition: 0.5s;
+    border-radius: 0.5rem;
+    padding-bottom: 0.3rem;
+    &:hover{
+        background: #9ddbd65b;
+        cursor: pointer;
+    }
 }
 </style>
