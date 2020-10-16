@@ -4,7 +4,7 @@ import Champion from '../views/Champion.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   {
     path: '/',
     name: 'Statitics',

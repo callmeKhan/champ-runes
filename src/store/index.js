@@ -26,6 +26,7 @@ export default new Vuex.Store({
     locale: 'en',
   },
   getters:{
+    stats: state => state.listStats,
     language: state => state.locale,
     champions: state => state.listChamps,
     sideKicks: state => state.listSideKick,

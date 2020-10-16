@@ -11,6 +11,7 @@
 <script>
 import Language from '@/components/language'
 import x from '@/data/z/mapData.js'
+// import matchup from '@/data/z/matchup.js'
 export default {
   components:{Language},
   mounted(){

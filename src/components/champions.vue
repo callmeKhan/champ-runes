@@ -46,13 +46,21 @@
                     <div class="modal-body">
                         <div class="media d-flex flex-column">
                             <div class="justify-content-between d-flex w-100">
-                                <label class="h3 text-center">
+                                <label class="h3 text-center d-flex">
                                     <samp><b><i>{{selectedChamp.name}}</i></b></samp>
+                                    <template v-for="(item, index) in matchUp(selectedChamp.id)">
+                                        <div class="px-3" :key="index">
+                                            <i
+                                            class="img-champ img-30 m-0"
+                                            :style="{'background-image': 'url('+require('@/assets/champion/'+mapChamp(item.op_id) )+')'}"
+                                            ></i>
+                                        </div>
+                                    </template>
                                 </label>
                                 <button class="btn btn-danger align-self-baseline btn-sm" type="button" data-dismiss="modal"><samp>{{$t('detail.close')}}</samp></button>
                             </div>
                             <div class="nav nav-pills w-100">
-                                <a class="w-100 col" v-for="(item, index) in selectedChamp.stats" :key="index" :href="'#tab'+item.id+index" data-toggle="tab" 
+                                <a @click="setRole(item.role)" class="w-100 col" v-for="(item, index) in selectedChamp.stats" :key="index" :href="'#tab'+item.id+index" data-toggle="tab" 
                                 ><samp><b>{{item.role}}</b></samp></a>
                             </div>
                             <div class="tab-content clearfix w-100">
@@ -178,6 +186,7 @@
 <script>
 import skillChart from '@/components/skill-chart.vue'
 import skillOrder from '@/components/skill-order.vue'
+import matchUpRawData from '@/data/match-up.json'
 export default ({
     components: {skillChart, skillOrder},
     data() {
@@ -186,6 +195,8 @@ export default ({
             champions: [],
             runes: [],
             sideKicks: {},
+            matchUpData: [],
+            role: null
         };
     },
     mounted() {
@@ -200,8 +211,25 @@ export default ({
             $('.nav-pills > a').removeClass('active')
             $('.tab-pane').removeClass('active')
         })
+        this.matchUpData = matchUpRawData
     },
     methods:{
+        matchUp(id){
+            let result = []
+            const rs = this.matchUpData.find(x => x.id === id)
+            let arr = rs ? rs.match : []
+            const allChamp = [...this.$store.getters.stats]
+            arr.forEach(x => {
+                let xx = allChamp.filter(y => y.id === x.op_id)
+                let tmpRole = xx.map(x => {return x.role})
+                if(tmpRole[0] === this.role)
+                    result.push(x)
+            });
+            return result.filter(x => x.role === this.role).slice(0,3)
+        },
+        mapChamp(id){
+            return this.$store.getters.champions.find(x => x.id === id).key + '.webp'
+        },
         chooseRune(index, picked){
             return index != picked ? 'enabled-rune' : 'checked-rune'
         },
@@ -211,10 +239,15 @@ export default ({
         setSelectedChamp(item){
             this.$store.dispatch('selected', item)
             this.$store.dispatch('recent', item)
+            this.role = this.$store.getters.selectedChamp.stats[0].role
         },
         getAllRune(item){
             let rs = this.runes.find(x => x.id == item)
             return item ? rs.slots : []
+        },
+        setRole(role){
+            this.role = role
+            console.log(this.role);
         }
     },
     computed: {
@@ -284,5 +317,9 @@ div.nav.nav-pills{
         background: #9ddbd65b;
         cursor: pointer;
     }
+}
+.img-30 {
+    height: 25px !important;
+    width: 25px !important;
 }
 </style>
