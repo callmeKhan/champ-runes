@@ -11,7 +11,7 @@ const path = '10.21'
 let rs = []
     ids.forEach(id => {
         let i = 0
-        axios.get(`https://beta.iesdev.com/api/lolstats/matchups/${id}?patch=${path}&queue=420&region=world&role=MID&tier=PLATINUM_PLUS`)
+        axios.get(`https://beta.iesdev.com/api/lolstats/matchups/${id}?patch=${path}&queue=420&region=world&tier=PLATINUM_PLUS`)
             .then((res) => {
                 if(res.data) {
                     if(res.data.data.length){
@@ -36,4 +36,4 @@ let rs = []
             }
         })
         console.log(result);
-    },2000)
+    },10000)

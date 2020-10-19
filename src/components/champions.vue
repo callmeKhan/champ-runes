@@ -48,14 +48,16 @@
                             <div class="justify-content-between d-flex w-100">
                                 <label class="h3 text-center d-flex">
                                     <samp><b><i>{{selectedChamp.name}}</i></b></samp>
-                                    <template v-for="(item, index) in matchUp(selectedChamp.id)">
-                                        <div class="px-3" :key="index">
+                                    <div class="d-flex">
+                                        <template v-for="(item, index) in matchUp(selectedChamp.id)">
+                                        <div class="px-2" :key="index">
                                             <i
                                             class="img-champ img-30 m-0"
                                             :style="{'background-image': 'url('+require('@/assets/champion/'+mapChamp(item.op_id) )+')'}"
                                             ></i>
                                         </div>
                                     </template>
+                                    </div>
                                 </label>
                                 <button class="btn btn-danger align-self-baseline btn-sm" type="button" data-dismiss="modal"><samp>{{$t('detail.close')}}</samp></button>
                             </div>
@@ -65,7 +67,7 @@
                             </div>
                             <div class="tab-content clearfix w-100">
                                     <div class="tab-pane" :id="'tab'+item.id+index" v-for="(item, index) in selectedChamp.stats" 
-                                :key="index">
+                                        :key="index">
                                     <div class="media-body mw-100 w-100 text-left">
                                         <label>
                                             <b>{{$t('detail.spell')}}</b>
@@ -82,7 +84,11 @@
                                                     </div>
                                                 </template>
                                             </div>
+                                            <div class="">
+                                                <a class="triangle-right" href="#"></a>
+                                            </div>
                                         </div>
+                                        
                                     </div>
 
                                     <div class="champ-hover media-body mw-100 w-100 text-left" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -95,7 +101,7 @@
                                             </div>
                                         </div>
                                         <div class="ml-0 row mw-100 w-100">
-                                            <div class="col  collapse"  id="collapseExample">
+                                            <div class="col  collapse" id="collapseExample">
                                                 <skillChart class="w-100" :skills="item.skills"/>
                                             </div>
                                         </div>
@@ -199,6 +205,11 @@ export default ({
             role: null
         };
     },
+    watch: {
+        role(v){
+            // console.log(this.matchUp(this.selectedChamp.id))
+        }
+    },
     mounted() {
         this.champions = this.$store.getters.champions;
         this.sideKicks = this.$store.getters.sideKicks;
@@ -300,6 +311,7 @@ div.nav.nav-pills{
     background-color: #ffffffb0;
 }
 .main-content{
+    scroll-behavior: smooth;
     max-height: 65vh;
     overflow: scroll;
 }
@@ -321,5 +333,12 @@ div.nav.nav-pills{
 .img-30 {
     height: 25px !important;
     width: 25px !important;
+}
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-left: 17px solid #dc3545;
+    border-bottom: 35px solid transparent;
 }
 </style>
