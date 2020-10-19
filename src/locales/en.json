@@ -7,9 +7,16 @@
     "confirm": {
       "label": "Đổi ngôn ngữ qua tiếng việt...",
       "text": "Có chắc chưa?",
-      "btn": "Chắc chứ !"
+      "btn": "Chắc !"
     },
-    "search": "Search..."
+    "search": "Search...",
+    "detail_champ": {
+      "JUNGLE": "JUNGLE",
+      "MID": "MID",
+      "TOP": "TOP",
+      "ADC": "ADC",
+      "SUPPORT": "SUPPORT"
+    }
   },
   "detail": {
       "close": "Close",

@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <h1 class="text-center col">{{$t('home.champions_statistics')}}</h1>
+            <samp><h1 class="text-center col" style="font-weight: bolder;">{{$t('home.champions_statistics')}}</h1></samp>
         </div>
        <div class="row">
             <div class="col-12">
@@ -63,7 +63,7 @@
                             </div>
                             <div class="nav nav-pills w-100">
                                 <a @click="setRole(item.role)" class="w-100 col" v-for="(item, index) in selectedChamp.stats" :key="index" :href="'#tab'+item.id+index" data-toggle="tab" 
-                                ><samp><b>{{item.role}}</b></samp></a>
+                                ><samp><b>{{$t(`home.detail_champ.${item.role}`)}}</b></samp></a>
                             </div>
                             <div class="tab-content clearfix w-100">
                                     <div class="tab-pane" :id="'tab'+item.id+index" v-for="(item, index) in selectedChamp.stats" 
@@ -83,9 +83,6 @@
                                                             ></i>
                                                     </div>
                                                 </template>
-                                            </div>
-                                            <div class="">
-                                                <a class="triangle-right" href="#"></a>
                                             </div>
                                         </div>
                                         
@@ -258,7 +255,6 @@ export default ({
         },
         setRole(role){
             this.role = role
-            console.log(this.role);
         }
     },
     computed: {
@@ -333,12 +329,5 @@ div.nav.nav-pills{
 .img-30 {
     height: 25px !important;
     width: 25px !important;
-}
-.triangle-right {
-    width: 0;
-    height: 0;
-    border-top: 35px solid transparent;
-    border-left: 17px solid #dc3545;
-    border-bottom: 35px solid transparent;
 }
 </style>

@@ -9,7 +9,14 @@
       "text": "You sure ?",
       "btn": "Yes !"
     },
-    "search": "Tìm kiếm..."
+    "search": "Tìm kiếm...",
+    "detail_champ": {
+      "JUNGLE": "RỪNG",
+      "MID": "ĐƯỜNG GIỮA",
+      "TOP": "ĐƯỜNG TRÊN",
+      "ADC": "XẠ THỦ",
+      "SUPPORT": "HỖ TRỢ"
+    }
   },
   "detail": {
       "close": "Đóng",
