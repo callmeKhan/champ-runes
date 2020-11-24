@@ -122,6 +122,7 @@ function mapKeyData() {
             id: parseInt(x.key)
         }
     })
+    return rs
 }
 
 export default {

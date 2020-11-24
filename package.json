@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/data/**/*.json'"
+    "test:unit": "vue-cli-service test:unit",
+    "dev": "vue-cli-service serve",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/data/**/*.json'",
+    "t": "jest"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -30,5 +32,23 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/tests/imgMock.js",
+      "\\.(css|less)$": "<rootDir>/tests/imgMock.js"
+    },
+    "setupFiles": [
+      "./tests/setup-jest.js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest"
+    },
+    "preset": "@vue/cli-plugin-unit-jest"
+  }
 }

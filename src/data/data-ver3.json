@@ -1650,6 +1650,22 @@
   {
     "skill": [
       {
+        "Q": "SeraphineQ.png"
+      },
+      {
+        "E": "SeraphineE.png"
+      },
+      {
+        "W": "SeraphineW.png"
+      }
+    ],
+    "name": "Seraphine",
+    "key": "Seraphine",
+    "id": 147
+  },
+  {
+    "skill": [
+      {
         "Q": "SettQ.png"
       },
       {
