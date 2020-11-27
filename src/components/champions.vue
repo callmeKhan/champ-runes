@@ -1,10 +1,16 @@
 <template>
     <div class="container-fluid">
-        <div class="row justify-content-center">
-            <samp><h1 class="text-center col" style="font-weight: bolder;">{{$t('home.champions_statistics')}}</h1></samp>
+        <div class="row justify-content-center ">
+            <samp><h1 class="text-center col my-0" style="font-weight: bolder;">{{$t('home.champions_statistics')}}</h1></samp>
         </div>
        <div class="row">
             <div class="col-12">
+                <div class="py-1 mt-n2">
+                    <samp><b>Version: 10.24</b></samp>
+                    <button class="btn btn-sm btn-dark ml-3" style="line-height: 0.5; font-size: 0.8rem">
+                        See new change!
+                    </button>
+                </div>
                 <div class="input-group mb-5 justify-content-center">
                     <div class="searchbar">
                         <input  v-model="searchName" type="input" class="search search_input" @keydown.esc="searchName = ''"  :placeholder='$t("home.search")' />
@@ -313,7 +319,7 @@ div.nav.nav-pills{
 }
 @media only screen and (max-width: 420px) {
     .main-content{
-        max-height: 55vh;
+        max-height: 53vh;
         overflow: scroll;
     }
 }
