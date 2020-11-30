@@ -5,11 +5,8 @@
         </div>
        <div class="row">
             <div class="col-12">
-                <div class="py-1 mt-n2">
-                    <samp><b>Version: 10.24</b></samp>
-                    <button class="btn btn-sm btn-dark ml-3" style="line-height: 0.5; font-size: 0.8rem">
-                        See new change!
-                    </button>
+                <div class="py-1 pb-3 mt-n2">
+                    <samp><b>{{$t('home.current_version')}}</b></samp>
                 </div>
                 <div class="input-group mb-5 justify-content-center">
                     <div class="searchbar">

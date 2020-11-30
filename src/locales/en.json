@@ -1,6 +1,9 @@
 {
   "home": {
     "champions_statistics": "Champions Statistics",
+    "patch_note": "Patch note",
+    "current_version": "Version: 10.24",
+    "next_version": "Upcoming Version: 10.25",
     "clear": "Clear",
     "recent_picked": "Recent",
     "most_picked": "Most Picked",

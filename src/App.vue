@@ -2,9 +2,9 @@
     <div id="app">
         <Language />
         <div id="nav">
-            <div class="src">
-              <samp><b><router-link to="/">Statitics</router-link></b></samp>
-              <samp><b><router-link to="/path">Path note</router-link></b></samp>
+            <div class="src d-flex justify-content-center">
+              <samp class="mr-1"><b><router-link to="/">{{$t('home.champions_statistics')}}</router-link></b></samp>
+              <samp class="ml-1"><b><router-link to="/path">{{$t('home.patch_note')}}</router-link></b></samp>
             </div>
         </div>
         <router-view />
@@ -18,15 +18,24 @@ import x from "@/data/z/mapData.js";
 export default {
     components: { Language },
     mounted() {
+      const lang = localStorage.getItem('lang')
+      if (lang) {
+        this.$store.dispatch('changeLang', lang)
+      } else {
+        const currentLang = this.$store.getters.language
+        localStorage.setItem('lang', currentLang)
+      }
         // console.log(x.mapKeyData());
     }
 };
 </script>
 <style lang="scss" scoped>
 #nav {
+  position: relative;
   .src {
     margin-left: 120px;
     @media only screen and (max-width: 420px) {
+      // width: 100px;
       margin-left: 50px;
     }
     @media only screen and (max-width: 328px) {
@@ -37,6 +46,7 @@ export default {
 a {
     &.router-link-exact-active {
         color: #42b983 !important;
+        background-color: black;
     }
     text-decoration: none;
     font-size: 0.8rem;

@@ -1,5 +1,5 @@
 <template>
-    <div style="display: content; padding: 2% 5% 0 0">
+    <div style="display: content; padding: 2% 5% 0 0; right:0;z-index:1; position:relative">
         <label class="float-right">
         <i
             data-toggle="modal"
@@ -47,6 +47,9 @@ export default {
         return{
             lang: ''
         }
+    },
+    mounted() {
+        this.$i18n.locale = localStorage.getItem('lang')
     },
     methods:{
         confirm(){

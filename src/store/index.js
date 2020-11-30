@@ -63,6 +63,7 @@ export default new Vuex.Store({
       state.recent = recent
     },
     LANGUAGE(state, locale){
+      localStorage.setItem('lang', locale)
       state.locale = locale
     },
   },
