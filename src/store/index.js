@@ -58,6 +58,14 @@ export default new Vuex.Store({
     SELECTED_CHAMP(state, data){
       state.selectedChamp = data.item
       state.listChamps[data.indexChamp].count++
+      data = state.listChamps
+        .filter(x => x.count)
+        .sort((a,b)=> {return (a.count > b.count) ? -11 : (a.count < b.count ? 1 : 0)})
+        .slice(0,5)
+        .map(y => {return {id: y.id, count: y.count}})
+      data = JSON.stringify(data)
+      localStorage.setItem('most-choose', data)
+
     },
     RECENT_CHAMP(state, recent){
       state.recent = recent
@@ -66,8 +74,19 @@ export default new Vuex.Store({
       localStorage.setItem('lang', locale)
       state.locale = locale
     },
+    SETHOTPICK(state, champs){
+      champs.forEach(x =>{
+        const champ = state.listChamps.find(y => y.id === x.id)
+        champ.count = x.count
+      })
+    }
   },
   actions: {
+    setHotPickFromStore({ commit }, champions){
+      if(champions && champions.length){
+        commit('SETHOTPICK', champions)
+      }
+    },
     changeLang({ commit }, locale){
       commit('LANGUAGE', locale)
     },

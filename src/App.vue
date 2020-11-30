@@ -18,6 +18,9 @@ import x from "@/data/z/mapData.js";
 export default {
     components: { Language },
     mounted() {
+      // console.log(x.mapKeyData());
+
+      // GET/ SET locale
       const lang = localStorage.getItem('lang')
       if (lang) {
         this.$store.dispatch('changeLang', lang)
@@ -25,7 +28,9 @@ export default {
         const currentLang = this.$store.getters.language
         localStorage.setItem('lang', currentLang)
       }
-        // console.log(x.mapKeyData());
+      // GET/SET hot-pick champion
+      const hotPick =  localStorage.getItem('most-choose')
+      this.$store.dispatch('setHotPickFromStore', JSON.parse(hotPick))
     }
 };
 </script>
