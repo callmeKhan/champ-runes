@@ -56,6 +56,7 @@ export default new Vuex.Store({
   },
   mutations: {
     SELECTED_CHAMP(state, data){
+      
       state.selectedChamp = data.item
       state.listChamps[data.indexChamp].count++
       data = state.listChamps
