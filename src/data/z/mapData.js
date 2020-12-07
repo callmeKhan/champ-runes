@@ -125,10 +125,18 @@ function mapKeyData() {
     return rs
 }
 
+
+// CRAW ITEMS
+// from: https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.23.1/data/en_US/items.json
+import items from '@/data/raw-data/raw-items-blitz.json'
+function getItems() {
+    return Object.values(items.data).map(x => parseInt(x.id))
+}
 export default {
     mergeSpellnameIntoMainData,
     mapKeyData,
     mapMainRawData,
     mapRune,
-    mapItem
+    mapItem,
+    getItems
 }
