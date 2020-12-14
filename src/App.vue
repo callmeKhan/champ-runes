@@ -30,7 +30,9 @@ export default {
       }
       // GET/SET hot-pick champion
       const hotPick =  localStorage.getItem('most-choose')
-      this.$store.dispatch('setHotPickFromStore', JSON.parse(hotPick))
+      if(hotPick) {
+        this.$store.dispatch('setHotPickFromStore', JSON.parse(hotPick))
+      }
     }
 };
 </script>

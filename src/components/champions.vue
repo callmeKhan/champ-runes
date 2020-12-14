@@ -7,6 +7,9 @@
             <div class="col-12">
                 <div class="py-1 pb-3 mt-n2">
                     <samp><b>{{$t('home.current_version')}}</b></samp>
+                    <samp>
+                        <a class="resetStorage" @click="clearHistory()">{{$t('home.clear_history')}}</a>
+                    </samp>
                 </div>
                 <div class="input-group mb-5 justify-content-center">
                     <div class="searchbar">
@@ -225,6 +228,9 @@ export default ({
         this.matchUpData = matchUpRawData
     },
     methods:{
+        clearHistory() {
+            this.$store.dispatch('resetHotPickFromStore')
+        },
         matchUp(id){
             let result = []
             const rs = this.matchUpData.find(x => x.id === id)
@@ -332,5 +338,16 @@ div.nav.nav-pills{
 .img-30 {
     height: 25px !important;
     width: 25px !important;
+}
+.resetStorage {
+    margin-left: .5rem;
+    padding: 0 .3rem;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    font-size: small !important;
+    background-color: black !important;
+    border-radius: 5px !important;
+    color: #42b983 !important;
+    font-weight: bold;
 }
 </style>

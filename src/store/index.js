@@ -76,13 +76,23 @@ export default new Vuex.Store({
       state.locale = locale
     },
     SETHOTPICK(state, champs){
-      champs.forEach(x =>{
-        const champ = state.listChamps.find(y => y.id === x.id)
-        champ.count = x.count
-      })
+      if(champs.length){
+        champs.forEach(x =>{
+          const champ = state.listChamps.find(y => y.id === x.id)
+          champ.count = x.count
+        })
+      } else {
+        localStorage.removeItem('most-choose')
+        state.listChamps.forEach(x => {
+          x.count = 0
+        })
+      }
     }
   },
   actions: {
+    resetHotPickFromStore({ commit }){
+      commit('SETHOTPICK', [])
+    },
     setHotPickFromStore({ commit }, champions){
       if(champions && champions.length){
         commit('SETHOTPICK', champions)
