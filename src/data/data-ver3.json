@@ -1522,6 +1522,22 @@
   {
     "skill": [
       {
+        "Q": "RellQ.png"
+      },
+      {
+        "E": "RellE.png"
+      },
+      {
+        "W": "RellW_Dismount.png"
+      }
+    ],
+    "name": "Rell",
+    "key": "Rell",
+    "id": 526
+  },
+  {
+    "skill": [
+      {
         "Q": "RenektonCleave.png"
       },
       {
