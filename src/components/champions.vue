@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row justify-content-center ">
-            <samp><h1 class="text-center col my-0" style="font-weight: bolder;">{{$t('home.champions_statistics')}}</h1></samp>
+            <samp><h1 class="text-center col my-0 main-title" style="font-weight: bolder;">{{$t('home.champions_statistics')}}</h1></samp>
         </div>
        <div class="row">
             <div class="col-12">
@@ -11,10 +11,22 @@
                         <a class="resetStorage" @click="clearHistory()">{{$t('home.clear_history')}}</a>
                     </samp>
                 </div>
-                <div class="input-group mb-5 justify-content-center">
+                <div class="input-group justify-content-center">
                     <div class="searchbar">
                         <input  v-model="searchName" type="input" class="search search_input" @keydown.esc="searchName = ''"  :placeholder='$t("home.search")' />
                         <b class="input-group-text btn clearable search_icon"  @click="searchName = ''">x</b>
+                    </div>
+                </div>
+                <div class="d-flex my-3 row justify-content-center">
+                    <div class="col col-md-6 col-sm-12">
+                        <div class="row">
+                            <template v-for="(role, index) in champRoles" >
+                                <div class="col px-1 py-1" :key="index">
+                                    <samp @click="filterRole(role)" style="display:grid"><div :class="rolefilter === role ? 'role-active' : ''" class="role">{{ role + '(' + championsRoleCount(role) + ')'}}</div></samp>
+                                </div>
+                            </template>
+                            
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex row justify-content-center main-content">
@@ -56,20 +68,21 @@
                                     <samp><b><i>{{selectedChamp.name}}</i></b></samp>
                                     <div class="d-flex">
                                         <template v-for="(item, index) in matchUp(selectedChamp.id)">
-                                        <div class="px-2" :key="index">
-                                            <i
-                                            class="img-champ img-30 m-0"
-                                            :style="{'background-image': 'url('+require('@/assets/champion/'+mapChamp(item.op_id) )+')'}"
-                                            ></i>
-                                        </div>
-                                    </template>
+                                            <div class="px-2" :key="index">
+                                                <i
+                                                class="img-champ img-30 m-0"
+                                                :style="{'background-image': 'url('+require('@/assets/champion/'+mapChamp(item.op_id) )+')'}"
+                                                ></i>
+                                            </div>
+                                        </template>
                                     </div>
                                 </label>
                                 <button class="btn btn-danger align-self-baseline btn-sm" type="button" data-dismiss="modal"><samp>{{$t('detail.close')}}</samp></button>
                             </div>
                             <div class="nav nav-pills w-100">
-                                <a @click="setRole(item.role)" class="w-100 col" v-for="(item, index) in selectedChamp.stats" :key="index" :href="'#tab'+item.id+index" data-toggle="tab" 
-                                ><samp><b>{{$t(`home.detail_champ.${item.role}`)}}</b></samp></a>
+                                <a @click="setRole(item.role)" class="w-100 col" v-for="(item, index) in selectedChamp.stats" :key="index" :href="'#tab'+item.id+index" data-toggle="tab" >
+                                    <samp><b>{{$t(`home.detail_champ.${item.role}`)}}</b></samp>
+                                </a>
                             </div>
                             <div class="tab-content clearfix w-100">
                                     <div class="tab-pane" :id="'tab'+item.id+index" v-for="(item, index) in selectedChamp.stats" 
@@ -205,13 +218,10 @@ export default ({
             runes: [],
             sideKicks: {},
             matchUpData: [],
-            role: null
+            champRoles: ['TOP', 'MID', 'JUNGLE', 'ADC', 'SUPPORT'],
+            role: null,
+            rolefilter: null
         };
-    },
-    watch: {
-        role(v){
-            // console.log(this.matchUp(this.selectedChamp.id))
-        }
     },
     mounted() {
         this.champions = this.$store.getters.champions;
@@ -222,12 +232,19 @@ export default ({
             $('.tab-pane:first-child').addClass('active')
         })
         $('#champion-statitcs').on('hidden.bs.modal', function (e) {
-            $('.nav-pills > a').removeClass('active')
+            $('.nav-pills a').removeClass('active')
             $('.tab-pane').removeClass('active')
         })
         this.matchUpData = matchUpRawData
     },
     methods:{
+        filterRole(role) {
+            if (this.rolefilter === role) {
+                this.rolefilter = null
+            } else {
+                this.rolefilter = role
+            }
+        },
         clearHistory() {
             this.$store.dispatch('resetHotPickFromStore')
         },
@@ -260,10 +277,15 @@ export default ({
         },
         getAllRune(item){
             let rs = this.runes.find(x => x.id == item)
-            return item ? rs.slots : []
+            return item && rs ? rs.slots : []
         },
         setRole(role){
             this.role = role
+        },
+        championsRoleCount(role) {
+            let tmp = role ? this.champions.filter(x => x.role.includes(role)) : this.champions
+            return this.searchName == "" ? tmp.length : tmp
+                .filter((x) =>x.name.toLowerCase().includes(this.searchName.toLowerCase())).length
         }
     },
     computed: {
@@ -271,17 +293,24 @@ export default ({
             return this.$store.getters.selectedChamp
         },
         championsData() {
-            return this.searchName == ""
-                ? this.champions
-                : this.champions.filter((x) =>
-                      x.name.toLowerCase().includes(this.searchName.toLowerCase())
-                  );
-        },
+            let tmp = this.rolefilter ? this.champions.filter(x => x.role.includes(this.rolefilter)) : this.champions
+            return this.searchName == "" ? tmp : tmp
+                .filter((x) =>x.name.toLowerCase().includes(this.searchName.toLowerCase()));
+        }
     },
 });
 </script>
 <style scope lang="scss">
 @import '@/style/champ.scss';
+.main-title {
+    font-size: 40px;
+    @media only screen and (max-width: 380px) {
+        font-size: 30px;
+    }
+    @media only screen and (max-width: 380px) {
+        font-size: 20px;
+    }
+}
 div.nav.nav-pills{
     a{
         width: 100%;
@@ -307,7 +336,6 @@ div.nav.nav-pills{
     width: 99.5%;
     height: 99.5%;
     z-index: 1;
-    // filter: blur(1.5px); 
     background-position: center;
     background-size: cover;
 }
@@ -317,14 +345,17 @@ div.nav.nav-pills{
 }
 .main-content{
     scroll-behavior: smooth;
-    max-height: 65vh;
-    overflow: scroll;
-}
-@media only screen and (max-width: 420px) {
-    .main-content{
-        max-height: 53vh;
-        overflow: scroll;
+    max-height: 60vh;
+    @media only screen and (max-width: 420px) {
+        max-height: 50vh;
     }
+    @media only screen and (max-width: 380px) {
+        max-height: 43vh;
+    }
+    @media only screen and (max-width: 320px) {
+        max-height: 40vh;
+    }
+    overflow: scroll;
 }
 .champ-hover{
     transition: 0.5s;
@@ -349,5 +380,21 @@ div.nav.nav-pills{
     border-radius: 5px !important;
     color: #42b983 !important;
     font-weight: bold;
+}
+.role-active {
+    background-color: black !important;
+    border-radius: 5px !important;
+    color: #42b983 !important;
+}
+.role {
+    padding: 0.3rem .3rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: small;
+    background-color: rgb(175, 166, 166);
+    border-radius: 5px;
+    color: #000000;
+    font-weight: bold;
+    transition: .5s;
 }
 </style>

@@ -6,6 +6,8 @@ import datasideKick from "@/data/sideKick.json";
 import dataRune from "@/data/rune-ver2.json";
 import stats from "@/data/z/stats-v2.json";
 import key_spell from "@/data/z/key-spell.json";
+import roleData from "@/data/role-champ.json";
+
 
 Vue.use(Vuex)
 
@@ -28,7 +30,12 @@ export default new Vuex.Store({
   getters:{
     stats: state => state.listStats,
     language: state => state.locale,
-    champions: state => state.listChamps,
+    champions: state => state.listChamps.map(x => {
+      return {
+        ...x,
+        role: roleData.find(y => y.id === x.id).role
+      }
+    }),
     sideKicks: state => state.listSideKick,
     runes: state => state.listRunes,
     recent: state => state.recent,

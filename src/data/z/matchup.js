@@ -6,7 +6,7 @@ const ids = champion.map(x => {
 
 const count = ids.length
 
-const path = '10.21'
+const path = '10.25'
 
 let rs = []
     ids.forEach(id => {

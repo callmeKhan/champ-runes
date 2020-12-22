@@ -132,11 +132,33 @@ import items from '@/data/raw-data/raw-items-blitz.json'
 function getItems() {
     return Object.values(items.data).map(x => parseInt(x.id))
 }
+
+// GET ROLE OF CHAMPIONS
+import statsData from '@/data/z/stats-v2.json'
+function getRole() {
+    let output = [];
+    statsData.forEach(function(item) {
+    let existing = output.filter(function(v, i) {
+        return v.id == item.id;
+    });
+    if (existing.length) {
+        let existingIndex = output.indexOf(existing[0]);
+        output[existingIndex].role = output[existingIndex].role.concat(item.role);
+    } else {
+        if (typeof item.role == 'string')
+        item.role = [item.role];
+        output.push(item);
+    }
+    });
+    return output
+}
+
 export default {
     mergeSpellnameIntoMainData,
     mapKeyData,
     mapMainRawData,
     mapRune,
     mapItem,
-    getItems
+    getItems,
+    getRole
 }
