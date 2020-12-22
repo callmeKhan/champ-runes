@@ -367,11 +367,11 @@ div.nav.nav-pills{
     @media only screen and (max-width: 420px) {
         max-height: 50vh;
     }
-    @media only screen and (max-width: 380px) {
-        max-height: 43vh;
+    @media only screen and (max-width: 502px) {
+        max-height: 55vh;
     }
     @media only screen and (max-width: 320px) {
-        max-height: 40vh;
+        max-height: 38vh;
     }
     overflow: scroll;
 }
