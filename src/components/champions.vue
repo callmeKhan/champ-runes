@@ -22,7 +22,11 @@
                         <div class="row">
                             <template v-for="(role, index) in champRoles" >
                                 <div class="col px-1 py-1" :key="index">
-                                    <samp @click="filterRole(role)" style="display:grid"><div :class="rolefilter === role ? 'role-active' : ''" class="role">{{ role + '(' + championsRoleCount(role) + ')'}}</div></samp>
+                                    <samp @click="filterRole(role)" style="display:grid">
+                                        <div :class="rolefilter === role ? 'role-active' : ''" class="role">
+                                            {{ $t('home.detail_champ.'+role) + '(' + championsRoleCount(role) + ')'}}
+                                        </div>
+                                    </samp>
                                 </div>
                             </template>
                             
@@ -131,7 +135,7 @@
                                         <div class="ml-0 row mw-100">
                                             <div class="col">
                                                 <template v-for="(i, index) in item.starting_items">
-                                                    <i :key="index"
+                                                    <i :key="index" v-tooltip="keyItem[i]"
                                                         class="img-champ img-35 mr-3"
                                                         :style="{'background-image': 'url('+require('@/assets/items/'+i+'.webp' )+')'}"
                                                     ></i>
@@ -142,7 +146,7 @@
                                         <div class="ml-0 row mw-100 mt-n4">
                                             <div class="col item-display">
                                                 <template v-for="(i, index) in item.big_item_builds">
-                                                    <i :key="index"
+                                                    <i :key="index" v-tooltip="keyItem[i]"
                                                         class="img-champ img-35 mr-3"
                                                         :style="{'background-image': 'url('+require('@/assets/items/'+i+'.webp' )+')'}"
                                                     ></i>
@@ -159,7 +163,7 @@
                                                 <template v-for="(row, i) in getAllRune(item.runes[0])">
                                                     <div :key="i" class="row">
                                                         <div class="col p-0" v-for="(it, k) in row.runes" :key="k">
-                                                            <i class="img-champ"
+                                                            <i class="img-champ"  v-tooltip="{ content: it.name, classes: [chooseRune(it.id,item.runes[i+1])] }"
                                                                 :class="[chooseRune(it.id,item.runes[i+1])]"
                                                                 :style="{'background-image': 'url('+require('@/assets/rune/'+it.id+'.webp')+')'}"></i>
                                                         </div>
@@ -170,7 +174,7 @@
                                                 <template v-for="(row, i) in getAllRune(item.runes[5])">
                                                     <div :key="i" class="row" v-if="i>0">
                                                         <div class="col p-0" v-for="(it, k) in row.runes" :key="k">
-                                                            <i class="img-champ"
+                                                            <i class="img-champ" v-tooltip="{ content: it.name, classes: [chooseRuneSK(it.id, item.runes)] }"
                                                                 :class="[chooseRuneSK(it.id, item.runes)]"
                                                                 :style="{'background-image': 'url('+require('@/assets/rune/'+it.id+'.webp')+')'}"></i>
                                                         </div>
@@ -181,8 +185,9 @@
                                                 <template v-for="(rune, index) in sideKicks.rune">
                                                     <div class="row" :key="index">
                                                         <template v-for="(it, i) in rune.line">
-                                                            <div :key="i" class="col p-0">
-                                                                <i
+                                                            <div :key="i" class="col p-0" v-tooltip="''">
+                                                                <i  
+                                                                    v-tooltip="{ content: sideKicksMap[it], classes: [chooseRune(it,item.rune_stat_shards[index])] }"
                                                                     :class="[chooseRune(it,item.rune_stat_shards[index])]"
                                                                     class="img-champ img-25"
                                                                     :style="{'background-image': 'url('+require('@/assets/rune/'+it +'.webp')+')'}"
@@ -209,6 +214,9 @@
 import skillChart from '@/components/skill-chart.vue'
 import skillOrder from '@/components/skill-order.vue'
 import matchUpRawData from '@/data/match-up.json'
+
+import keyItem from '@/data/z/key-item.json'
+
 export default ({
     components: {skillChart, skillOrder},
     data() {
@@ -219,11 +227,21 @@ export default ({
             sideKicks: {},
             matchUpData: [],
             champRoles: ['TOP', 'MID', 'JUNGLE', 'ADC', 'SUPPORT'],
+            sideKicksMap: {
+                5001: 'Khả năng hồi máu',
+                5002: 'Giáp',
+                5003: 'Kháng phép',
+                5005: 'Tốc độ tấn công',
+                5007: 'Giảm thời gian hồi chiêu',
+                5008: 'Sức mạnh thích ứng',
+            },
             role: null,
-            rolefilter: null
+            rolefilter: null,
+            keyItem: {}
         };
     },
     mounted() {
+        this.keyItem = keyItem
         this.champions = this.$store.getters.champions;
         this.sideKicks = this.$store.getters.sideKicks;
         this.runes = this.$store.getters.runes;

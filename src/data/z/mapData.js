@@ -1,7 +1,7 @@
 
-// import Spell need to map
-// source from: https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.16.1/data/en_US/summoners.json
-/* Example output: key-spell.json */
+/* import Spell need to map
+ source from: https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.16.1/data/en_US/summoners.json
+ Example output: key-spell.json */
 // import item from '@/data/raw-data/raw-item-blitz.json'
 function mapItem() {
     let rs = []
@@ -11,16 +11,17 @@ function mapItem() {
     return rs
 }
 
-
-// import RUNE need to map
-// source from: https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.16.1/data/en_US/runes.json
-/* Example output: rune.json */
-import rune from '@/data/raw-data/raw-rune-blitz.json'
-
+/* 
+    Lấy danh sách ngọc bổ trợ
+    kết quả: rune.json 
+    https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.25.1/data/vn_VN/runes.json
+*/
+// import rune from '@/data/raw-data/raw-rune-blitz.json'
 function mapRune() {
     return rune.map(x => {
         return {
-            ...x,
+            key: x.key,
+            name: x.name,
             id: parseInt(x.id),
             slots: x.slots.map(y => {
                 return {
@@ -29,7 +30,6 @@ function mapRune() {
                             id: parseInt(z.id),
                             key: z.key,
                             name: z.name,
-                            icon: z.icon
                         }
                     })
                 }
@@ -56,8 +56,8 @@ output:
         spell: [name1.png, name2.png]
     }
     */
-import spell from "@/data/z/key-spell.json"
-import stats from "@/data/z/stats-v2.json"
+// import spell from "@/data/z/key-spell.json"
+// import stats from "@/data/z/stats-v2.json"
 function mergeSpellnameIntoMainData() {
     return stats.map(x => {
         return {
@@ -77,13 +77,15 @@ function mergeSpellnameIntoMainData() {
     })
 }
 
-// UPDATE CHAMPION STAT. STEP 1
-// import data need to map
-// source from: https://beta.iesdev.com/api/lolstats/champions?region=world&tier=PLATINUM_PLUS&queue=420
-/*
+
+/* 
+    UPDATE CHAMPION STAT. STEP 1
+    import data need to map
+    source from: https://beta.iesdev.com/api/lolstats/champions?region=world&tier=PLATINUM_PLUS&queue=420
+
     return file rs-stat.json => stat-v{}.json
-    */
-import rawBlitz from '@/data/raw-data/raw-blitz.json'
+*/
+// import rawBlitz from '@/data/raw-data/raw-blitz.json'
 function mapMainRawData() {
     let data = rawBlitz
     let arr = data['data'].map(x => {
@@ -103,12 +105,14 @@ function mapMainRawData() {
     console.log(JSON.stringify(arr))
     return arr
 }
-// UPDATE CHAMPION DATA. STEP 2
+
+
 /*
-return file rs.json => data_ver.json
+    UPDATE CHAMPION DATA. STEP 2
+    return file rs.json => data_ver.json
+    https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.19.1/data/en_US/champions.json
 */
-//https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.19.1/data/en_US/champions.json
-import data from '@/data/raw-data/raw-champion-blitz.json'
+// import data from '@/data/raw-data/raw-champion-blitz.json'
 function mapKeyData() {
     let rs = Object.values(data.data).map(x => {
         return {
@@ -125,16 +129,27 @@ function mapKeyData() {
     return rs
 }
 
-
-// CRAW ITEMS
-// from: https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.23.1/data/en_US/items.json
-import items from '@/data/raw-data/raw-items-blitz.json'
+/* 
+    CRAW ITEMS
+    from: https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.25.1/data/vn_VN/items.json
+*/
+// import items from '@/data/raw-data/raw-items-blitz.json'
 function getItems() {
-    return Object.values(items.data).map(x => parseInt(x.id))
+    // lấy danh sách ID item
+    // return Object.values(items.data).map(x => parseInt(x.id))
+
+    // lấy danh sách [ID + TÊN] item
+    let rs = {}
+    Object.values(a.data).forEach(x => {
+        rs[parseInt(x.id)] = x.name
+    })
+    return rs
 }
 
-// GET ROLE OF CHAMPIONS
-import statsData from '@/data/z/stats-v2.json'
+/*
+    GET ROLE OF CHAMPIONS
+*/
+// import statsData from '@/data/z/stats-v2.json'
 function getRole() {
     let output = [];
     statsData.forEach(function(item) {
@@ -152,6 +167,17 @@ function getRole() {
     });
     return output
 }
+
+/*
+    lấy danh sách Champion và tips
+    url: https:blitz-cdn-plain.blitz.gg/blitz/ddragon/10.25.1/data/vn_VN/champions.json
+    kết quả: key-champ.json
+    Format TEMP1: {Aatrox:{}, Ahri: {}}
+*/
+function mapChamp(){
+    return JSON.stringify(Object.values(temp1).map(x=>{return {id:x.key, name:x.name, tips:x.tips}}))
+}
+
 
 export default {
     mergeSpellnameIntoMainData,

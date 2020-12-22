@@ -18,7 +18,7 @@ import x from "@/data/z/mapData.js";
 export default {
     components: { Language },
     mounted() {
-      // console.log(x.getRole());
+      // console.log(x.getItems());
 
       // GET/ SET locale
       const lang = localStorage.getItem('lang')
