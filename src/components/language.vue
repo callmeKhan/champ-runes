@@ -7,7 +7,7 @@
             :class="[localLang == 'vi' ? 'disabled-icon' : '']"
             data-target="#confirm"
             class="img-flag"
-            :style="{'background-image': 'url('+require('@/assets/'+'vn.png')+')'}"
+            :style="{'background-image': 'url('+require('@/assets/'+'vn.webp')+')'}"
         ></i>
         <i
             data-toggle="modal"
@@ -15,7 +15,7 @@
             :class="[localLang == 'en' ? 'disabled-icon' : '']"
             data-target="#confirm"
             class="img-flag"
-            :style="{'background-image': 'url('+require('@/assets/'+'us.png')+')'}"
+            :style="{'background-image': 'url('+require('@/assets/'+'us.webp')+')'}"
         ></i>
     </label>
     <div

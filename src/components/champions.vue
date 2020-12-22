@@ -148,7 +148,7 @@
                                                         <div class="col p-0" v-for="(it, k) in row.runes" :key="k">
                                                             <i class="img-champ"
                                                                 :class="[chooseRune(it.id,item.runes[i+1])]"
-                                                                :style="{'background-image': 'url('+require('@/assets/rune/'+it.id+'.png')+')'}"></i>
+                                                                :style="{'background-image': 'url('+require('@/assets/rune/'+it.id+'.webp')+')'}"></i>
                                                         </div>
                                                     </div>
                                                 </template>
@@ -159,7 +159,7 @@
                                                         <div class="col p-0" v-for="(it, k) in row.runes" :key="k">
                                                             <i class="img-champ"
                                                                 :class="[chooseRuneSK(it.id, item.runes)]"
-                                                                :style="{'background-image': 'url('+require('@/assets/rune/'+it.id+'.png')+')'}"></i>
+                                                                :style="{'background-image': 'url('+require('@/assets/rune/'+it.id+'.webp')+')'}"></i>
                                                         </div>
                                                     </div>
                                                 </template>
@@ -172,7 +172,7 @@
                                                                 <i
                                                                     :class="[chooseRune(it,item.rune_stat_shards[index])]"
                                                                     class="img-champ img-25"
-                                                                    :style="{'background-image': 'url('+require('@/assets/rune/'+it +'.png')+')'}"
+                                                                    :style="{'background-image': 'url('+require('@/assets/rune/'+it +'.webp')+')'}"
                                                                 ></i>
                                                             </div>
                                                         </template>
