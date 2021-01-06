@@ -21,9 +21,9 @@
                     <div class="col col-md-6 col-sm-12">
                         <div class="row">
                             <template v-for="(role, index) in champRoles" >
-                                <div class="col px-1 py-1" :key="index">
-                                    <samp @click="filterRole(role)" style="display:grid">
-                                        <div :class="rolefilter === role ? 'role-active' : ''" class="role">
+                                <div class="col px-1 py-1" :key="index" >
+                                    <samp @click="filterRole(role)" style="display:grid" :style='!championsRoleCount(role) ? "pointer-events: none" : ""'>
+                                        <div :class="rolefilter === role ? 'role-active' : ''" class="role" :style='!championsRoleCount(role) ? "background-color: grey" : ""'>
                                             {{ $t('home.detail_champ.'+role) + '(' + championsRoleCount(role) + ')'}}
                                         </div>
                                     </samp>

@@ -1,12 +1,13 @@
 .tooltip {
     display: block !important;
     z-index: 10000;
-  
+    
     .tooltip-inner {
       background: black;
       color: white;
       border-radius: 16px;
       padding: 5px 10px 4px;
+      pointer-events: none;
     }
   
     .tooltip-arrow {
@@ -98,7 +99,7 @@
     &[aria-hidden='true'] {
       visibility: hidden;
       opacity: 0;
-      transition: opacity .15s, visibility .15s;
+      transition: opacity .45s, visibility .45s;
     }
   
     &[aria-hidden='false'] {
