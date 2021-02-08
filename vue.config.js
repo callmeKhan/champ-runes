@@ -10,7 +10,7 @@ module.exports = {
   pwa: {
     workboxPluginMode: "GenerateSW",
     workboxOptions: {
-      swSrc: "public/service-worker.js"
+      option: "public/service-worker.js"
     },
     manifestOptions: {
       icons: [
