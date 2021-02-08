@@ -110,7 +110,7 @@ function mapMainRawData() {
 /*
     UPDATE CHAMPION DATA. STEP 2
     return file rs.json => data_ver.json
-    https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.19.1/data/en_US/champions.json
+    https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.19.1/data/en_US/champions.json | 11.2.1
 */
 // import data from '@/data/raw-data/raw-champion-blitz.json'
 function mapKeyData() {
@@ -146,10 +146,10 @@ function getItems() {
     return rs
 }
 
-/*
+/* STEP 3 (OPTIONAL WHEN HAS NEW CHAMP)
     GET ROLE OF CHAMPIONS
 */
-// import statsData from '@/data/z/stats-v2.json'
+import statsData from '@/data/z/stats-v2.json'
 function getRole() {
     let output = [];
     statsData.forEach(function(item) {
@@ -181,10 +181,11 @@ function mapChamp(){
 
 export default {
     mergeSpellnameIntoMainData,
-    mapKeyData,
-    mapMainRawData,
+    mapKeyData, // setep 2
+    mapMainRawData, // step1
     mapRune,
     mapItem,
     getItems,
-    getRole
+    getRole // step 3
+    //step 4: craw match up
 }
