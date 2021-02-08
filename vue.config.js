@@ -8,9 +8,9 @@ module.exports = {
     }
   },
   pwa: {
-    workboxPluginMode: "GenerateSW",
+    workboxPluginMode: "InjectManifest",
     workboxOptions: {
-      swDest: "public/service-worker.js"
+      swSrc: "public/service-worker.js"
     },
     manifestOptions: {
       icons: [
