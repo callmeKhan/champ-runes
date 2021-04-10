@@ -85,7 +85,7 @@ function mergeSpellnameIntoMainData() {
 
     return file rs-stat.json => stat-v{}.json
 */
-// import rawBlitz from '@/data/raw-data/raw-blitz.json'
+import rawBlitz from '@/data/raw-data/raw-blitz.json'
 function mapMainRawData() {
     let data = rawBlitz
     let arr = data['data'].map(x => {
@@ -110,9 +110,9 @@ function mapMainRawData() {
 /*
     UPDATE CHAMPION DATA. STEP 2
     return file rs.json => data_ver.json
-    https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.19.1/data/en_US/champions.json | 11.2.1
+    https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.19.1/data/en_US/champions.json | 11.7.1
 */
-// import data from '@/data/raw-data/raw-champion-blitz.json'
+import data from '@/data/raw-data/raw-champion-blitz.json'
 function mapKeyData() {
     let rs = Object.values(data.data).map(x => {
         return {
@@ -126,6 +126,8 @@ function mapKeyData() {
             id: parseInt(x.key)
         }
     })
+    console.log(JSON.stringify(rs))
+
     return rs
 }
 
@@ -133,16 +135,17 @@ function mapKeyData() {
     CRAW ITEMS
     from: https://blitz-cdn-plain.blitz.gg/blitz/ddragon/10.25.1/data/vn_VN/items.json
 */
-// import items from '@/data/raw-data/raw-items-blitz.json'
+import items from '@/data/raw-data/raw-items-blitz.json'
 function getItems() {
     // lấy danh sách ID item
     // return Object.values(items.data).map(x => parseInt(x.id))
 
     // lấy danh sách [ID + TÊN] item
     let rs = {}
-    Object.values(a.data).forEach(x => {
+    Object.values(items.data).forEach(x => {
         rs[parseInt(x.id)] = x.name
     })
+    console.log(JSON.stringify(rs));
     return rs
 }
 
@@ -165,6 +168,8 @@ function getRole() {
         output.push(item);
     }
     });
+    console.log(JSON.stringify(output))
+
     return output
 }
 
@@ -174,8 +179,11 @@ function getRole() {
     kết quả: key-champ.json
     Format TEMP1: {Aatrox:{}, Ahri: {}}
 */
-function mapChamp(){
-    return JSON.stringify(Object.values(temp1).map(x=>{return {id:x.key, name:x.name, tips:x.tips}}))
+import temp1 from '@/data/raw-data/raw-tips.json'
+
+function mapChamp() {
+    console.log(JSON.stringify(JSON.stringify(Object.values(temp1.data).map(x=>{return {id:x.key, name:x.name, tips:x.tips}}))));
+    return JSON.stringify(Object.values(temp1.data).map(x=>{return {id:x.key, name:x.name, tips:x.tips}}))
 }
 
 
@@ -186,6 +194,7 @@ export default {
     mapRune,
     mapItem,
     getItems,
-    getRole // step 3
-    //step 4: craw match up
+    getRole,// step 3
+    //step 4: craw match up,
+    mapChamp
 }
