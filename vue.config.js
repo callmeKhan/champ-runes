@@ -10,14 +10,14 @@ module.exports = {
   pwa: {
     workboxPluginMode: "InjectManifest",
     workboxOptions: {
-      swSrc: "public/service-worker.js",
-      swSrc: "public/firebase-messaging-sw.js"
+      swSrc: "service-worker.js",
+      swSrc: "firebase-messaging-sw.js"
     },
     iconPaths: {
-      favicon32: 'public/img/icons/firefox-general-32-32.png',
-      favicon16: 'public/img/icons/firefox-general-16-16.png',
-      appleTouchIcon: 'public/img/icons/Square150x150Logo.scale-200.png',
-      msTileImage: 'public/img/icons/android-launchericon-144-144.png'
+      favicon32: 'img/icons/firefox-general-32-32.png',
+      favicon16: 'img/icons/firefox-general-16-16.png',
+      appleTouchIcon: 'img/icons/Square150x150Logo.scale-200.png',
+      msTileImage: 'img/icons/android-launchericon-144-144.png'
     }
   }
 }
