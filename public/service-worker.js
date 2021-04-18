@@ -20,7 +20,7 @@ workbox.routing.registerRoute(
   new workbox.strategies.CacheFirst()
 );
 
-const messaging = firebase.messaging();
+import { messaging } from './firebase'
 
 messaging.onMessage((payload) => {
   console.log('Message received. ', payload);

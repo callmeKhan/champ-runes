@@ -18,8 +18,10 @@ firebase.analytics();
 
 // utils
 const auth = firebase.auth()
+const messaging = firebase.messaging()
 
 // export utils/refs
 export {
-  auth
+  auth,
+  messaging
 }
