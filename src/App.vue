@@ -15,6 +15,24 @@
 import Language from "@/components/language";
 import x from "@/data/z/mapData.js";
 // import matchup from '@/data/z/matchup.js'
+import { auth, messaging } from './firebase'
+
+// Get registration token. Initially this makes a network call, once retrieved
+// subsequent calls to getToken will return from cache.
+messaging.getToken({ vapidKey: 'BHO3j_LAcktHgXP39bAEw82dBz4Hud8NGTU3IpvICh3sVt_iooMNxB-yZHmulJRDRhtPF2xf98-5qhf7yBgLwLs' }).then((currentToken) => {
+  if (currentToken) {
+    console.log('TOKEN RECEIVED');
+    // Send the token to your server and update the UI if necessary
+    // ...
+  } else {
+    // Show permission request UI
+    console.log('No registration token available. Request permission to generate one.');
+    // ...
+  }
+}).catch((err) => {
+  console.log('An error occurred while retrieving token. ', err);
+  // ...
+});
 export default {
     components: { Language },
     mounted() {
