@@ -7,12 +7,13 @@ import dataRune from "@/data/rune-ver2.json";
 import stats from "@/data/z/stats-v2.json";
 import key_spell from "@/data/z/key-spell.json";
 import roleData from "@/data/role-champ.json";
-
+import * as fb from '../firebase'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    userProfile: {},
     listChamps: dataChampions.map(x => {return {
       count: 0,
       name: x.name,
@@ -94,6 +95,9 @@ export default new Vuex.Store({
           x.count = 0
         })
       }
+    },
+    setUserProfile(state, val) {
+      state.userProfile = val
     }
   },
   actions: {
@@ -121,6 +125,23 @@ export default new Vuex.Store({
       data = data.size > 5 ? [...data].slice(0, 5) : data
       commit('RECENT_CHAMP', data)
     },
+    async login({ dispatch }, form) {
+      const { user } = await fb.auth.signInWithEmailAndPassword(form.email, form.password)
+      dispatch('fetchUserProfile', user)
+    },
+    async fetchUserProfile({ commit }, user) {
+      const userProfile = await fb.usersCollection.doc(user.uid).get()
+      commit('setUserProfile', userProfile.data())
+      router.push('/')
+    },
+    async signup({ dispatch }, form) {
+      const { user } = await fb.auth.createUserWithEmailAndPassword(form.email, form.password)
+      await fb.usersCollection.doc(user.uid).set({
+          name: form.name,
+          title: form.title
+      })
+      dispatch('fetchUserProfile', user)
+  }
   },
   modules: {
   }

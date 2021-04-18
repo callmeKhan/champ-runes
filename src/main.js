@@ -5,13 +5,20 @@ import store from './store'
 import i18n from './i18n'
 import VTooltip from 'v-tooltip'
 import './registerServiceWorker'
+import { auth } from './firebase'
 
 Vue.use(VTooltip)
 Vue.config.productionTip = false
-// Vue.prototype.$http = axios
-new Vue({
-  router,
-  store,
-  i18n,
-  render: h => h(App)
-}).$mount('#app')
+
+
+let app
+auth.onAuthStateChanged(() => {
+  if (!app) {
+    app = new Vue({
+      router,
+      store,
+      i18n,
+      render: h => h(App)
+    }).$mount('#app')
+  }
+})
