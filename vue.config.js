@@ -10,7 +10,8 @@ module.exports = {
   pwa: {
     workboxPluginMode: "InjectManifest",
     workboxOptions: {
-      swSrc: "public/service-worker.js"
+      swSrc: "public/service-worker.js",
+      swSrc: "public/firebase-messaging-sw.js"
     },
     iconPaths: {
       favicon32: 'public/img/icons/firefox-general-32-32.png',
