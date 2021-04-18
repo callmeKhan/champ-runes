@@ -10,6 +10,21 @@ import { auth, messaging } from './firebase'
 Vue.use(VTooltip)
 Vue.config.productionTip = false
 
+
+
+
+let app
+auth.onAuthStateChanged(() => {
+  if (!app) {
+    app = new Vue({
+      router,
+      store,
+      i18n,
+      render: h => h(App)
+    }).$mount('#app')
+  }
+})
+
 // Get registration token. Initially this makes a network call, once retrieved
 // subsequent calls to getToken will return from cache.
 messaging.getToken({ vapidKey: 'BHO3j_LAcktHgXP39bAEw82dBz4Hud8NGTU3IpvICh3sVt_iooMNxB-yZHmulJRDRhtPF2xf98-5qhf7yBgLwLs' }).then((currentToken) => {
@@ -26,16 +41,3 @@ messaging.getToken({ vapidKey: 'BHO3j_LAcktHgXP39bAEw82dBz4Hud8NGTU3IpvICh3sVt_i
   console.log('An error occurred while retrieving token. ', err);
   // ...
 });
-
-
-let app
-auth.onAuthStateChanged(() => {
-  if (!app) {
-    app = new Vue({
-      router,
-      store,
-      i18n,
-      render: h => h(App)
-    }).$mount('#app')
-  }
-})
